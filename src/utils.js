@@ -33,7 +33,13 @@ let getDataForDay = async (day) => {
   }
 };
 
-exports.solve = async (filename, solvePartOne, solvePartTwo, useExample = false, exampleNumber = 1) => {
+exports.solve = async (
+  filename,
+  solvePartOne,
+  solvePartTwo,
+  useExample = false,
+  exampleNumber = 1
+) => {
   let pathSeperator = os.platform().startsWith("win") ? "\\" : "/";
   let day = filename
     .split(__dirname + pathSeperator)
@@ -55,7 +61,7 @@ exports.solve = async (filename, solvePartOne, solvePartTwo, useExample = false,
   }
   console.log(`Using local data file ${file}`);
 
-  const data = fs.readFileSync(file).toString().trim();
+  const data = fs.readFileSync(file).toString();
   console.log("Executing part one ...");
   solvePartOne(data);
   console.log("Executing part two ...");
