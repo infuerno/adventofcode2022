@@ -1,0 +1,4184 @@
+{
+  "collection": [
+    {
+      "questionId": "b91d2e5b-1403-49a6-9449-5015ee1b64a7",
+      "clipId": "a29fa5c5-1c64-43c3-b190-0432944e25e9",
+      "clipTitle": "Deploying an Azure Kubernetes Service AKS) Cluster",
+      "distractors": ["Step Builds", "Refactor Builds", "Circuit Builds", "Multi-Phase Builds"],
+      "key": "Multi-Stage Builds",
+      "moduleId": "76dd6e64-7f0f-4230-9b46-c532c8e2b0e9",
+      "stem": "A build of a Docker file with multiple FROM Statements is called?",
+      "stemImageUrl": null,
+      "courseId": "b9ad1d9c-0229-4ef5-a467-2d21e108cefc"
+    },
+    {
+      "questionId": "b05fe434-e258-4f5c-9e49-75c34e22117a",
+      "clipId": "adbd3556-0bc3-4213-a125-7dc22bc7aab8",
+      "clipTitle": "Demo: Monitoring Functions",
+      "distractors": ["Integrate", "Settings", "Manage"],
+      "key": "Monitor",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "Which tab in the Azure Functions portal allows you to see the invocation log of previous function runs?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "93470e63-b5da-4755-8489-13178d451306",
+      "clipId": "e43f0073-8596-43e3-bcd3-fc1ecb51448e",
+      "clipTitle": "Scheduled Jobs in Azure",
+      "distractors": [
+        "Elastic Database Jobs and SQL Agent Jobs",
+        "SQL Agent Jobs",
+        "Azure Automation runbooks for manually scheduling jobs"
+      ],
+      "key": "Elastic Database Jobs",
+      "moduleId": "1d5f57e3-b8fe-4f64-aacb-a63f462ecd56",
+      "stem": "Which scheduling technologies are available to Azure SQL Database single database and elastic pools?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "4e3700f7-28f3-425a-8fc8-a4660cb79351",
+      "clipId": "19d8ff15-c2db-4219-9d04-d39ef5172a96",
+      "clipTitle": "Demo: Durable Functions ",
+      "distractors": [
+        "DurableOrchestrationManager",
+        "DurableOrchestrationPipeline",
+        "DurableOrchestrationHelper"
+      ],
+      "key": "DurableOrchestrationContext",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "In a Durable Functions Orchestrator Function, what parameter type do we apply the `[OrchestrationTrigger]` attribute to?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "d615bf12-7384-4d52-86eb-775a59a8eece",
+      "clipId": "786f46f4-d84a-4773-b494-ff62b7e50c2d",
+      "clipTitle": "Azure Event Hub Features",
+      "distractors": ["partition", "consumer group", "subscriber"],
+      "key": "publisher",
+      "moduleId": "8224f00c-1b3f-4d73-8d3d-d6ccd44fc6e6",
+      "stem": "AMQP is an example of an event ________.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "45bd93c6-9f5b-43f8-bbf3-bfcbce4978bc",
+      "clipId": "9e22fcbe-1226-414f-9fc8-bf94df26a3a2",
+      "clipTitle": "Types of Cloud Computing Services",
+      "distractors": [
+        "Software as a Service (SaaS)",
+        "Applications as a Service (AaaS)",
+        "Platform as a Service (PaaS)"
+      ],
+      "key": "Infrastructure as a Service (IaaS)",
+      "moduleId": "332f4df5-7d15-4919-a855-c22a3bbb22d9",
+      "stem": "In what type of computing service does the cloud provider take care of the servers, storage, networking, and virtualization while requiring you to manage the operating system and everything above?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "1f16d334-9f9c-4dfa-a247-a6a921c5149f",
+      "clipId": "2225dda6-9c45-4af8-993f-a17fc2d415f7",
+      "clipTitle": "Importing an API Using Swagger",
+      "distractors": ["Using Swagger file", "Using REST API", "Using publisher's portal"],
+      "key": "Using portal, swagger file or REST API",
+      "moduleId": "d54f460f-af43-4685-85d9-21de9a078673",
+      "stem": "How can you define new APIs and Operations?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "7792307c-84d3-466c-b49c-8e114cb0a261",
+      "clipId": "fa860c71-fdb3-4fbc-be44-33b24b6c460c",
+      "clipTitle": "Leveraging Azure AD Groups",
+      "distractors": ["Query", "Assigned"],
+      "key": "Dynamic",
+      "moduleId": "296bc597-3f62-4c9e-bb91-178655d2d627",
+      "stem": "Which type of group enables rules to drive membership?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "b7a8aa9f-4338-4c06-b327-f3a18ad402a6",
+      "clipId": "710d3de7-4060-45ad-8f61-ef92c00b38f0",
+      "clipTitle": "Create an Azure Active Directory",
+      "distractors": ["microsoft.com", "azurewebsites.net", "azuread.net"],
+      "key": "onmicrosoft.com",
+      "moduleId": "21e59445-ecc5-4eab-9fdf-a69e099a5324",
+      "stem": "What does the default domain name for an Azure AD end in?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "34d6c9a0-9a76-4c6e-b1c1-b2ef2d7bb4a9",
+      "clipId": "b510ac2e-459b-41f6-84e4-0638ef0f8208",
+      "clipTitle": "Security Features",
+      "distractors": [
+        "Resource Governor",
+        "Data Compression",
+        "Change Data Capture",
+        "In-Memory OLTP"
+      ],
+      "key": "Transparent Database Encryption",
+      "moduleId": "37fc1eec-2a92-4d40-b8fa-e419e740676c",
+      "stem": "The following is a SQL Server Enterprise edition feature found on all Azure SQL Database service tiers:",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "eda57d57-c377-4908-8382-952127a3f794",
+      "clipId": "edbae6e1-9ae5-4887-bcec-4ddcf520c90a",
+      "clipTitle": "Using Azure AD Domain Services",
+      "distractors": ["NTLM", "Kerberos"],
+      "key": "Kerberos and NTLM",
+      "moduleId": "9922f2cc-57a6-4e6c-947c-c06b99f16383",
+      "stem": "What authentication options are available when enabling Azure AD Domain Services?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "a31e64cd-e483-4f20-9dfd-82690ef68e5a",
+      "clipId": "04012fde-5c21-4282-9ba1-fa4ff9cd9ec3",
+      "clipTitle": "Creating Container Groups with the Azure CLI",
+      "distractors": [
+        "`az\ncontainer-instance create`",
+        "`az\ncontainer-group create`",
+        "`az\naci create`"
+      ],
+      "key": "`az\ncontainer create`",
+      "moduleId": "7a0d7b98-19e9-4235-a15d-1ea4211e2a24",
+      "stem": "Which Azure CLI command creates a new ACI container group?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "dc75b5d2-2088-4c6d-b09c-223710c564cb",
+      "clipId": "d380d3bb-e0e5-4053-8a91-277720abd74b",
+      "clipTitle": "Enforcing Pre-access Check",
+      "distractors": ["Issuing client certificates", "Whitelisting IP addresses"],
+      "key": "Using JWT token",
+      "moduleId": "b0a9f645-c967-44ae-89db-19913f330378",
+      "stem": "How can you pre-authorize requests to API proxy?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "d01ef0d5-00fd-491f-b70f-78fce9968f83",
+      "clipId": "3cf5f274-b201-4311-973e-8e42fcef37f5",
+      "clipTitle": "Demo: Deploying from Visual Studio",
+      "distractors": ["Tools | Azure", "Project | Deploy", "Publish | Function App"],
+      "key": "Build | Publish",
+      "moduleId": "49c610b4-f3d1-4675-be50-40176d891255",
+      "stem": "What menu in Visual Studio allows us to publish Function Apps to Azure?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "79c1653f-4faa-4736-a8c5-fafef1664237",
+      "clipId": "94842e9f-711e-4e21-9ff2-fd0550368e04",
+      "clipTitle": "App Registration in Azure AD",
+      "distractors": ["It is a multi tenant app", "It is an authentication protocol"],
+      "key": "It is a standard for managing identity providers",
+      "moduleId": "21e59445-ecc5-4eab-9fdf-a69e099a5324",
+      "stem": "What is SCIM?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "50fc7395-f9fc-4b26-8504-bbeb97f238a0",
+      "clipId": "f2ea8ddf-f70f-4279-93d4-59b5f1cfcaab",
+      "clipTitle": "Demo: Timer Triggered Function",
+      "distractors": [
+        "public static void Run([TimerTrigger(\"5 5 5 5 5 5\")]TimerInfo myTimer)",
+        "public static void Run([TimerTrigger(\"5\")]TimerInfo myTimer)",
+        "public static void Run([TimerTrigger(\"5 mins\")]TimerInfo myTimer)"
+      ],
+      "key": "public static void Run([TimerTrigger(\"0 */5 * * * *\")]TimerInfo myTimer)",
+      "moduleId": "9f01be62-9818-4dc6-9918-8ecd9c457dc2",
+      "stem": "Which is the correct syntax to define a timer triggered function that runs every five minutes?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "96ca0cb8-0a64-4e9b-b248-86a506314e60",
+      "clipId": "fc8ffc08-e0f1-40db-8d8c-aec45c0dbcd5",
+      "clipTitle": "Using Azure AD PowerShell Module",
+      "distractors": ["New-Version AzureAD", "AzureAD-Update"],
+      "key": "Update-Module AzureAD",
+      "moduleId": "4fdc95e9-76ff-43d7-8466-f2fc76c75472",
+      "stem": "How can the Azure AD module be updated?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "878bca60-9a59-44be-b9da-19034400a13e",
+      "clipId": "664e4676-a590-4d63-944a-833c6f847a84",
+      "clipTitle": "Point in Time and Long Term Retention Backups",
+      "distractors": [
+        "Configure long-term backup retention (LTR) backups for your instance.",
+        "Managed instance automatically creates long term backups.",
+        "Use the business critical service tier."
+      ],
+      "key": "Take copy-only backups and store them in the blob storage.",
+      "moduleId": "f5de9e1c-f6a0-47dd-8221-5977c909a323",
+      "stem": "You must keep long term backups for your Azure SQL Database managed instance. What is the solution?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "ec652223-4040-496a-943b-169433d98e62",
+      "clipId": "c4274fec-991c-4dd2-8ba4-1d19b363b4fe",
+      "clipTitle": "Demo: Using Table Storage",
+      "distractors": ["Azure ServiceBus", "Azure Logic App", "Azure SQL Database"],
+      "key": "Azure Storage Account",
+      "moduleId": "9f01be62-9818-4dc6-9918-8ecd9c457dc2",
+      "stem": "What Azure Service is needed to use the blob, queue and table bindings?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "5ba2af75-dcd1-4c8b-8d5a-daaea2abc808",
+      "clipId": "40db0d4e-ac45-4bd1-a25c-e171ed863444",
+      "clipTitle": "What is Azure API Management",
+      "distractors": [
+        "Services developed in .NET hosted in any cloud platform",
+        "Services developed in any technology hosted in Azure",
+        "Services that are publicly available"
+      ],
+      "key": "Services developed in any technology hosted anywhere",
+      "moduleId": "d54f460f-af43-4685-85d9-21de9a078673",
+      "stem": "What kind of services can be managed through Azure API Management?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "40911f90-a1a6-4f58-88cf-d85ba8ea6e4a",
+      "clipId": "177eb737-aaa8-4743-b066-19660017d331",
+      "clipTitle": "Docker Basics",
+      "distractors": ["Azure Kubernetes Registry", "Azure Image Registry", "Azure Docker Registry"],
+      "key": "Azure Container Registry",
+      "moduleId": "c86ff451-4c7e-4222-a8fa-79aac1228371",
+      "stem": "What Azure service lets you store private container images?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "9f96c668-f4fa-4dda-863e-328638e63373",
+      "clipId": "4787cf49-5266-4d73-a4fd-9fbcd0cf7beb",
+      "clipTitle": "Creating Images from Dockerfiles",
+      "distractors": ["`USING`", "`BASE`", "`ENTRYPOINT`"],
+      "key": "`FROM`",
+      "moduleId": "7bfc895c-e28e-405e-86db-1f511370a1c6",
+      "stem": "Which Dockerfile instruction indicates what base image to use?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "33f30acd-20e0-4499-ad9b-308ef8f4b22f",
+      "clipId": "1ea3fd8a-7292-418b-8ab7-c4228f43afe3",
+      "clipTitle": "Manage Users in Azure AD",
+      "distractors": ["In the devices page", "You cannot find this from the portal"],
+      "key": "On the Azure AD overview page",
+      "moduleId": "21e59445-ecc5-4eab-9fdf-a69e099a5324",
+      "stem": "Where in Azure portal can you find your directory name?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "c11737a0-4fa9-4ad0-b7b4-6d063925bd28",
+      "clipId": "a0c31a13-9f71-4537-a846-d90119faf1ac",
+      "clipTitle": "Retrying Activities",
+      "distractors": [
+        "Put a for loop in the orchestrator function to catch exceptions and retry the activity.",
+        "Put a for loop in the activity function to catch exceptions and retry."
+      ],
+      "key": "Use CallActivityWithRetryAsync specifying the number of repeats.",
+      "moduleId": "2402cc23-2ff0-432f-9311-636831bcea22",
+      "stem": "What is the recommended way to support retrying an activity that might fail due to a transient error?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "06f2fc85-950c-4904-9d0e-e862bc42b52f",
+      "clipId": "88e6543f-f0b0-42e6-8af3-b19c1810098e",
+      "clipTitle": "Additional Features",
+      "distractors": ["Orchestration Functions", "Process Functions", "Workflow Functions"],
+      "key": "Durable Functions",
+      "moduleId": "eb5e98f5-3490-41bb-a316-2395a6432139",
+      "stem": "What is the name of the Azure Functions extension that allows you to create and manage workflows?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "afa86e46-cd74-47cc-98a5-83b24dffaad5",
+      "clipId": "47b5e2f8-c1ba-496b-8cbb-e666db174458",
+      "clipTitle": "Demo: Publishing from the Command Line",
+      "distractors": [
+        "RUN_FROM_PACKAGE_LOCATION",
+        "RUN_FROM_PACKAGE_URL",
+        "FUNCTION_APP_RUN_FROM_PACKAGE"
+      ],
+      "key": "WEBSITE_RUN_FROM_PACKAGE",
+      "moduleId": "49c610b4-f3d1-4675-be50-40176d891255",
+      "stem": "What is the name of the Application Setting that stores where the Function App zip file can be found when you use the \"Run from Package\" deployment mechanism?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "a712b054-c5f2-477a-a327-5616071eb959",
+      "clipId": "ce699003-5141-40ee-b73e-64065f2cdb9f",
+      "clipTitle": "PIM Demonstration",
+      "distractors": [
+        "Subscriptions, resource groups and resources",
+        "Management groups, subscriptions and resource groups"
+      ],
+      "key": "Management groups, subscriptions, resource groups and resources",
+      "moduleId": "84dc233b-26da-4ea7-86e1-cebe996128ff",
+      "stem": "What levels can PIM for Azure resources be applied to?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "185fabc1-f379-4001-9ab1-8ff79b3f5b5b",
+      "clipId": "896080ea-8d6b-419f-b4a2-02484c721271",
+      "clipTitle": "Demo: Rate Limit and Quota Policy",
+      "distractors": ["<inbound>", "<outbound>", "<backend>"],
+      "key": "<base>",
+      "moduleId": "f50d9c0d-c55e-48fd-84a1-479a189136c9",
+      "stem": "Which of these policy elements allows you to control the order of policies across various scopes?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "e47ac5fc-1cbe-4ae8-908c-27fb98f2c86d",
+      "clipId": "6b575fa9-9298-4dd2-bdcd-dca10819ec48",
+      "clipTitle": "Demo: Running WordPress on Web App for Containers",
+      "distractors": ["`az\nappservice create`", "`az\nwafc create`", "`az\ncontainer create`"],
+      "key": "`az\nwebapp create`",
+      "moduleId": "5dbf9fd2-5bac-44b9-a26f-d64a3c58c596",
+      "stem": "What is the name of the Azure CLI command that creates a Web App for Containers application?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "2dd74e91-cd03-4609-afb9-3d27ee800e5d",
+      "clipId": "4a117bde-072d-4cc5-b65e-b68fd427f8a1",
+      "clipTitle": "Securing Access to the Container Host",
+      "distractors": [
+        "Role Based Accessibility Control",
+        "Role Based Authorization Control",
+        "Role Based Authentication Control"
+      ],
+      "key": "Role Based Access Control",
+      "moduleId": "f5327095-a26d-49c0-93ef-c3ecf8ba12c0",
+      "stem": "What does RBAC stand for?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "920f6036-c1e5-4cad-8ac6-03b79926ddb7",
+      "clipId": "5cce74b9-d961-411e-9ef3-c8150f6f453a",
+      "clipTitle": "Function Routes",
+      "distractors": ["func/MyFunction", "functions/MyFunction", "/MyFunction"],
+      "key": "api/MyFunction",
+      "moduleId": "0f4e0fe6-1220-418d-828b-9f3a1f02ba9c",
+      "stem": "If a HTTP triggered function has the name `MyFunction`, what will its default route be?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "92876061-271b-4c63-a260-e335f86d186c",
+      "clipId": "4b138fae-c104-4070-be2a-bce93d33fcf3",
+      "clipTitle": "Azure SQL Database Service Tiers",
+      "distractors": ["Security features", "Backup availability", "Auditing"],
+      "key": "Storage latency",
+      "moduleId": "ac028f5a-3d44-474c-937c-7fc86fc2fecd",
+      "stem": "What is the main difference between general purpose and business critical pricing tiers?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "7253c887-b1bf-47ed-8230-92a39fa9f9f8",
+      "clipId": "0a65246e-24ef-41c4-b580-f98fabfcce40",
+      "clipTitle": "Orchestrators",
+      "distractors": ["Placing", "Distributing", "Allocating"],
+      "key": "Scheduling",
+      "moduleId": "286fe99f-8dd8-4607-91ec-6dcb6ce0ed06",
+      "stem": "What is is called when an orchestrator decides on which nodes to run containers?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "cdc4a401-1f93-4045-9ec0-a6ac6d8b69a7",
+      "clipId": "dc81e927-535e-4468-b57e-95b3acdbcafc",
+      "clipTitle": "Introducing Azure Container Instances",
+      "distractors": [
+        "It allows you to specify the required RAM and CPU requirements",
+        "It allows you to mount volumes",
+        "It can run Linux containers"
+      ],
+      "key": "It has a serverless per-second billing model",
+      "moduleId": "7a0d7b98-19e9-4235-a15d-1ea4211e2a24",
+      "stem": "What Azure Container Instances feature makes it unique compared to most other container hosting services?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "4dbffadb-46fb-4102-9864-e298fd3ce5eb",
+      "clipId": "0625dead-46f5-4ff2-8e41-6c55b3e24334",
+      "clipTitle": "Getting Started",
+      "distractors": [
+        "Select the CPU - RAM of the server",
+        "Select the licensing model for the server",
+        "Select a max storage size for the server"
+      ],
+      "key": "Select a region for the server",
+      "moduleId": "ba851147-d476-4405-8f0c-2c25c3abaeb6",
+      "stem": "Which of these is necessary to create a new Azure SQL Database server?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "e89550a7-7454-4c2a-bcc9-dc52d6aeb42d",
+      "clipId": "2a0b490b-824b-44a3-bebc-848dd8de85f0",
+      "clipTitle": "Configuration Repository",
+      "distractors": ["tfs", "svn"],
+      "key": "git",
+      "moduleId": "d54f460f-af43-4685-85d9-21de9a078673",
+      "stem": "What kind of version control is supported out of the box for the API management resources?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "a96bd6a3-56c4-415c-ad4e-689b55e63f2f",
+      "clipId": "ab144a54-39eb-4193-9d96-441099d1bd4b",
+      "clipTitle": "Demo - Getting Bitrates from Config",
+      "distractors": ["It will hang indefinitely.", "It is not possible.", "It is insecure."],
+      "key": "It is not deterministic.",
+      "moduleId": "14627f90-b89b-4184-959b-f1b54f64a2bf",
+      "stem": "Why should we not retrieve a value from config in an orchestrator function?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "ca174023-6280-4569-af6f-fb2ac385671c",
+      "clipId": "dc640bb7-8ac7-4039-b3f2-d6f5e0b5bb75",
+      "clipTitle": "Demo: IBinder and Table Storage Input",
+      "distractors": [
+        "var writer = await binder.CreateTextWriterAsync(new BlobAttribute(\"example.txt\"))",
+        "var writer = await binder.BindAsync<TextWriter>(new NameAttribute(\"example.txt\"))",
+        "var writer = await binder.BindTextWriterAsync(new BlobAttribute(\"example.txt\"))"
+      ],
+      "key": "var writer = await binder.BindAsync<TextWriter>(new BlobAttribute(\"example.txt\"))",
+      "moduleId": "bc276fa3-451a-41d9-9421-e7c9d655bb16",
+      "stem": "Which code snippet shows the correct usage of `IBinder` to create a `TextWriter` that writes to a blob with the name `example.txt`?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "c8e76b27-03c1-4cd6-9df0-b764910e53ff",
+      "clipId": "aef3809f-66ad-441c-a459-ad56dd68aa17",
+      "clipTitle": "Demo - Sending External Events with the REST API",
+      "distractors": [
+        "await task1;\r\n    winner = task2.IsFinished ?  task2 : task1;",
+        "winner = await (task1 + task2);",
+        "`winner = Task.WaitAny(task1,task2);`"
+      ],
+      "key": "winner = await Task.WhenAny(task1,task2);",
+      "moduleId": "8b7b76ca-6a8e-4527-a37e-0c05561420e6",
+      "stem": "What code should an be used to see whether task1 or task2 is the winner and completes first?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "02b47b8c-7305-43b7-98a0-fb8ad33de6cf",
+      "clipId": "7022c6dc-8fdc-4fcb-b113-098172499da4",
+      "clipTitle": "Visual Studio Code",
+      "distractors": ["Visual Studio Atom", "Visual Studio Sublime", "Visual Studio Functions"],
+      "key": "Visual Studio Code",
+      "moduleId": "2a9e4073-6ec8-4a43-bf58-844b3dbe4379",
+      "stem": "What is the name of the free open-source cross-platform text editor that offers Azure Function support via an extension?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "34fed693-91c5-4d43-96db-2899fb2b2595",
+      "clipId": "93d58d16-6cdd-407a-907c-dfeaae382659",
+      "clipTitle": "Migration Tools",
+      "distractors": [
+        "The storage required for each method",
+        "GUI support for each method",
+        "The target service tier of the database"
+      ],
+      "key": "The downtime SLA to switch from SQL Server to Azure SQL Database",
+      "moduleId": "d6f95092-930f-42ff-a35f-b09bcd404d6e",
+      "stem": "When choosing between using SSMS or SQL replication to migrate from SQL Server to Azure SQL Database, which of the following should be a top selection criterion?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "b6117c91-e2a9-4483-ae0e-955787beb4e3",
+      "clipId": "5d5878e3-6a59-4616-9e06-52d53eadebc4",
+      "clipTitle": "Key Durable Function Concepts",
+      "distractors": ["Activity function", "Logic function", "Workflow function"],
+      "key": "Orchestrator function",
+      "moduleId": "5d952ff8-204f-4138-a70e-700ea9073758",
+      "stem": "What is the name of the type of Durable Function that defines an orchestration's workflow?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "04ee9e84-55e9-4f25-bcfe-9c10f4abda00",
+      "clipId": "2df2160d-e4a5-4bce-9e25-16f43d7d65cb",
+      "clipTitle": "Register an App",
+      "distractors": [
+        "An app that is undiscoverable",
+        "An app that is single tenant and not intended to be shared outside the tenant"
+      ],
+      "key": "An app that can securely store secrets",
+      "moduleId": "e850b6ac-cadc-4ef4-9db9-35e7209e520b",
+      "stem": "What is a confidential app?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "5bedff0d-c3fc-41a6-9ead-7cd3ad35d627",
+      "clipId": "5f0e3226-acc5-4950-bee9-d0afc27d4ed0",
+      "clipTitle": "Serverless - A Real-world Example",
+      "distractors": ["A Function Repository", "A Function Library", "A Function Group"],
+      "key": "A Function App",
+      "moduleId": "6b83c3a6-8180-40f9-b498-0ef3628cac0f",
+      "stem": "What is the name for a collection of related Azure Functions that share configuration and resources?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "2a311bb6-13b2-44dc-ad48-b4082f382e9d",
+      "clipId": "93bf5fc0-f527-4d35-a102-2b89e9286e42",
+      "clipTitle": "Messaging and Workflow",
+      "distractors": [
+        "A container for managing compute resources in an Azure account",
+        "The endpoint manager for Service Bus Relays",
+        "A container for service bus queues, logic apps, and event grid"
+      ],
+      "key": "A container for schemas, maps, and trading partners that extends logic apps",
+      "moduleId": "fe354c93-05da-4ce0-9fcb-b60e2aaa64fc",
+      "stem": "What is an integration account?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "33e61331-7cbb-4f4c-8f77-93790bb5db1f",
+      "clipId": "4fad6836-6d6c-4cf1-9087-5babbc3256d4",
+      "clipTitle": "Demo: Testing in a Webpage",
+      "distractors": ["XSS", "HSTS", "SSL"],
+      "key": "CORS",
+      "moduleId": "0f4e0fe6-1220-418d-828b-9f3a1f02ba9c",
+      "stem": "What setting must be configured correctly to allow a webpage hosted on one domain to call functions hosted on another?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "249e3e74-0ad3-4dc6-a1f9-1770fd7a7bad",
+      "clipId": "7c82aab3-e4f7-4b10-95e2-de7df94b1345",
+      "clipTitle": "Elastic Job Components and Configuration",
+      "distractors": [
+        "Create four separate target groups.",
+        "Add each individual database separately into the target group.",
+        "It is not possible. The job will enumerate through all databases on a server."
+      ],
+      "key": "Add the logical server into the target group and exclude one database.",
+      "moduleId": "1d5f57e3-b8fe-4f64-aacb-a63f462ecd56",
+      "stem": "You have five databases hosted in a single Azure SQL logical server. How do you run jobs on four of them?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "d2ec1168-507a-4a45-b321-b5618176a77c",
+      "clipId": "a3655137-4df0-49bf-96ab-f01aba00f705",
+      "clipTitle": "DNS Names with Azure AD",
+      "distractors": ["microsoft.net", "aad.microsoft.com"],
+      "key": "onmicrosoft.com",
+      "moduleId": "296bc597-3f62-4c9e-bb91-178655d2d627",
+      "stem": "What is the DNS suffix that is used as the default on all new Azure AD instances?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "c6a53d7d-a1c0-4c03-af8e-6bee8fe2d2b1",
+      "clipId": "b254f57d-97f2-4efc-94c7-77ed18c71e0b",
+      "clipTitle": "Securing Container Privileges",
+      "distractors": [
+        "An ingress controller in Kubernetes",
+        "A blob container in Azure Storage",
+        "A firewall rule in a Virtual Network"
+      ],
+      "key": "A service principal in Azure Active Directory",
+      "moduleId": "f5327095-a26d-49c0-93ef-c3ecf8ba12c0",
+      "stem": "When you configure a \"managed identity\", what gets automatically created for you?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "8d7fc845-5495-4640-9a0f-c8a8828a9cdc",
+      "clipId": "e9bd91c0-9589-43ca-a758-5f6124984e05",
+      "clipTitle": "Securing Container Networking in AKS",
+      "distractors": [
+        "Point to site networking",
+        "Service endpoint networking",
+        "Kubenet networking"
+      ],
+      "key": "Azure CNI networking",
+      "moduleId": "f5327095-a26d-49c0-93ef-c3ecf8ba12c0",
+      "stem": "What networking configuration is recommended for most production scenarios in the Microsoft Best Practices documentation for AKS?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "846d3723-c3a9-43b4-9b47-f84d840d0daa",
+      "clipId": "f934b28a-2a16-4e59-a588-d2d94a9d1bc0",
+      "clipTitle": "What Is Azure Active Directory?",
+      "distractors": [
+        "The ones you write first",
+        "The ones written in .NET",
+        "The ones you write as first priority"
+      ],
+      "key": "The ones you write for your organization",
+      "moduleId": "21e59445-ecc5-4eab-9fdf-a69e099a5324",
+      "stem": "What are first party applications?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "e90ef6eb-b217-4529-9540-e7c8a72acb3c",
+      "clipId": "40ec1d51-ba4f-4f4d-93e1-714fb98c98bb",
+      "clipTitle": "Authentication Used in the Cloud",
+      "distractors": ["SAML", "OAuth2"],
+      "key": "Kerberos",
+      "moduleId": "296bc597-3f62-4c9e-bb91-178655d2d627",
+      "stem": "Which is NOT commonly used in the cloud?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "069fff07-0bc6-4cd8-8ec5-2e4edff5c0d7",
+      "clipId": "4124a5da-e376-4da9-b363-ca691c002b71",
+      "clipTitle": "Azure Functions Pricing",
+      "distractors": ["Classic Plan", "Dedicated Plan", "Flexible Plan"],
+      "key": "Consumption Plan",
+      "moduleId": "6b83c3a6-8180-40f9-b498-0ef3628cac0f",
+      "stem": "What is the name of the App Service Plan that lets you pay as you go with Azure Functions?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "33cb0bf5-4d55-48d4-b407-7469255def92",
+      "clipId": "eaf416f0-161c-429c-9e96-ea8e9a624547",
+      "clipTitle": "Demo - Calling Activities",
+      "distractors": ["BeginActivityAsync", "NewActivityAsync", "StartActivityAsync"],
+      "key": "CallActivityAsync",
+      "moduleId": "63aa8d2a-a381-44d5-92e0-f53f58f47f2a",
+      "stem": "What is the method on DurableOrchestrationContext that can be used to call an activity function?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "31a9a3ec-6f46-446f-88ae-a5c7dc7fa175",
+      "clipId": "c597520b-0156-4eab-a4e4-89cb3af16392",
+      "clipTitle": "Key Vault Keys",
+      "distractors": [
+        "Wrap, Unwrap, and Verify",
+        "Decrypt and Encrypt",
+        "No operations are enabled"
+      ],
+      "key": "All operations are enabled",
+      "moduleId": "2bff8526-a069-44b9-b0cb-93098607349c",
+      "stem": "Which Azure Key Vault Key operations are enabled by default?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "103c6404-c1f6-467d-98a4-1bb037436da0",
+      "clipId": "9812e250-196e-4b88-beba-dfc2157f55d9",
+      "clipTitle": "Using Azure AD Logs",
+      "distractors": ["Audit", "Sign-in"],
+      "key": "Security",
+      "moduleId": "4fdc95e9-76ff-43d7-8466-f2fc76c75472",
+      "stem": "What is NOT a type of Azure AD log?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "1a1554ae-9845-406f-b4ef-56cce1a42a6b",
+      "clipId": "43c14c98-6926-42ba-b893-3a900a2a4fbf",
+      "clipTitle": "Create an App",
+      "distractors": ["Graph.User.Read", "Graph.Read for Microsoft Users"],
+      "key": "User.Read for Microsoft Graph",
+      "moduleId": "59ebafd6-cf48-4e33-9b4a-1be3fb17aac2",
+      "stem": "What is the default permission a newly created app from the portal automatically gets?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "3b4ee361-ac02-4455-bf8e-c5ad187eead3",
+      "clipId": "39babbf1-2e3d-48e4-b1cd-b31384fa28c2",
+      "clipTitle": "Creating a Function App in the Portal",
+      "distractors": ["Python or PowerShell", "Rust or Go", "Java or JavaScript"],
+      "key": "C# or F#",
+      "moduleId": "9b94e8d0-0503-4d04-b324-11fc2baac008",
+      "stem": "If you choose the .NET runtime stack for your Function App, what languages can you write your functions in?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "518d8238-81dc-4d02-86c1-16752ca3f19f",
+      "clipId": "b8c8ee75-8e52-413d-82ef-3a0acc9373a3",
+      "clipTitle": "Demo - Implementing Fan-out Fan-in",
+      "distractors": ["task1.Wait();task2.Wait();", "Task.WaitAll(task1,task2)"],
+      "key": "await Task.WhenAll(task1, task2)",
+      "moduleId": "14627f90-b89b-4184-959b-f1b54f64a2bf",
+      "stem": "What is the recommended way for an orchestrator function to wait for task1 and task2 to complete?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "db36dd90-128f-4e6f-bbb2-b7cf4e04546b",
+      "clipId": "f7f0e593-f133-49f4-ab51-9cfbee102e95",
+      "clipTitle": "Demo - Terminating an Eternal Orchestration",
+      "distractors": [
+        "Calling the REST terminate id",
+        "Allowing the orchestrator function to return without calling ContinueAsNew",
+        "An unhandled exception in the orchestrator"
+      ],
+      "key": "Restarting the function app",
+      "moduleId": "8d5a5280-1d8f-42b5-9308-c081b0fca6b8",
+      "stem": "Which of the following actions will NOT cause an orchestration to exit?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "0717250a-cd4c-482b-9c75-e998b5a16747",
+      "clipId": "5f7cb52f-a8fa-48b4-b6bf-8e579c7397e8",
+      "clipTitle": "Creating a Rate Limit Policy",
+      "distractors": ["Outbound", "Backend"],
+      "key": "Inbound",
+      "moduleId": "d54f460f-af43-4685-85d9-21de9a078673",
+      "stem": "At what stage should you apply policy to handle requests before the backend operations are called?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "1e8a8857-8947-46fb-8073-d09ac92b3ee5",
+      "clipId": "0bdc2c46-1895-4f6e-882d-199a1f5e433c",
+      "clipTitle": "Demo: Create an Azure Functions App with ARM",
+      "distractors": [
+        "The second time will create a second resource group with the same contents",
+        "The second time will fail because the resources are already present"
+      ],
+      "key": "The second time will have no effect because ARM templates are idempotent",
+      "moduleId": "49c610b4-f3d1-4675-be50-40176d891255",
+      "stem": "What happens if you deploy the same ARM template twice in a row?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "80d92ad9-7d53-446f-9cb5-e1f28444767c",
+      "clipId": "92624c80-f37e-4f61-8967-44ecfd364ed9",
+      "clipTitle": "Kubernetes Basics",
+      "distractors": ["Istio", "Etcd", "Draft"],
+      "key": "Helm",
+      "moduleId": "286fe99f-8dd8-4607-91ec-6dcb6ce0ed06",
+      "stem": "What is the name of a popular open source package manager for Kubernetes?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "fca46a84-3845-41c3-8de2-7ec2723be539",
+      "clipId": "92624c80-f37e-4f61-8967-44ecfd364ed9",
+      "clipTitle": "Kubernetes Basics",
+      "distractors": ["Service controller", "Cluster leader", "Kubelet"],
+      "key": "Control plane",
+      "moduleId": "286fe99f-8dd8-4607-91ec-6dcb6ce0ed06",
+      "stem": "What is another name for the Kubernetes master nodes?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "1cdc79e7-cc6d-4677-bfb3-aa1c95b0f24e",
+      "clipId": "92624c80-f37e-4f61-8967-44ecfd364ed9",
+      "clipTitle": "Kubernetes Basics",
+      "distractors": ["`kubez`", "`kubemgr`", "`kcontrol`"],
+      "key": "`kubectl`",
+      "moduleId": "286fe99f-8dd8-4607-91ec-6dcb6ce0ed06",
+      "stem": "Which command line tool can be used to manage a Kubernetes cluster?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "b52f2a9d-acf7-4734-81f5-8a18b24b954b",
+      "clipId": "2d2d4a13-33c3-46ee-bbea-3168e15388c2",
+      "clipTitle": "Network Restrictions",
+      "distractors": [
+        "Using the Application Gateway to front-end the Key Vault instance",
+        "Using a point-to-site VPN tunnel to the Key Vault service",
+        "Using an ExpressRoute circuit and configuring route filtering"
+      ],
+      "key": "Using your public IP addresses in Firewalls and virtual network settings",
+      "moduleId": "ffbbb1cb-4b53-45a2-9c42-3305a1c07326",
+      "stem": "How would you limit Azure Key Vault access to your on-premises network only?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "6e5af2ad-8c53-4db5-995c-77be7b0be51e",
+      "clipId": "40f7bd3c-a5ef-4a2e-96d3-44da68c69c29",
+      "clipTitle": "Introduction to Azure AD PowerShell Module",
+      "distractors": ["Microsoft Core version", "Windows PowerShell version"],
+      "key": "PowerShell Core version",
+      "moduleId": "4fdc95e9-76ff-43d7-8466-f2fc76c75472",
+      "stem": "Which type of module for Azure AD is available in the Azure Cloud Shell?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "d16f4236-d9f2-4124-81fc-d46bfbbf7106",
+      "clipId": "025ac6aa-6560-4e40-88f6-ff9285e8bf89",
+      "clipTitle": "Logging and Auditing",
+      "distractors": ["Azure Monitor", "Log Analytics", "Azure Sentinel"],
+      "key": "Diagnostic Settings",
+      "moduleId": "ffbbb1cb-4b53-45a2-9c42-3305a1c07326",
+      "stem": "Where are the logging settings configured for Azure Key Vault?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "1a38a87e-c2e4-4136-ba85-dec0b6e5e13e",
+      "clipId": "8df8082f-6749-4309-8dad-6960dab15561",
+      "clipTitle": "Database Transaction Units",
+      "distractors": ["45 seconds", "90 seconds", "One minute"],
+      "key": "30 seconds",
+      "moduleId": "1dff85f2-9f15-4af0-ae67-8b154cb7f44c",
+      "stem": "A test on a Basic tier database (5 DTUs) takes two minutes to run; what would be the ideal runtime if you increase the tier to Standard 1 (20 DTUs) ?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "276121f8-c776-4908-a203-18a1d99be812",
+      "clipId": "846d7b11-cb4c-45cd-9b18-6463b4a130c0",
+      "clipTitle": "Differentiating Logic Apps from Related Azure Products",
+      "distractors": ["abstraction", "serverless", "code"],
+      "key": "designer",
+      "moduleId": "75aa3ab1-23c6-4c7b-8e54-ea39b05dfc94",
+      "stem": "Azure Logic Apps present a _________-first integration experience.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "5ffe7c8a-e9d3-4050-b1c4-0a77f5582b11",
+      "clipId": "e9739e03-a8c6-4c61-b4f8-dca02d2b7f5b",
+      "clipTitle": "Event Grid Functional Model",
+      "distractors": ["prepaid", "topic-based", "fixed-cost"],
+      "key": "consumption-based",
+      "moduleId": "7db731aa-7dcc-4bf1-b2c2-7c832e9ae0f9",
+      "stem": "Azure Event Grid uses a __________ pricing model.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "e8709bda-af3a-4b6b-b384-452991e747b6",
+      "clipId": "2650d243-6e43-4db1-8dce-747f4a3cca78",
+      "clipTitle": "Manage Azure AD Using PowerShell",
+      "distractors": ["Neither, AAD support is built into PowerShell", "Azure-AD"],
+      "key": "AzureAD",
+      "moduleId": "5c206745-159d-487b-ad77-007a5e2cc3d4",
+      "stem": "What module do you need to install to manage AzureAD from PowerShell?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "97ba0102-1a1e-401d-a87b-fca8542f21a7",
+      "clipId": "eb2e8eb2-f553-49a1-b361-87a896b7f931",
+      "clipTitle": "How Can I Secure My Functions?",
+      "distractors": ["x-authentication-code", "x-private-key", "x-secret-code"],
+      "key": "x-functions-key",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "What HTTP header can be used to pass the secret authentication code to a HTTP triggered Azure function?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "41ad8975-7198-43c3-bd4d-78f31a553765",
+      "clipId": "310a1ec9-33ce-4a04-9b3f-379c11e0d51a",
+      "clipTitle": "Upgrading Orchestrator Functions",
+      "distractors": [
+        "It is always safe to upgrade to a new orchestrator version.",
+        "Manually edit the orchestration data in the task hub.",
+        "Exit all workflows first."
+      ],
+      "key": "Create a side-by-side deployment of the new orchestrator function.",
+      "moduleId": "6a71b58d-893c-4188-ab56-f783e59ed3f7",
+      "stem": "How can you safely upgrade orchestrator functions to a new version while existing workflows are in progress?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "f5aefefa-7a0b-41eb-bb61-64f5780a1417",
+      "clipId": "3e7ef24f-c499-4c73-a115-7546ec306be2",
+      "clipTitle": "What You Need",
+      "distractors": [
+        "Azure Functions Coding Tools",
+        "Azure Functions Command Line Tools",
+        "Azure Functions Dev Tools"
+      ],
+      "key": "Azure Functions Core Tools",
+      "moduleId": "2a9e4073-6ec8-4a43-bf58-844b3dbe4379",
+      "stem": "What is the name of the cross platform command line tools that support Azure Functions development?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "372ed73a-1738-4050-8b99-d2423327c35a",
+      "clipId": "747948d6-878e-49f1-b00d-bfb2e97665b3",
+      "clipTitle": "Message Delivery Service Options in Azure",
+      "distractors": ["SNMP", "AMQP", "SMTP"],
+      "key": "SMS",
+      "moduleId": "75aa3ab1-23c6-4c7b-8e54-ea39b05dfc94",
+      "stem": "Configure Twilio integration with Azure to support ________ message delivery.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "be5fd44c-47fb-411b-8dbd-5449392a87df",
+      "clipId": "f6b40b3e-26a3-44a6-9512-82835ff6f58d",
+      "clipTitle": "Integrate Event Grid with Event Hub",
+      "distractors": ["series", "telemetry", "streaming"],
+      "key": "discrete",
+      "moduleId": "7db731aa-7dcc-4bf1-b2c2-7c832e9ae0f9",
+      "stem": "Event Grid handles _________ event distribution.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "163dd672-8f36-4d18-b188-af56c522a42a",
+      "clipId": "e1c6b6d5-2cd3-42c9-9273-05263e35714e",
+      "clipTitle": "Migration Options and Service Tiers for Managed Instances",
+      "distractors": [
+        "Convert your packages to Logic App flows.",
+        "Azure does not support SSIS packages.",
+        "Use Azure Data Lake."
+      ],
+      "key": "Use Azure Data Factory (ADF).",
+      "moduleId": "dd2aac7d-7b03-4a4b-8e6b-ad74fe9d35ca",
+      "stem": "How can you run SQL Server Integration Services (SSIS) packages in a managed instance?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "9649ad5b-cf3c-4f3f-90db-4b589b52a742",
+      "clipId": "eb920be8-c181-43c4-acc8-d7caa0891802",
+      "clipTitle": "Events vs. Messages",
+      "distractors": ["events", "traces", "queues"],
+      "key": "messages",
+      "moduleId": "834c3615-1ef5-4fa4-98a1-cc4f03933454",
+      "stem": "In Azure, __________ involve(s) an expectation on the part of the publisher as to how the data will be handled by the subscriber.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "dac22b2d-f6ba-4b7f-9118-d757ba931030",
+      "clipId": "c94c5dc7-f37c-4499-9c18-236ebc9b4860",
+      "clipTitle": "Authenticating Against a Backend Service Using Certs",
+      "distractors": [
+        "By specifying certificate path in the swagger file",
+        "By adding the certificate in git source control",
+        "By using API Management REST call"
+      ],
+      "key": "By uploading the certificate from publisher's portal",
+      "moduleId": "b0a9f645-c967-44ae-89db-19913f330378",
+      "stem": "How can you specify a certificate for API proxy to authenticate against backend service?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "91cadced-cf16-425b-b79c-d9a4e6c44274",
+      "clipId": "67169061-42be-4a31-b51c-8e83b8514542",
+      "clipTitle": "Configuring Access Policy in the Portal",
+      "distractors": ["Recover", "Backup", "Delete"],
+      "key": "Purge",
+      "moduleId": "ffbbb1cb-4b53-45a2-9c42-3305a1c07326",
+      "stem": "Which of the following operations is a Privileged Operation in Azure Key Vault certificates?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "b907755d-7d82-4102-8863-f8b2940d1103",
+      "clipId": "0fa0de90-a421-4575-9c2a-d8d7a76ab3d4",
+      "clipTitle": "Triggers and Bindings",
+      "distractors": ["EmailBinding", "AzureMail", "MailSend"],
+      "key": "SendGrid",
+      "moduleId": "9f01be62-9818-4dc6-9918-8ecd9c457dc2",
+      "stem": "Which Azure Functions output binding extension can be used to send emails?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "f9e44b7f-11de-418d-9a3a-44aadafb7970",
+      "clipId": "2d568d49-3a1f-4fec-9b92-07b2cf587699",
+      "clipTitle": "Containers, Serverless, and More",
+      "distractors": [
+        "Azure Container Instances",
+        "Azure Container Registry",
+        "Azure Kubernetes Service"
+      ],
+      "key": "Azure Docker Service",
+      "moduleId": "9c0e96bd-a914-430c-9512-d3044849ab3a",
+      "stem": "Which is NOT a container offering in Azure?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "caf407bd-ce24-4554-92c1-e142049d8024",
+      "clipId": "177eb737-aaa8-4743-b066-19660017d331",
+      "clipTitle": "Docker Basics",
+      "distractors": [
+        "A package consisting of an application and all its dependencies",
+        "A text file describing the dependencies of an application",
+        "An online registry of Docker images"
+      ],
+      "key": "An instance of an application created from a Docker image",
+      "moduleId": "c86ff451-4c7e-4222-a8fa-79aac1228371",
+      "stem": "Which of the following correctly describes a Docker container?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "1cab5208-8031-422c-ba66-8ec6ae0c0933",
+      "clipId": "1e309782-8881-45b2-955e-23911aa50697",
+      "clipTitle": "Introducing Serverless Architecture",
+      "distractors": [
+        "Architecture as a Service",
+        "Database as a Service",
+        "Infrastructure as a Service"
+      ],
+      "key": "Functions as a Service",
+      "moduleId": "6b83c3a6-8180-40f9-b498-0ef3628cac0f",
+      "stem": "What role in a serverless architecture does Azure Functions fulfill?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "62f08ac4-e5f4-4a1a-9308-743e6279a6fe",
+      "clipId": "48d14102-29e1-4433-92d0-66787b0a6951",
+      "clipTitle": "Demo: Application Manifest",
+      "distractors": [
+        "Service Fabric Serverless",
+        "Service Fabric Kubernetes",
+        "Service Fabric Containers"
+      ],
+      "key": "Service Fabric Mesh",
+      "moduleId": "53d97948-2b25-4057-a849-418ed080c962",
+      "stem": "What is the name of the new service built on top of Service Fabric that offers a serverless model for hosting containerized microservices?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "e94935ec-79b6-49ea-86b5-1ba4d002cc53",
+      "clipId": "5b132580-d714-4055-bea7-6810b6fcca5d",
+      "clipTitle": "Authentication in the Microsoft Ecosystem",
+      "distractors": ["ADFS", "Kerberos", "Microsoft Graph"],
+      "key": "Azure AD Connect",
+      "moduleId": "21e59445-ecc5-4eab-9fdf-a69e099a5324",
+      "stem": "What tool do you use to sync on-prem identities with Azure AD?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "e5e74791-22d6-4724-834e-7721906486a6",
+      "clipId": "e6f90849-9e27-4590-a0ce-b844d5595f96",
+      "clipTitle": "Demo: Visualize Event Hub Data Streams",
+      "distractors": ["Blob Storage", "Logic Apps", "Event Grid"],
+      "key": "Stream Analytics",
+      "moduleId": "8224f00c-1b3f-4d73-8d3d-d6ccd44fc6e6",
+      "stem": "Use Azure __________ to write SQL-like queries on Event Hub subscription output.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "93bce165-ba65-4300-8d64-2ce635d5aea3",
+      "clipId": "e14fe770-78fe-4d5b-a0c0-79a63a9d4ea6",
+      "clipTitle": "Azure Service Bus Product Family",
+      "distractors": ["Queue", "Topic", "Proxy"],
+      "key": "Relay",
+      "moduleId": "834c3615-1ef5-4fa4-98a1-cc4f03933454",
+      "stem": "An Azure Service Bus ___________ allows on-premises web services to connect into Azure.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "f334a591-e474-4625-9f37-ff95b3cbb2a1",
+      "clipId": "18ec082f-10b3-4f90-9f48-b0625e892844",
+      "clipTitle": "Comparing Storage Queues and Service Bus Queues",
+      "distractors": [
+        "When there is a need for the AMQP protocol",
+        "When there is a need for sessions",
+        "When there is a need for duplicate message detection"
+      ],
+      "key": "When there is a need for queues greater than 80 GB",
+      "moduleId": "834c3615-1ef5-4fa4-98a1-cc4f03933454",
+      "stem": "When should you choose a storage queue over a Service Bus queue in Azure?",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "5acc1428-f673-4ee7-987f-450bcc7a426f",
+      "clipId": "0678af74-d98e-487d-b7c3-0002006d622e",
+      "clipTitle": "Service Tiers Fundamentals",
+      "distractors": [
+        "You need to open up the firewalls.",
+        "You spent your DTUs for the month.",
+        "Your clients need to increase their network speed."
+      ],
+      "key": "You're hitting the 60 login attempts limit on Standard 0.",
+      "moduleId": "1dff85f2-9f15-4af0-ae67-8b154cb7f44c",
+      "stem": "You have an S0 Azure SQL Database and you see in the sys.database_connection_stats view that you have some connection attempts being throttled. What could be the cause?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "5d0c4658-c105-4566-866f-2d4a95a4f473",
+      "clipId": "ad043eee-3268-4e1f-8064-68f21848ce6a",
+      "clipTitle": "Beyond Management Kubernetes",
+      "distractors": [
+        "Azure Web Apps for Linux Containers",
+        "Azure Batch",
+        "Azure Container Registry",
+        "Azure Container Instance"
+      ],
+      "key": "Service Fabric",
+      "moduleId": "b0e58efb-ce07-4b74-8436-819995c8a572",
+      "stem": "Which of the following Azure Service offers both, a platform to Run Container Workloads and a Programming Model to deploy 'Microservices Architecture'?",
+      "stemImageUrl": null,
+      "courseId": "b9ad1d9c-0229-4ef5-a467-2d21e108cefc"
+    },
+    {
+      "questionId": "de81c408-8f1f-490f-b9e5-49f1437a3725",
+      "clipId": "8d4a5e69-e2b7-4f52-b114-61fc5245f5e3",
+      "clipTitle": "ACI Use Cases",
+      "distractors": ["ACI Kubelet", "Serverless Kubelet", "Elastic Kubelet"],
+      "key": "Virtual Kubelet",
+      "moduleId": "7a0d7b98-19e9-4235-a15d-1ea4211e2a24",
+      "stem": "What is the name of the ACI connector that allows it to provide elastic scale to a Kubernetes cluster?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "47d5cd40-470d-42cd-8016-ffa3f27a720c",
+      "clipId": "52ba8dc1-9ec5-4761-ad9c-056147f82b09",
+      "clipTitle": "Introduction to Cloud Computing",
+      "distractors": [
+        "You pay a fixed monthly fee regardless of usage/number of users.",
+        "You pay a one-time fee depending on the size of the virtual machine you provision.",
+        "You pay an upfront cost and pay software maintenance every year following."
+      ],
+      "key": "All consumption is metered and billed depending on usage.",
+      "moduleId": "6bdb5d7c-67ba-47e2-b10f-f2176ae51f65",
+      "stem": "How are cloud services typically billed?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "e6f8d4bd-4596-4295-8c83-699aec632b22",
+      "clipId": "3c76e5d0-ee7e-4499-8605-a41d763dc27b",
+      "clipTitle": "Elastic Capabilities",
+      "distractors": [
+        "One database that fluctuates up and down during the day",
+        "Two databases, very sensitive to latency and can spike up at any time of the day",
+        "Four databases, one of them runs constantly at 80-90% CPU"
+      ],
+      "key": "Four databases, each one active for six hours a day on non over-lapping schedules",
+      "moduleId": "1dff85f2-9f15-4af0-ae67-8b154cb7f44c",
+      "stem": "Which of the following is a good fit for an Elastic Database pool?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "28533535-6c7c-458b-bd2c-35ef3efbc774",
+      "clipId": "97b32247-8170-49a5-8528-cffda318e462",
+      "clipTitle": "Task Hubs",
+      "distractors": ["Orchestration Hub", "Durable Hub", "Workflow Hub"],
+      "key": "Task Hub",
+      "moduleId": "5d952ff8-204f-4138-a70e-700ea9073758",
+      "stem": "What is the name given to the storage blobs, queues and tables that store orchestration state?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "4b0af38b-4446-4ba0-bcf2-ba9965323223",
+      "clipId": "af232ed1-a4b0-4116-8bb9-58642a500564",
+      "clipTitle": "Running Code: Compute",
+      "distractors": ["Azure App Services", "Azure Service Fabric", "Azure Virtual Machines"],
+      "key": "Azure Functions",
+      "moduleId": "9c0e96bd-a914-430c-9512-d3044849ab3a",
+      "stem": "Which compute option provides serverless code execution in your chosen programming language?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "a9bbfdc8-364e-4635-8a9f-91e0bb12cd46",
+      "clipId": "e43f0073-8596-43e3-bcd3-fc1ecb51448e",
+      "clipTitle": "Scheduled Jobs in Azure",
+      "distractors": [
+        "Elastic Database Jobs",
+        "Elastic Database Jobs and SQL Agent Jobs",
+        "Azure Automation runbooks to manually schedule jobs"
+      ],
+      "key": "SQL Agent Jobs",
+      "moduleId": "1d5f57e3-b8fe-4f64-aacb-a63f462ecd56",
+      "stem": "Which scheduling technologies are available to Azure SQL Database managed instances?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "43b459c3-42f6-47e0-92c3-0e145bab1b36",
+      "clipId": "3c6601be-4ce8-4e19-b26e-fcb9d52a20e0",
+      "clipTitle": "Manage Secrets",
+      "distractors": ["Javascript apps", ".NET Core apps", "Public Clients"],
+      "key": "Confidential clients",
+      "moduleId": "e850b6ac-cadc-4ef4-9db9-35e7209e520b",
+      "stem": "What kind of applications can store secrets?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "3aeb553d-cd73-4ba2-92db-f2efde30d7ca",
+      "clipId": "5fac932e-aea7-4563-bcc4-a343700f7aaa",
+      "clipTitle": "Ways to Deploy Azure Functions",
+      "distractors": [
+        "az functionapp deployment package",
+        "az functionapp deployment push zip",
+        "az functionapp deployment publish zip"
+      ],
+      "key": "az functionapp deployment source config-zip",
+      "moduleId": "49c610b4-f3d1-4675-be50-40176d891255",
+      "stem": "What Azure CLI command can be used to publish your zipped up Function App code?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "ac0f86f6-9479-4447-8b18-2f2ad2292833",
+      "clipId": "59392f4d-643a-4ebb-a53b-d72aa7297d60",
+      "clipTitle": "Using Conditional Access",
+      "distractors": ["Countries", "Public IPs"],
+      "key": "Public IPs or countries",
+      "moduleId": "b6951d9f-483f-4062-bea6-c94bbb55b003",
+      "stem": "What defines locations in conditional access?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "2264b346-45b6-42d2-b235-20028a2cb990",
+      "clipId": "3a6daa72-76cd-4463-af11-be2fd2897656",
+      "clipTitle": "Roles Overview",
+      "distractors": ["Reader", "Owner"],
+      "key": "Contributor",
+      "moduleId": "b6951d9f-483f-4062-bea6-c94bbb55b003",
+      "stem": "What role gives full access to objects but cannot change the permissions?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "152b1c1e-5e3f-4707-bdcb-06f82203cac4",
+      "clipId": "39b734dd-8148-49c2-8254-0b6eb3758d39",
+      "clipTitle": "Sources for Azure AD Users",
+      "distractors": ["AD FS", "Azure AD"],
+      "key": "AD DS",
+      "moduleId": "296bc597-3f62-4c9e-bb91-178655d2d627",
+      "stem": "What is the typical source of users for most established organizations?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "baa2a13c-c650-4e3a-85e7-eb4d58df52b1",
+      "clipId": "0cac2f53-bf72-4c84-8d48-98fa4befd512",
+      "clipTitle": "RBAC and Custom Roles",
+      "distractors": ["Actions and Denials", "Abilities and Blocked", "Permissions and Denials"],
+      "key": "Actions and NotActions",
+      "moduleId": "f47157b8-93e0-4eeb-af65-686e8cd4a5b2",
+      "stem": "Which fields in a custom role define what a role is allowed to do?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "56da59a3-7345-4abd-81fc-0adde363b5b6",
+      "clipId": "52ba8dc1-9ec5-4761-ad9c-056147f82b09",
+      "clipTitle": "Introduction to Cloud Computing",
+      "distractors": ["Fault tolerance", "Economies of scale", "High availability"],
+      "key": "Disaster recovery",
+      "moduleId": "6bdb5d7c-67ba-47e2-b10f-f2176ae51f65",
+      "stem": "What is the industry term to plan for business continuity in case of a major event such as an earthquake?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "3a32ce45-b20b-4a1a-b441-52dc24ab4625",
+      "clipId": "6585e2f9-bd46-4ef0-bc33-4ce69728c6d0",
+      "clipTitle": "Manage Service Principals",
+      "distractors": ["az ad service-principal", "az sp"],
+      "key": "az ad sp",
+      "moduleId": "59ebafd6-cf48-4e33-9b4a-1be3fb17aac2",
+      "stem": "What Azure CLI command subgroup lets you work with service principals?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "dfd49ebd-c24a-4112-9a90-a0a58b0041f0",
+      "clipId": "107737d1-b0af-4576-ae89-28ae048ee47e",
+      "clipTitle": "App Walkthrough",
+      "distractors": ["Auth Code", "Device Code"],
+      "key": "ROPC",
+      "moduleId": "e850b6ac-cadc-4ef4-9db9-35e7209e520b",
+      "stem": "Which of the following flows isn't recommended?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "8c430b39-3287-4953-97c6-b98e441a5e7e",
+      "clipId": "39babbf1-2e3d-48e4-b1cd-b31384fa28c2",
+      "clipTitle": "Creating a Function App in the Portal",
+      "distractors": [
+        "Function Plan or Standard Plan",
+        "Serverless Plan or Dynamic Plan",
+        "Azure Plan or Docker Plan"
+      ],
+      "key": "Consumption Plan or App Service Plan",
+      "moduleId": "9b94e8d0-0503-4d04-b324-11fc2baac008",
+      "stem": "When you create a new Azure Function app in the portal, which App Service Plan types can you choose between?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "f6b4e7f7-8057-46a8-a7b4-dc1941334c5b",
+      "clipId": "23815599-d622-4c97-9e32-3b7c9a2d5a40",
+      "clipTitle": "Supported Languages in Azure Functions",
+      "distractors": [
+        "Script files (.csx) can only use HTTP triggers, while class libraries can use all trigger types",
+        "Script files (.csx) only work on the consumption plan, while class libraries can work on all plans",
+        "Script files (.csx) can't access NuGet packages, while class library functions can"
+      ],
+      "key": "Script files (.csx) are compiled on the fly, while class library functions are compiled in advance to a .dll",
+      "moduleId": "33fe470c-f94f-424d-9a6b-fa5e269433ed",
+      "stem": "What is the difference between creating C# functions as a \"class library\" or a \"script file\"?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "f3f8eb34-b476-4ee8-aa1b-cfadf3496a4e",
+      "clipId": "1d2921f4-139c-4831-9efe-30a3ccbe2223",
+      "clipTitle": "Demo: Setting up Transactional Replication",
+      "distractors": [
+        "Peer to Peer and Merge Replication are supported.",
+        "The distributor can be an Azure SQL Database.",
+        "Pull subscriptions are supported."
+      ],
+      "key": "Snapshot and transactional replication are supported.",
+      "moduleId": "d6f95092-930f-42ff-a35f-b09bcd404d6e",
+      "stem": "Which of the following is true about replication between SQL Server and Azure SQL Database?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "feec982a-ed0b-4b7e-8290-367f08dafc33",
+      "clipId": "e1bb7cec-a55e-4fb8-a353-0fa03a10eb1c",
+      "clipTitle": "Demo: Queue Trigger, Blob Output",
+      "distractors": [
+        "`myContainer/[rand-guid]`",
+        "`myContainer/<rand-guid>`",
+        "`myContainer/%rand-guid%`"
+      ],
+      "key": "`myContainer/{rand-guid}`",
+      "moduleId": "bc276fa3-451a-41d9-9421-e7c9d655bb16",
+      "stem": "What path binding syntax allows you to create a blob with a random GUID as a filename?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "7ac73383-be6d-4ae2-afc2-498ee52bb79e",
+      "clipId": "8df8082f-6749-4309-8dad-6960dab15561",
+      "clipTitle": "Database Transaction Units",
+      "distractors": [
+        "Available isolation levels in the database",
+        "Point-in-time recovery of the database",
+        "Amount of indexes in the database"
+      ],
+      "key": "IO Capacity of the database",
+      "moduleId": "1dff85f2-9f15-4af0-ae67-8b154cb7f44c",
+      "stem": "Database Transaction Units control which of the following?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "6f9ea130-37b1-4a0e-8665-dad90a4256af",
+      "clipId": "346e90d7-8cb8-4a49-a564-0e609127cc75",
+      "clipTitle": "Deployment Options",
+      "distractors": ["Git API", "Upload API", "Function Deployment API"],
+      "key": "Kudu API",
+      "moduleId": "ffe07892-6d2a-4d9e-87e8-2367e88757aa",
+      "stem": "What is the name of the API that allows you to deploy an Azure Function as a zip file?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "e2940cf6-d85b-4129-94bf-37ec21ec1737",
+      "clipId": "4f0d4f99-d80f-474c-bfcd-5f729c792428",
+      "clipTitle": "What Is Modern Authentication?",
+      "distractors": ["SAML", "ADAL"],
+      "key": "MSAL",
+      "moduleId": "8ec0c697-7bbf-4c9f-a8b6-b6141d1c1563",
+      "stem": "What library do we use with Azure AD to be OpenID Connect compliant?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "034ad1f2-0b52-489f-9fbc-06ee557262b0",
+      "clipId": "876eb1cf-6a9d-4797-af90-e8a7a07c6918",
+      "clipTitle": "Manage User Permissions",
+      "distractors": [
+        "You can only assign roles during user creation",
+        "You have to put the user in a group"
+      ],
+      "key": "You can assign roles to the user",
+      "moduleId": "21e59445-ecc5-4eab-9fdf-a69e099a5324",
+      "stem": "How can you assign permissions to a single user?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "f7e2de38-beb0-404e-9eb1-08b5e5fe712d",
+      "clipId": "a29fa5c5-1c64-43c3-b190-0432944e25e9",
+      "clipTitle": "Deploying an Azure Kubernetes Service AKS) Cluster",
+      "distractors": ["docker start", "docker createimage", "docker convertoimage", "docker run"],
+      "key": "docker build",
+      "moduleId": "76dd6e64-7f0f-4230-9b46-c532c8e2b0e9",
+      "stem": "Which of the following Docker command is used to build a Container Image?",
+      "stemImageUrl": null,
+      "courseId": "b9ad1d9c-0229-4ef5-a467-2d21e108cefc"
+    },
+    {
+      "questionId": "0c3a6b96-8987-445c-b0e1-ac39052bc246",
+      "clipId": "3ad9d91d-9b72-4c1b-9d86-8cab1dceb852",
+      "clipTitle": "Demo: Creating a Dockerfile",
+      "distractors": ["func create dockerfile", "func new docker", "func dockerfile"],
+      "key": "func init --docker",
+      "moduleId": "2fe3d207-1ef7-40cd-ada9-de54b3f92d96",
+      "stem": "What Azure Functions Core Tools command line can be used to auto generate a Dockerfile?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "38da2ced-0d78-4517-a4d9-4ff822fc8207",
+      "clipId": "8afbf235-ee1c-496f-abad-71364b17a1f9",
+      "clipTitle": "Demo: Running a Container Locally",
+      "distractors": [
+        "-i AppSettingName=AppSettingValue",
+        "-p AppSettingName=AppSettingValue",
+        "-a AppSettingName=AppSettingValue"
+      ],
+      "key": "-e AppSettingName=AppSettingValue",
+      "moduleId": "2fe3d207-1ef7-40cd-ada9-de54b3f92d96",
+      "stem": "What argument to  `docker run` can be used to set an application setting for our Function App?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "d81c94f0-0e59-4835-b414-981c2c5d9bf1",
+      "clipId": "9e22fcbe-1226-414f-9fc8-bf94df26a3a2",
+      "clipTitle": "Types of Cloud Computing Services",
+      "distractors": ["Azure Storage", "Azure Compute", "Microsoft Teams"],
+      "key": "Azure Logic Apps",
+      "moduleId": "332f4df5-7d15-4919-a855-c22a3bbb22d9",
+      "stem": "What Microsoft product is considered a Platform as a Service  (PaaS)?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "0f0b306e-e0e9-457d-b482-074f303aa12d",
+      "clipId": "8617315a-bbd8-4b41-9445-c791e9d80d8a",
+      "clipTitle": "Demo: Blob Trigger, SendGrid Output",
+      "distractors": ["Cosmos DB", "Table Storage", "Service Bus"],
+      "key": "SendGrid",
+      "moduleId": "bc276fa3-451a-41d9-9421-e7c9d655bb16",
+      "stem": "Which Azure Functions output binding allows you to send emails easily?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "3448c916-570c-4714-981f-5c31136e27e9",
+      "clipId": "af123a1b-a074-4ab3-8973-42db50a5e86b",
+      "clipTitle": "Demo - Creating a Starter Function",
+      "distractors": [
+        "`InitiateWorkflowAsync`",
+        "NewOrchestrationAsync",
+        "`BeginOrchestrationAsync`"
+      ],
+      "key": "StartNewAsync",
+      "moduleId": "63aa8d2a-a381-44d5-92e0-f53f58f47f2a",
+      "stem": "What is the method on DurableOrchestrationClient  that initiates a new orchestration?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "b6c9bac0-180a-4a47-9fbc-a4582545cd60",
+      "clipId": "309b0c06-cf05-454a-a6bd-d4bc852c318f",
+      "clipTitle": "Differences with SQL Server",
+      "distractors": [
+        "The Errorlog is found by querying the sys.error_log view.",
+        "The Errorlog can be found on the server blade on the Azure Portal.",
+        "The Errorlog can be found on the Azure Storage account tied to the database."
+      ],
+      "key": "The closest equivalent is querying sys.event_log view.",
+      "moduleId": "37fc1eec-2a92-4d40-b8fa-e419e740676c",
+      "stem": "How can you access the equivalent of the SQL Server Errorlog on Azure SQL Database?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "2226e8a1-fe34-4623-8a73-01f047d2ddad",
+      "clipId": "a15f2713-07af-43c2-a064-b64da9ee6550",
+      "clipTitle": "Demo: Service Manifest",
+      "distractors": ["Service descriptor", "Microservice register", "Fabric definition"],
+      "key": "Application manifest",
+      "moduleId": "53d97948-2b25-4057-a849-418ed080c962",
+      "stem": "In what XML file is a Service Fabric microservice application defined?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "8b152f06-d537-4efb-b7f2-4f58a0043c39",
+      "clipId": "f6b40b3e-26a3-44a6-9512-82835ff6f58d",
+      "clipTitle": "Integrate Event Grid with Event Hub",
+      "distractors": ["event streaming", "telemetry data processing", "data visualization"],
+      "key": "reactive programming",
+      "moduleId": "7db731aa-7dcc-4bf1-b2c2-7c832e9ae0f9",
+      "stem": "Choose Event Grid for ______________.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "786e3a2a-0e58-46a8-898c-045366f47782",
+      "clipId": "9de648c1-45ff-40e3-b12f-bb64a0938ac7",
+      "clipTitle": "Kubernetes Objects",
+      "distractors": [
+        "A tool to manage SSRS Reports",
+        "A command line tool to purge unused Docker containers",
+        "A tool to calculate cube of an Integer",
+        "A Big Data ETL Tool"
+      ],
+      "key": "A command line tool to interact with Kubernetes API Server",
+      "moduleId": "b0e58efb-ce07-4b74-8436-819995c8a572",
+      "stem": "What is kubectl?",
+      "stemImageUrl": null,
+      "courseId": "b9ad1d9c-0229-4ef5-a467-2d21e108cefc"
+    },
+    {
+      "questionId": "38cfa4b6-f17c-43ca-812a-a4dfce5a5cb6",
+      "clipId": "55cdf72a-d7eb-4f39-bfde-dcedfead6b09",
+      "clipTitle": "Demo: Create Todo",
+      "distractors": ["CREATE", "PATCH", "GET"],
+      "key": "POST",
+      "moduleId": "0f4e0fe6-1220-418d-828b-9f3a1f02ba9c",
+      "stem": "What is the standard HTTP method used in a REST API when you want to create a new resource?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "fe338177-d57f-4525-b291-752d3ef2256a",
+      "clipId": "2d568d49-3a1f-4fec-9b92-07b2cf587699",
+      "clipTitle": "Containers, Serverless, and More",
+      "distractors": ["Azure Kubernetes Services", "Azure Virtual Machines", "Azure App Services"],
+      "key": "Azure Logic Apps",
+      "moduleId": "9c0e96bd-a914-430c-9512-d3044849ab3a",
+      "stem": "What is an example of serverless computing?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "945c224c-d079-4466-88e8-d759438168ab",
+      "clipId": "1fc4417d-9314-43d7-91cd-b85356221e49",
+      "clipTitle": "Cancelling Workflows",
+      "distractors": [
+        "Restart your function app.",
+        "Send an \"exit\" event to the workflow.",
+        "Call the /cancel REST API endpoint for the orchestration."
+      ],
+      "key": "Call the /terminate REST API endpoint for the orchestration.",
+      "moduleId": "2402cc23-2ff0-432f-9311-636831bcea22",
+      "stem": "How can you cancel a running orchestration?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "e480a688-d00b-4543-a020-f44b6de5dab3",
+      "clipId": "c8a18177-bfbc-4299-942e-0a347472ea66",
+      "clipTitle": "Azure Functions Core Tools",
+      "distractors": [
+        "Azure Functions Dev Tools",
+        "Azure Functions Command Line",
+        "Azure Functions CLI"
+      ],
+      "key": "Azure Functions Core Tools",
+      "moduleId": "33fe470c-f94f-424d-9a6b-fa5e269433ed",
+      "stem": "What is the name of the tools that can be used to develop Azure Functions from the command line?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "06e0b3ae-4a4c-4c11-91a7-5aa67eef30d5",
+      "clipId": "e1bb7cec-a55e-4fb8-a353-0fa03a10eb1c",
+      "clipTitle": "Demo: Queue Trigger, Blob Output",
+      "distractors": ["app.settings.json", "dev.settings.json", "my.settings.json"],
+      "key": "local.settings.json",
+      "moduleId": "bc276fa3-451a-41d9-9421-e7c9d655bb16",
+      "stem": "What file can be used to specify the application settings to use when you are running locally?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "f88e2fcb-7b73-462a-8cf8-2d8a7908b26b",
+      "clipId": "73dab83e-66b8-4ccb-960d-781c2ce502e5",
+      "clipTitle": "Demo: Creating a Function",
+      "distractors": ["[WebHookTrigger]", "[WebRequestTrigger]", "[HttpRequestTrigger]"],
+      "key": "[HttpTrigger]",
+      "moduleId": "e5ccc296-c6f8-4e3d-97b9-4717a5d0c26b",
+      "stem": "Which of these attributes identifies a C# function as being triggered by an incoming HTTP web request?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "88e5e38c-ca28-42ba-a6c8-816154a86720",
+      "clipId": "b3011b3e-9576-4c07-aab1-a17161a26863",
+      "clipTitle": "Demo: Docker Run",
+      "distractors": ["`docker\nexec`", "`docker\nstart`", "`docker\ncontainer`"],
+      "key": "`docker\nrun`",
+      "moduleId": "ac3e28d9-13a0-4228-9e56-b2650b305db5",
+      "stem": "What Docker command allows us to create a new container from an image?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "475cfdb1-d245-496d-b44f-a9ebbb0b6ecb",
+      "clipId": "50f8c4c6-f3d9-4eec-8d3c-bcf457e8b7d9",
+      "clipTitle": "Demo: Advanced Control Flow Policy",
+      "distractors": ["ProxyHelper", "APIHandler", "HttpRequest"],
+      "key": "Context",
+      "moduleId": "f50d9c0d-c55e-48fd-84a1-479a189136c9",
+      "stem": "Which policy expression object provides all relevant information pertaining to an API request?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "a659f223-07dc-4ffc-89f9-56da404de961",
+      "clipId": "48cbd763-837e-41ff-b8c8-ddf95a76c511",
+      "clipTitle": "Create a Service Principal",
+      "distractors": ["--allow-no-subscriptions", "--no-subscriptions", "login-no-subscription"],
+      "key": "login",
+      "moduleId": "59ebafd6-cf48-4e33-9b4a-1be3fb17aac2",
+      "stem": "What flag do you pass into Azure CLI to login when you have no subscriptions?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "281f25ff-cd2b-4ab5-ada3-ae83d4aaec27",
+      "clipId": "846d7b11-cb4c-45cd-9b18-6463b4a130c0",
+      "clipTitle": "Differentiating Logic Apps from Related Azure Products",
+      "distractors": ["IoT Hub", "App Service", "Function Apps"],
+      "key": "Logic Apps",
+      "moduleId": "75aa3ab1-23c6-4c7b-8e54-ea39b05dfc94",
+      "stem": "Microsoft Flow is an abstraction layer built on top of Azure:",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "e1185f86-4bd5-4380-a05f-6991aebcd385",
+      "clipId": "a0b36d6c-4db1-4cde-b91e-6a51b1c5dea6",
+      "clipTitle": "Management and Data Planes",
+      "distractors": ["Control plane", "Access plane", "Management plane"],
+      "key": "Data plane",
+      "moduleId": "f47157b8-93e0-4eeb-af65-686e8cd4a5b2",
+      "stem": "Which plane is used to secure the contents of Azure Key Vault?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "f9808aa9-a65f-4446-a989-0ac6f928e918",
+      "clipId": "4ee16284-71a9-4fcc-a1f2-bda9b59d78ba",
+      "clipTitle": "Demo: JSON to XML Policy",
+      "distractors": ["Caching policies", "Authentication policies"],
+      "key": "Transformation policies",
+      "moduleId": "f50d9c0d-c55e-48fd-84a1-479a189136c9",
+      "stem": "What kind of policy should you use to convert a response body from JSON to XML?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "74688a5b-fd81-439f-ac0e-ce5f33cdc17d",
+      "clipId": "a675e948-0415-46d6-bf40-6c92baac7144",
+      "clipTitle": "Running Code in Azure",
+      "distractors": ["Azure Application Insights", "Azure Data Lake", "Azure Cosmos DB"],
+      "key": "Azure Web Apps and Web Jobs",
+      "moduleId": "6b83c3a6-8180-40f9-b498-0ef3628cac0f",
+      "stem": "On top of which existing Azure service is Azure Functions built?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "ea83c21a-1a01-48f0-80d9-30121bd3ac77",
+      "clipId": "720fd8c8-f430-440d-b64e-4f1e25540698",
+      "clipTitle": "App Management from CLI",
+      "distractors": ["az ad application", "az ad sp", "az app"],
+      "key": "az ad app",
+      "moduleId": "e850b6ac-cadc-4ef4-9db9-35e7209e520b",
+      "stem": "What commandlet in Azure AD allows you to manage apps?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "e904c5cf-4cbc-4590-b0d4-4ae895c749ad",
+      "clipId": "c597520b-0156-4eab-a4e4-89cb3af16392",
+      "clipTitle": "Key Vault Keys",
+      "distractors": ["3DES and AES", "AES and RSA", "RSA and SHA"],
+      "key": "RSA and Elliptic Curve",
+      "moduleId": "2bff8526-a069-44b9-b0cb-93098607349c",
+      "stem": "What are the two algorithms supported for encryption on Azure Key Vault Keys?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "0f29f6b6-7fa3-46ab-82de-90ff01151dd6",
+      "clipId": "84c7262a-eee7-4e7b-a58c-90cea05e82ef",
+      "clipTitle": "Demo: Configuring Proxies",
+      "distractors": ["proxies.txt", "proxies.dat", "proxies.xml"],
+      "key": "proxies.json",
+      "moduleId": "ffe07892-6d2a-4d9e-87e8-2367e88757aa",
+      "stem": "What is the name of the file that defines Azure Functions proxies?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "2ee49b05-2965-4823-9bb0-8e6c9662cb03",
+      "clipId": "c87ba9fd-c581-438b-bebc-32630b49a2d7",
+      "clipTitle": "Securing Azure SQL Database",
+      "distractors": [
+        "Make sure Always Encrypted is turned off.",
+        "Double check your server administrator's credentials.",
+        "Make sure the Azure Active Directory account is set properly."
+      ],
+      "key": "Log in to Azure portal and white list your IP in the database firewall.",
+      "moduleId": "e35c7cc7-8ffa-4534-8834-2f3912d14274",
+      "stem": "You have provisioned an Azure SQL Database instance. However, you can not connect to the database from your local SQL Server Management Studio (SSMS). What is the first thing you check?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "c5dded69-f910-44b0-807a-cc101c645ef3",
+      "clipId": "dfba82d9-22d0-4e4f-9761-db731210059f",
+      "clipTitle": "Installing Docker",
+      "distractors": ["YAML and JSON", "Kubernetes and Service Fabric", "32 bit and 64 bit"],
+      "key": "Windows and Linux",
+      "moduleId": "ac3e28d9-13a0-4228-9e56-b2650b305db5",
+      "stem": "What two modes can Docker for Windows switch between?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "e753edfe-3aad-4082-bb1e-beefeb8947d6",
+      "clipId": "27876067-69b6-4f2b-9e0e-f39dda166618",
+      "clipTitle": "Demo: Deploying as a Docker Container",
+      "distractors": ["func new docker", "func docker init", "func create dockerfile"],
+      "key": "func init --docker",
+      "moduleId": "49c610b4-f3d1-4675-be50-40176d891255",
+      "stem": "How can you get the Azure Functions Core Tools to generate a Dockerfile for your Function App?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "4b542d6a-287e-444b-9c5c-69667cf1a80d",
+      "clipId": "315bd680-cf34-459a-bef7-dd81a60fb4e8",
+      "clipTitle": "What Other Services Can I Integrate With?",
+      "distractors": ["Application Identity", "Function Service Principal", "Function Identity"],
+      "key": "Managed Identity",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "What Azure Functions feature can be enabled to create an Azure Active Directory Service Principal that represents your Function App in Azure?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "0fd80e82-2264-4011-b61d-841ea2c5d0f7",
+      "clipId": "baf0f165-9de1-4c5c-b496-552cbb4f3a27",
+      "clipTitle": "Azure SQL Database Deployment Options",
+      "distractors": [
+        "Elastic pool",
+        "Single database",
+        "Do a lift and shift to an infrastructure-as-a-service (IaaS) virtual machine (VM)"
+      ],
+      "key": "Managed instance",
+      "moduleId": "ac028f5a-3d44-474c-937c-7fc86fc2fecd",
+      "stem": "You are migrating several on-premises databases to Azure SQL Database. You must be sure that the least amount of code changes are required. Which deployment option would you choose?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "151b5ab1-146d-439e-8790-405354e8285c",
+      "clipId": "2a8bdd47-b494-44a0-b618-6e57929ca4cb",
+      "clipTitle": "Exploring Data Storage Options",
+      "distractors": [
+        "A database monitoring tool that can work across different types of databases",
+        "Blob storage in Azure",
+        "A replacement for SQL Server to build relational databases"
+      ],
+      "key": "A multi-model, globally distributed database offering",
+      "moduleId": "193db0d5-a614-4584-8bc4-67c77c07fc8b",
+      "stem": "What is Azure Cosmos DB?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "1017eb95-e4e8-485d-8df6-155ced18ab62",
+      "clipId": "d2e65c72-af2a-4d0b-adc3-0f6bb2528a75",
+      "clipTitle": "Monitoring Durable Functions",
+      "distractors": ["APP_INSIGHTS_ENABLED", "APP_INSIGHTS_LOGGINGKEY", "ENABLE_APPINSIGHTS"],
+      "key": "APPINSIGHTS_INSTRUMENTATIONKEY",
+      "moduleId": "6a71b58d-893c-4188-ab56-f783e59ed3f7",
+      "stem": "What is the name of the application setting you need to create to enable Application Insights?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "4d1450e2-e1e9-43b5-a36d-88ac459acb40",
+      "clipId": "2ee6b671-4453-4aa7-a11f-f40825a69524",
+      "clipTitle": "Demo: Creating a Function App in Visual Studio",
+      "distractors": [
+        "v1 doesn't support triggers and bindings",
+        "v1 only runs on Linux; v2 only runs on Windows",
+        "v1 is for JavaScript functions; v2 is for C# functions"
+      ],
+      "key": "v1 is based on the .NET Framework; v2 is based on .NET Standard",
+      "moduleId": "e5ccc296-c6f8-4e3d-97b9-4717a5d0c26b",
+      "stem": "What is the difference between v1 and v2 of the Azure Functions Runtime?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "ae0e6cd6-385b-4a92-8ce0-c83b4ceb387c",
+      "clipId": "5fac932e-aea7-4563-bcc4-a343700f7aaa",
+      "clipTitle": "Ways to Deploy Azure Functions",
+      "distractors": [
+        "func azure deploy zip",
+        "func azure push functionapp",
+        "func azure zip publish"
+      ],
+      "key": "func azure functionapp publish",
+      "moduleId": "49c610b4-f3d1-4675-be50-40176d891255",
+      "stem": "What Azure Functions Core Tools command can be used to publish your zipped up Function App code?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "db8641d3-8832-4247-a2ae-3cfdbe52338a",
+      "clipId": "923b61a9-1ea0-4bf0-ac62-e88881f01f42",
+      "clipTitle": "Reviewing Integration Examples",
+      "distractors": [
+        "It is a host for serverless code",
+        "It is built to message between Azure services",
+        "It provides workflow capabilities to an integration"
+      ],
+      "key": "It connects clients to services across complicated network boundaries",
+      "moduleId": "fe354c93-05da-4ce0-9fcb-b60e2aaa64fc",
+      "stem": "What is the benefit of the Service Bus Relay?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "31a8cc9c-ea1d-48d6-8cbf-5b694e94fc52",
+      "clipId": "5d5878e3-6a59-4616-9e06-52d53eadebc4",
+      "clipTitle": "Key Durable Function Concepts",
+      "distractors": ["`[DurableClient]`", "`[OrchestrationStarter]`", "`[WorkflowStarter]`"],
+      "key": "`[OrchestrationClient]`",
+      "moduleId": "5d952ff8-204f-4138-a70e-700ea9073758",
+      "stem": "What binding do you need to start a new orchestration?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "cb06c59b-c6be-41e0-ac00-86fbe9a4a649",
+      "clipId": "73dab83e-66b8-4ccb-960d-781c2ce502e5",
+      "clipTitle": "Demo: Creating a Function",
+      "distractors": [
+        "return new HttpResult(200, myData);",
+        "return new SuccessResult(myData);",
+        "return new OkResult(myData);"
+      ],
+      "key": "return new OkObjectResult(myData);",
+      "moduleId": "e5ccc296-c6f8-4e3d-97b9-4717a5d0c26b",
+      "stem": "Which of these responses enables you to return a HTTP 200 OK with a JSON serialized body?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "e448cebb-7925-47a7-89a0-fe9556d0b5bf",
+      "clipId": "11877649-889e-4153-8396-e5605afbec69",
+      "clipTitle": "Integration with HRM",
+      "distractors": ["AD FS", "Azure AD"],
+      "key": "AD DS",
+      "moduleId": "296bc597-3f62-4c9e-bb91-178655d2d627",
+      "stem": "Where do accounts initially get created on the corporate identity infrastructure as part of the provisioning from a HRM integrated with Azure AD?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "62b8ad8a-3fd5-47bb-8926-e017c3906d34",
+      "clipId": "05e2a133-473d-4488-9374-c3bff33db3d2",
+      "clipTitle": "Demo: Use Event Grid",
+      "distractors": ["dashboard", "data sink", "timer"],
+      "key": "trigger",
+      "moduleId": "7db731aa-7dcc-4bf1-b2c2-7c832e9ae0f9",
+      "stem": "An Azure Function app can use an Event Grid topic as a(n)___________.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "762e7b55-8123-4587-8f80-881c8d78d519",
+      "clipId": "d10fe3ab-054c-4717-9fb6-d09df68a55aa",
+      "clipTitle": "Policy Statements",
+      "distractors": ["set-header", "set-status", "set-variable"],
+      "key": "choose",
+      "moduleId": "f50d9c0d-c55e-48fd-84a1-479a189136c9",
+      "stem": "Which policy element is similar to 'switch' statement in traditional programming languages?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "9733d05b-d1fe-404f-8bff-78efd109f586",
+      "clipId": "22fd72de-c9d3-4bbc-87e5-c13a16882ad0",
+      "clipTitle": "Password Changes with Azure AD",
+      "distractors": ["It depends on preference configured", "Azure AD policy"],
+      "key": "AD policy",
+      "moduleId": "296bc597-3f62-4c9e-bb91-178655d2d627",
+      "stem": "When an account is synchronized from AD, which password policy takes effect?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "b7846204-e0db-48be-93b2-3c5582343b62",
+      "clipId": "8d3b90e3-2f71-4c9d-86ea-5dc103b164a0",
+      "clipTitle": "Demo: Monitoring Cost",
+      "distractors": ["Function DTUs", "Function Invocation Units", "Function Transactions"],
+      "key": "**Function Execution Units**",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "What metric can we view in the Azure portal to track the usage of our Function App in GB-s?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "56dee6a1-49fe-4246-9d61-4c9397653e52",
+      "clipId": "43b94764-7bee-467e-a5af-93434426df3d",
+      "clipTitle": "Development Environments",
+      "distractors": ["PHP", "Delphi", "C++"],
+      "key": "C#",
+      "moduleId": "eb5e98f5-3490-41bb-a316-2395a6432139",
+      "stem": "Which of the following languages is an officially supported language for Azure Functions?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "e26e6ac8-7683-4628-97be-00ef8fb245a2",
+      "clipId": "d60d23d1-dc5a-4865-8ac9-6eca32b772e0",
+      "clipTitle": "Fan-out Fan-in Pattern",
+      "distractors": ["Expand/Contract", "Disperse Unite", "Spread Collect"],
+      "key": "MapReduce",
+      "moduleId": "14627f90-b89b-4184-959b-f1b54f64a2bf",
+      "stem": "What is another commonly used name for the \"fan-out fan-in\" pattern?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "ff855485-298d-4a75-97ee-78463b27066e",
+      "clipId": "4595b426-0690-44e6-8464-3cf48fccec17",
+      "clipTitle": "Policy Expressions",
+      "distractors": ["JavaScript", "C++", "VB"],
+      "key": "C#",
+      "moduleId": "f50d9c0d-c55e-48fd-84a1-479a189136c9",
+      "stem": "Which programming language can be used to compose policy expressions?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "39d287e3-604f-4564-8c15-07c4a1a79233",
+      "clipId": "d42bd714-8448-4ad7-bcde-d42651cedcdd",
+      "clipTitle": "Messaging Benefits",
+      "distractors": ["load leveling", "FIFO delivery", "how the data is handled"],
+      "key": "synchronous processing",
+      "moduleId": "834c3615-1ef5-4fa4-98a1-cc4f03933454",
+      "stem": "In Azure messaging architecture, \"temporal decoupling\" means that the data publisher and the subscriber do not have expectation of:",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "0aa6f2a5-53ee-4d3b-94a1-3cbbede4cca3",
+      "clipId": "7c373708-333e-48da-9a50-83f02d8aba4f",
+      "clipTitle": "Demo: Using the Azure Functions Core Tools",
+      "distractors": ["func begin", "func app", "func create"],
+      "key": "func init",
+      "moduleId": "2a9e4073-6ec8-4a43-bf58-844b3dbe4379",
+      "stem": "What Azure Functions Core Tools command can be used to create a new function app?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "ff3bbe26-c7ff-4d51-9380-249258a65409",
+      "clipId": "07e02681-4e47-4be6-80a8-c60131b40cee",
+      "clipTitle": "Demo: Queue Output Binding",
+      "distractors": ["out CloudQueueMessage", "IAsyncQueueMessageSender<T>", "out string"],
+      "key": "IAsyncCollector<T>",
+      "moduleId": "33fe470c-f94f-424d-9a6b-fa5e269433ed",
+      "stem": "Which of these options for binding to an output queue message is supported in an asynchronous function?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "944c736b-52e3-4dc6-9316-890a14e7d05b",
+      "clipId": "786f46f4-d84a-4773-b494-ff62b7e50c2d",
+      "clipTitle": "Azure Event Hub Features",
+      "distractors": ["topic", "relay", "queue"],
+      "key": "namespace",
+      "moduleId": "8224f00c-1b3f-4d73-8d3d-d6ccd44fc6e6",
+      "stem": "What is the top-level container in Azure Event Hubs?",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "047c209a-fbea-440b-9662-ec219fbab01f",
+      "clipId": "f7feb2ce-12b3-42f9-9dfc-379e0bae15b6",
+      "clipTitle": "Certificate Demonstration",
+      "distractors": ["External", "Local", "Self"],
+      "key": "Unknown",
+      "moduleId": "2bff8526-a069-44b9-b0cb-93098607349c",
+      "stem": "Which IssuerName should be used when creating a certificate in Azure Key Vault with an on-premises certificate authority?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "936959dc-4fe4-4822-99c6-588d816d231d",
+      "clipId": "48d25659-4687-4d34-a2eb-2fc4baa6ca31",
+      "clipTitle": "Introducing Azure Kubernetes Service",
+      "distractors": [
+        "Azure Kubernetes Spaces",
+        "Azure Container Dev",
+        "Azure Kubernetes Developer"
+      ],
+      "key": "Azure Dev Spaces",
+      "moduleId": "286fe99f-8dd8-4607-91ec-6dcb6ce0ed06",
+      "stem": "What service allows developers to easily deploy and debug their code in AKS directly from within developer tools?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "71a69bbf-bc14-4a65-ae75-9ed54cfbc4f3",
+      "clipId": "3fe4995b-1be8-4436-8b62-da2b2ee16b5b",
+      "clipTitle": "Exploring the Function App",
+      "distractors": [
+        "FUNCTIONS_EXTENSION_VERSION = v2",
+        "FUNCTIONS_EXTENSION_VERSION = 2.0",
+        "FUNCTIONS_EXTENSION_VERSION = 2"
+      ],
+      "key": "FUNCTIONS_EXTENSION_VERSION = ~2",
+      "moduleId": "9b94e8d0-0503-4d04-b324-11fc2baac008",
+      "stem": "In the Function App's Application Settings, what value of FUNCTIONS_EXTENSION_VERSION indicates that we are using version 2 of Azure Functions",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "e74334f5-5e0c-4548-9de2-900d568e9e6f",
+      "clipId": "dfa962ec-0a6f-4072-b9d8-77d0cdf6da29",
+      "clipTitle": "Some History",
+      "distractors": [
+        "The protocol is insecure",
+        "The protocol does not allow identity forwarding"
+      ],
+      "key": "The protocol is very chatty",
+      "moduleId": "8ec0c697-7bbf-4c9f-a8b6-b6141d1c1563",
+      "stem": "Why is Kerberos unsuitable for internet scale?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "461bf6ed-5e32-4d18-98a1-c1e307a11c2e",
+      "clipId": "c8a18177-bfbc-4299-942e-0a347472ea66",
+      "clipTitle": "Azure Functions Core Tools",
+      "distractors": ["func start", "func app", "func scaffold"],
+      "key": "func init",
+      "moduleId": "33fe470c-f94f-424d-9a6b-fa5e269433ed",
+      "stem": "What Azure Functions Core Tools command can be used to create a new Function App?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "10badcb6-3091-496f-a368-11b53ecdcf12",
+      "clipId": "b1a1bc47-36b9-4aa3-8347-00ba6a916272",
+      "clipTitle": "Automated Deployment",
+      "distractors": ["Kloudu", "Codu", "Zipu"],
+      "key": "Kudu",
+      "moduleId": "6a71b58d-893c-4188-ab56-f783e59ed3f7",
+      "stem": "Which Azure App Service API allows you to deploy your function app as a zip?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "96ca74d7-c082-4cd5-81f3-b14bb1d38116",
+      "clipId": "50c1fbf1-ce5e-4f79-bd6e-8d807ef084b5",
+      "clipTitle": "Demo: Pushing an Image to Azure Container Registry",
+      "distractors": ["`docker\nregistry`", "`docker\nstore`", "`docker\nupload`"],
+      "key": "`docker\npush`",
+      "moduleId": "7bfc895c-e28e-405e-86db-1f511370a1c6",
+      "stem": "What Docker command allows you to upload an image to a container registry?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "a361d417-0380-44a5-8aca-991cd386e2c3",
+      "clipId": "786f46f4-d84a-4773-b494-ff62b7e50c2d",
+      "clipTitle": "Azure Event Hub Features",
+      "distractors": ["SAS tokens", "consumer groups", "partitions"],
+      "key": "topics",
+      "moduleId": "8224f00c-1b3f-4d73-8d3d-d6ccd44fc6e6",
+      "stem": "An Azure Event Hub can subscribe to Apache Kafka _______.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "e42b28bc-17ee-4afd-8a93-bfb762c087bf",
+      "clipId": "2d8cdbc4-e2bf-4862-8adc-4ac5cee57edb",
+      "clipTitle": "Updating the Application",
+      "distractors": [
+        "Use the \"kubectl get service --showprogress\" command",
+        "Use the \"kubectl get service --inform\" command",
+        "Use the \"kubectl get service --notify\" command",
+        "Use the \"kubectl get service --monitor\" command"
+      ],
+      "key": "Use the  \"kubectl get service --watch\" command",
+      "moduleId": "76dd6e64-7f0f-4230-9b46-c532c8e2b0e9",
+      "stem": "How can you monitor the progress of a Kubernetes Service deployment?",
+      "stemImageUrl": null,
+      "courseId": "b9ad1d9c-0229-4ef5-a467-2d21e108cefc"
+    },
+    {
+      "questionId": "92d1de39-e77d-4a04-b71b-7451077e8a4a",
+      "clipId": "fc8ffc08-e0f1-40db-8d8c-aec45c0dbcd5",
+      "clipTitle": "Using Azure AD PowerShell Module",
+      "distractors": ["Get AzureAD User", "List-AzureADUser"],
+      "key": "Get-AzureADUser",
+      "moduleId": "4fdc95e9-76ff-43d7-8466-f2fc76c75472",
+      "stem": "What command would get Azure AD users?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "4dfba58b-b276-4683-83f1-fa3db0764eb1",
+      "clipId": "0cac2f53-bf72-4c84-8d48-98fa4befd512",
+      "clipTitle": "RBAC and Custom Roles",
+      "distractors": [
+        "Full control, modify, read-only",
+        "Admins, managers, users",
+        "Administrator, controller, reviewer"
+      ],
+      "key": "Owner, contributor, reader",
+      "moduleId": "f47157b8-93e0-4eeb-af65-686e8cd4a5b2",
+      "stem": "What are the three basic RBAC roles available in Microsoft Azure?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "f32c5f18-bff7-467f-a242-8ec25d39b68e",
+      "clipId": "01b4d49c-c85a-4d3b-846f-ac86cd977915",
+      "clipTitle": "Securing Container Images",
+      "distractors": [
+        "Azure Docker Registry",
+        "Azure Private Image Registry",
+        "Azure Secure Registry"
+      ],
+      "key": "Azure Container Registry",
+      "moduleId": "f5327095-a26d-49c0-93ef-c3ecf8ba12c0",
+      "stem": "What is the name of the private container image registry that can be used to securely host container images in Azure?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "888f603e-abd4-4346-a86b-af05030d6709",
+      "clipId": "dbb7af1a-e9aa-4840-840c-261658c38daa",
+      "clipTitle": "Management Tools",
+      "distractors": [
+        "Azure Mobile application",
+        "Azure web portal",
+        "PowerShell and command-line interface (CLI)"
+      ],
+      "key": "Windows 10 Azure Management App",
+      "moduleId": "b22196f8-a19a-4a6a-8685-27290f1619cd",
+      "stem": "Which of the following is NOT a management tool for Azure?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "73da51de-09d1-43ed-a94e-03b5ab2f420e",
+      "clipId": "b3cc609d-fba6-4ef9-8ca4-dae740dfb0b4",
+      "clipTitle": "Hosting Models",
+      "distractors": ["Basic Plan", "Serverless Plan", "Pay-as-you-go Plan"],
+      "key": "Consumption Plan",
+      "moduleId": "eb5e98f5-3490-41bb-a316-2395a6432139",
+      "stem": "What is the name of the App Service Plan where you pay only while your functions are running?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "bed5f3f7-7b3e-4a77-b8ae-0a074880ec57",
+      "clipId": "e2485b31-dae1-4ede-b133-282dc2b17b14",
+      "clipTitle": "Understanding Azure SQL Database Elastic Pools",
+      "distractors": [
+        "One elastic pool for all five databases",
+        "Managed instances",
+        "Use infrastructure as a service (IaaS) with a single virtual machine for all databases"
+      ],
+      "key": "Five single databases",
+      "moduleId": "e35c7cc7-8ffa-4534-8834-2f3912d14274",
+      "stem": "You are choosing a deployment option for your five databases. You know each database needs a fixed amount of resources 80% of the time. What option suits you best?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "36340e79-55b0-46b1-9e9c-8ab5149768aa",
+      "clipId": "3b7c1fe9-26c4-4121-83af-9bdeba2d42cf",
+      "clipTitle": "Firewalls and Authentication",
+      "distractors": [
+        "Create SQL user credentials for each analyst and add each credential as a user to each one of the databases.",
+        "Create a SQL Authentication Group for 'Business Analysts,' add the four analysts to this group, and add the group as a user on each one of the databases.",
+        "Add the Azure AD identities of the four analysts on each one of the databases."
+      ],
+      "key": "Create an Azure AD Group for 'Business Analysts,' add the four analysts to this group, and add the group as a user on each one of the databases.",
+      "moduleId": "37fc1eec-2a92-4d40-b8fa-e419e740676c",
+      "stem": "You have a requirement to add four different business analysts as users on five different Azure SQL Databases. What would be recommended approach for security and manageability?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "12acbe7e-482c-4bc0-b5d6-684408e3d902",
+      "clipId": "e34c0042-cc65-4c83-820f-2f7ee5690387",
+      "clipTitle": "Module Introduction",
+      "distractors": [
+        "They are the same for Azure roles",
+        "Assigned requires elevation to use, eligible means it can be assigned by an administrator"
+      ],
+      "key": "Assigned is available for the user with no actions, eligible requires elevation to use",
+      "moduleId": "84dc233b-26da-4ea7-86e1-cebe996128ff",
+      "stem": "What is the difference between assigned and eligible for Azure roles?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "43ba792c-7ebe-44d6-8147-c79faa765201",
+      "clipId": "245949b1-4c40-4ef1-ac40-2f3d3ae320cf",
+      "clipTitle": "Understanding Identity and Security in Azure",
+      "distractors": [
+        "Security auditing and monitoring for Azure AD authentications",
+        "Domain services to Azure virtual machines",
+        "It synchronizes an Azure Active Directory with Active Directory in your data center"
+      ],
+      "key": "The ability to authenticate users using social identity providers or email and password",
+      "moduleId": "2e05f4d0-d29d-4ee0-ab8e-56e95cd4c785",
+      "stem": "What does the Azure AD B2C service provide?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "55563c61-3b16-4494-a0c8-b5c23cee5fb3",
+      "clipId": "664e4676-a590-4d63-944a-833c6f847a84",
+      "clipTitle": "Point in Time and Long Term Retention Backups",
+      "distractors": [
+        "7-35 days if the source database is not deleted",
+        "Up to 10 years",
+        "12 hours"
+      ],
+      "key": "7-35 days",
+      "moduleId": "f5de9e1c-f6a0-47dd-8221-5977c909a323",
+      "stem": "How long are point-in-time backups kept?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "7ba7e6fc-b058-4e48-9b28-9ec94b7c6bb0",
+      "clipId": "b6bf6f62-8f5c-4aee-bab2-1a33bb4f3243",
+      "clipTitle": "Demo: function.json",
+      "distractors": ["bindings.json", "trigger.json", "run.json"],
+      "key": "function.json",
+      "moduleId": "138c20fb-6d3d-44ff-9a1b-6d55fb845c77",
+      "stem": "What is the name of the file associated with every function that stores information about the trigger and bindings?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "dc885f4f-86a3-491a-b4a9-3ce1e71c019a",
+      "clipId": "b254f57d-97f2-4efc-94c7-77ed18c71e0b",
+      "clipTitle": "Securing Container Privileges",
+      "distractors": ["Azure Password Manager", "Azure Private Registry", "Azure Secret Store"],
+      "key": "Azure Key Vault",
+      "moduleId": "f5327095-a26d-49c0-93ef-c3ecf8ba12c0",
+      "stem": "What Azure service can be used to securely store secrets and certificates?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "81e5d60d-c955-42fd-b525-2ee2e5f53b6a",
+      "clipId": "2d8a221a-7bd8-42e7-aa60-ccc13a51d557",
+      "clipTitle": "Scaling the Deployment Manually",
+      "distractors": [
+        "Role Based Access Control Role in Microsoft Azure",
+        "An Azure Service that allows you to migrate Linux Services to a Windows Service",
+        "A background worker process that monitors the Kubernetes Pods",
+        "Another name for Kubernetes Service"
+      ],
+      "key": "An identity of an Application Registered with Azure Active Directory which can be used to allow one Azure Service or an Application access to other Azure Services",
+      "moduleId": "76dd6e64-7f0f-4230-9b46-c532c8e2b0e9",
+      "stem": "What is an Azure Service Principal?",
+      "stemImageUrl": null,
+      "courseId": "b9ad1d9c-0229-4ef5-a467-2d21e108cefc"
+    },
+    {
+      "questionId": "c3c803eb-5be9-41e7-a61f-dd060feb8353",
+      "clipId": "981a2265-9494-457e-89a2-2320c966745f",
+      "clipTitle": "Watching for Abnormal Activity",
+      "distractors": ["trace", "cache-lookup", "forward-request"],
+      "key": "log-to-eventhub",
+      "moduleId": "b0a9f645-c967-44ae-89db-19913f330378",
+      "stem": "Which built-in policy can be used for saving request or response contexts information for online or offline analysis?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "0567cf1e-7b3f-4c15-9e5e-b4b8eccdf2d7",
+      "clipId": "747948d6-878e-49f1-b00d-bfb2e97665b3",
+      "clipTitle": "Message Delivery Service Options in Azure",
+      "distractors": ["VoIP", "iMessage", "SMS"],
+      "key": "Email",
+      "moduleId": "75aa3ab1-23c6-4c7b-8e54-ea39b05dfc94",
+      "stem": "Configure SendGrid integration with Azure to support _________ message delivery.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "ab06ba94-b5dd-4ef4-9701-67cc891fb3ea",
+      "clipId": "da3f2957-fe24-4fba-aa0f-dac06cbd1f81",
+      "clipTitle": "Deploying the Application to AKS Cluster Imperatively",
+      "distractors": [
+        "Create a Kubernetes Cluster",
+        "Create a Kubernetes Pod",
+        "Create a Kubernetes Replication Controller",
+        "Create a Kubernetes Deployment"
+      ],
+      "key": "Create a Kubernetes Service",
+      "moduleId": "76dd6e64-7f0f-4230-9b46-c532c8e2b0e9",
+      "stem": "What does a kubectl expose deployment command do?",
+      "stemImageUrl": null,
+      "courseId": "b9ad1d9c-0229-4ef5-a467-2d21e108cefc"
+    },
+    {
+      "questionId": "98cb8b95-08d6-4179-93e1-e5eb8c82ca92",
+      "clipId": "dde578c9-317d-4f9a-b8e4-9c25c26a9f1d",
+      "clipTitle": "Key Vault Certificates",
+      "distractors": [
+        "Certificate authority, issuer, and certificate template",
+        "Certificate, policy, and request",
+        "Certificate metadata, private key, and public key"
+      ],
+      "key": "Certificate metadata, key, and secret",
+      "moduleId": "2bff8526-a069-44b9-b0cb-93098607349c",
+      "stem": "What are the three components that comprise a certificate in Azure Key Vault?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "fd88683e-e3ca-4dc5-b679-79242e084c49",
+      "clipId": "d05009e8-4192-4378-bc15-ff250d0f8e7a",
+      "clipTitle": "Performance System Views",
+      "distractors": [
+        "Query sys.resource_stats directly with a WHERE clause specifying yesterday's time that you're interested in.",
+        "Copy sys.resource_stats to a separate table, aggregate the records up to the 1 minute granularity.",
+        "Query the contents of sys.dm_db_resource_stats with a WHERE clause specifying yesterday's time that you're interested in."
+      ],
+      "key": "Periodically copy the contents of sys.dm_db_resource_stats for each database into another table. Aggregate the records up to the 1 minute granularity.",
+      "moduleId": "2830a89c-ae2f-465f-80e8-0d148b497af7",
+      "stem": "You want to build a report of the performance levels of several different databases during the previous day. In the report, the aggregation level of the data must be down to the minute. How can you achieve that?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "06b8c30c-203c-42cc-ac09-54717c37870c",
+      "clipId": "b896bfe0-240b-4a09-9872-a695d7564cd7",
+      "clipTitle": "High Availability and Disaster Recovery",
+      "distractors": [
+        "There is no same-region redundancy.",
+        "You need to add the database to an availability set.",
+        "You need to enable same-region Geo-replication."
+      ],
+      "key": "Nothing. The service does this automatically.",
+      "moduleId": "15086894-4996-4592-b4fd-4081c9a98df2",
+      "stem": "What is necessary to configure database redundancy inside the same region?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "5996519b-8772-47de-a4ba-85fb612b7b10",
+      "clipId": "38bd019e-b902-4b38-a37f-866b1adbecd4",
+      "clipTitle": "Azure IoT Hub",
+      "distractors": ["unidirectional"],
+      "key": "bidirectional",
+      "moduleId": "75aa3ab1-23c6-4c7b-8e54-ea39b05dfc94",
+      "stem": "Azure IoT Hub supports ________ communication between IoT devices and Azure.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "3fbe3621-f441-4cb8-91cf-ddb2ad00fb0e",
+      "clipId": "768aef53-c835-4e82-bbdc-55759ee29f7f",
+      "clipTitle": "When to Use Event Hub",
+      "distractors": ["need for FIFO delivery", "need for ordered delivery", "idempotent systems"],
+      "key": "non-idempotent systems",
+      "moduleId": "8224f00c-1b3f-4d73-8d3d-d6ccd44fc6e6",
+      "stem": "You should not use Event Hub when your solution involves _____________________.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "07ef121e-bddd-4ea6-bbbf-fff9821e0a67",
+      "clipId": "e36002b9-677c-4688-9f02-8ebf48a84939",
+      "clipTitle": "Demo: Testing Table Storage",
+      "distractors": ["Azure Blob Explorer", "Azure Data Explorer", "Azure Container Explorer"],
+      "key": "Azure Storage Explorer",
+      "moduleId": "9f01be62-9818-4dc6-9918-8ecd9c457dc2",
+      "stem": "What free utility can be used to examine to contents of an Azure Storage table or blob container?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "3f2887d3-ff44-48cb-a8c0-30daa8410987",
+      "clipId": "23815599-d622-4c97-9e32-3b7c9a2d5a40",
+      "clipTitle": "Supported Languages in Azure Functions",
+      "distractors": ["bindings.xml", "bindings.json", "function.xml"],
+      "key": "function.json",
+      "moduleId": "33fe470c-f94f-424d-9a6b-fa5e269433ed",
+      "stem": "What is the name of the file that stores details of the triggers and bindings for an Azure function?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "d333f42f-30ba-4aae-9a8b-64cc1038100f",
+      "clipId": "2ff4e7de-b292-4dfc-ba45-7180f2f90684",
+      "clipTitle": "Azure App Service Overview",
+      "distractors": ["Azure Kubernetes Service", "Azure Container Instances", "Azure Functions"],
+      "key": "Azure App Service",
+      "moduleId": "5dbf9fd2-5bac-44b9-a26f-d64a3c58c596",
+      "stem": "What service is Web App for Containers based on top of?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "aac12105-8640-415c-b4a9-fc10c2d12c64",
+      "clipId": "30d2b64d-a36f-4a07-9cb2-878399bb1aca",
+      "clipTitle": "Azure Event Hub Use Case",
+      "distractors": ["XFTP", "SSH", "MSMQ"],
+      "key": "AMQP",
+      "moduleId": "8224f00c-1b3f-4d73-8d3d-d6ccd44fc6e6",
+      "stem": "Azure Event Hubs receive incoming event streams using the HTTPS or ___________ protocols.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "83cbc74e-8a41-45bc-8123-25d982ccbfaf",
+      "clipId": "9c3cfa37-55f7-4433-8d04-3354bf42341e",
+      "clipTitle": "Preventing Content Attack",
+      "distractors": [
+        "By imposing call limiting and quota policies",
+        "By introducing stringent authentication policies"
+      ],
+      "key": "By introducing policies to inspect incoming requests",
+      "moduleId": "b0a9f645-c967-44ae-89db-19913f330378",
+      "stem": "How can you protect a backend service from a malicious content attack?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "c5d2080c-3f77-4261-9b67-6d157a2d8ec4",
+      "clipId": "90dc294c-dfe4-498b-b0ae-54a34a85aaf8",
+      "clipTitle": "Demo: Scaling AKS",
+      "distractors": [
+        "`kubectl\nlaunch -f myapp.yaml`",
+        "`kubectl\nrun -f myapp.yaml`",
+        "`kubectl\ndeploy -f myapp.yaml`"
+      ],
+      "key": "`kubectl\napply -f myapp.yaml`",
+      "moduleId": "286fe99f-8dd8-4607-91ec-6dcb6ce0ed06",
+      "stem": "What `kubectl`ubectl command allows you to deploy or update an application defined in `myapp.yaml` ?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "8d29d9d5-123a-4bff-af51-87e07af7d735",
+      "clipId": "7f7625e8-0f4b-474b-ac88-951bf3122c7e",
+      "clipTitle": "Moving Back to SQL Server",
+      "distractors": [
+        "Creating a linked server inside Azure SQL Db to SQL Server and copying all the data",
+        "Using Azure SQL Db as a publisher to a SQL Server subscriber",
+        "Restoring an Azure SQL Db backup to a SQL Server Azure VM"
+      ],
+      "key": "Exporting to a .bacpac file and importing that file back to SQL Server",
+      "moduleId": "d6f95092-930f-42ff-a35f-b09bcd404d6e",
+      "stem": "What is a viable method to migrate back from Azure SQL Database to SQL Server?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "f4fd42e4-952f-4c06-90f0-114cef8dea40",
+      "clipId": "dc640bb7-8ac7-4039-b3f2-d6f5e0b5bb75",
+      "clipTitle": "Demo: IBinder and Table Storage Input",
+      "distractors": ["`IOuputPath`", "`IBlobNamer`", "`IFileNamer`"],
+      "key": "`IBinder`",
+      "moduleId": "bc276fa3-451a-41d9-9421-e7c9d655bb16",
+      "stem": "What interface allows you to control the output file name used by the blob output binding?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "855cf875-d970-41c7-b825-bfbfdd46e378",
+      "clipId": "177eb737-aaa8-4743-b066-19660017d331",
+      "clipTitle": "Docker Basics",
+      "distractors": ["`redis+alpine`", "`redis(alpine)`", "`redis/alpine`"],
+      "key": "`redis:alpine`",
+      "moduleId": "c86ff451-4c7e-4222-a8fa-79aac1228371",
+      "stem": "What syntax refers to a Docker repository called \"redis\" with the tag \"alpine\"?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "fd3cbbe5-8961-487b-a10d-1c53480f15dc",
+      "clipId": "177eb737-aaa8-4743-b066-19660017d331",
+      "clipTitle": "Docker Basics",
+      "distractors": [
+        "A running instance of a containerized application",
+        "A tex tfile describing the dependencies of an application",
+        "An online registry of containers"
+      ],
+      "key": "A package consisting of an application and all its dependencies",
+      "moduleId": "c86ff451-4c7e-4222-a8fa-79aac1228371",
+      "stem": "Which of the following correctly describes a Docker image?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "f73c7a01-8f40-4c68-8cf9-889e315c085e",
+      "clipId": "f3701be2-24dd-4177-92c4-0f69c592f0b7",
+      "clipTitle": "Demo - Exceptions in Activities",
+      "distractors": [
+        "The orchestration will be immediately terminated.",
+        "The orchestration will restart from the beginning.",
+        "The activity function will be retried."
+      ],
+      "key": "The exception will propagate to the orchestrator function.",
+      "moduleId": "2402cc23-2ff0-432f-9311-636831bcea22",
+      "stem": "What happens if an unhandled exception is thrown from an activity function?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "5e003114-cec3-4dc6-9bac-7ff98443d61c",
+      "clipId": "fe042e16-b76d-4dda-89f7-e7b8624e229b",
+      "clipTitle": "Demo: Creating a Function App",
+      "distractors": ["Azure Service Bus", "Azure SQL Database", "Azure Cosmos DB"],
+      "key": "Azure Storage Account",
+      "moduleId": "138c20fb-6d3d-44ff-9a1b-6d55fb845c77",
+      "stem": "What resource type does an Azure Function App require to be created alongside the App Service Plan to store data?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "eaad180c-aec0-4fe0-b220-f58b848f8f32",
+      "clipId": "37fb6709-16e9-46b2-b5d9-5d614ad6e969",
+      "clipTitle": "Machine Learning and Visualizing Data",
+      "distractors": [
+        "A data ingestion service built for the cloud",
+        "An augmented reality framework for Azure",
+        "The tool used to create your own machine learning models"
+      ],
+      "key": "Targeted machine learning services for text, speech, language and search",
+      "moduleId": "a287632c-d1f7-45f1-bd34-0096a766819a",
+      "stem": "What is Cognitive Services?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "8bf88537-a034-4b7c-ab39-0f3a3ce7ca1c",
+      "clipId": "35303b8e-5a22-4d35-a99b-1100534d8768",
+      "clipTitle": "What Is an Azure Logic App?",
+      "distractors": ["Project Server", "Exchange Server", "SharePoint Server"],
+      "key": "BizTalk Server",
+      "moduleId": "75aa3ab1-23c6-4c7b-8e54-ea39b05dfc94",
+      "stem": "Azure Logic Apps are similiar in functionality to Microsoft _________________.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "75276269-142b-4283-b4b6-2dd4c76d596b",
+      "clipId": "70f6c3be-6140-4673-9489-a77676f6066f",
+      "clipTitle": "Eternal Orchestrations",
+      "distractors": ["BeginAgain", "LoopToStart", "Restart"],
+      "key": "ContinueAsNew",
+      "moduleId": "8d5a5280-1d8f-42b5-9308-c081b0fca6b8",
+      "stem": "What method of the DurableOrchestrationContext can be used to restart an orchestrator function from the beginning with a fresh history?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "66575f70-8a56-4e2b-8d38-c3da51792e0f",
+      "clipId": "4c5483e4-edd9-4866-b856-ae9d4b72449d",
+      "clipTitle": "Understanding Data Storage in Azure",
+      "distractors": [
+        "Only relational and Blob data storage options are available in Azure.",
+        "All data services are service-based.",
+        "All data services are self-managed."
+      ],
+      "key": "Some data services are offered as self-managed and/or service-based.",
+      "moduleId": "193db0d5-a614-4584-8bc4-67c77c07fc8b",
+      "stem": "Which of the following is true about data storage services in Azure?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "4bae8d81-336b-4e8a-a94e-e12e85e282ad",
+      "clipId": "e6b5ed64-1318-46cb-8db6-8a9d3b5fd5eb",
+      "clipTitle": "Function Apps",
+      "distractors": ["Function Collection", "Function Set", "Function Group"],
+      "key": "Function App",
+      "moduleId": "eb5e98f5-3490-41bb-a316-2395a6432139",
+      "stem": "The unit of deployment for Azure Functions is known as a:",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "64782e68-7ac0-4253-8ec5-5bdc1cb18219",
+      "clipId": "80625b5f-0e0c-4922-af5e-1ff2d7798002",
+      "clipTitle": "Securing Container Networking",
+      "distractors": ["HOSTING_PORT", "INGRESS_PORT", "CONTAINER_PORT"],
+      "key": "WEBSITE_PORT",
+      "moduleId": "f5327095-a26d-49c0-93ef-c3ecf8ba12c0",
+      "stem": "With Azure Web App for Containers, what application setting can be used to tell app service what port your container is listening on?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "6d24d287-cf12-4c25-97f1-4702b493aaed",
+      "clipId": "baf0f165-9de1-4c5c-b496-552cbb4f3a27",
+      "clipTitle": "Azure SQL Database Deployment Options",
+      "distractors": [
+        "Elastic pool, which assigns a fixed amount of resources to the pool",
+        "Managed instance, because the database is deployed to a single tenant environment",
+        "Use SQL Server on an infrastructure-as-a-service (IaaS) virtual machine (VM)"
+      ],
+      "key": "Single database, which can assign fixed resources and is the easiest to provision",
+      "moduleId": "ac028f5a-3d44-474c-937c-7fc86fc2fecd",
+      "stem": "You are planning to create a new database for your application. This database must enjoy a guaranteed amount of resources at all times. Which deployment option would you choose?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "7009027b-f65e-4bda-af53-4eb73682f4d7",
+      "clipId": "4787cf49-5266-4d73-a4fd-9fbcd0cf7beb",
+      "clipTitle": "Creating Images from Dockerfiles",
+      "distractors": ["`docker\nnew`", "`docker\ncreate`", "`docker\nimage`"],
+      "key": "`docker\nbuild`",
+      "moduleId": "7bfc895c-e28e-405e-86db-1f511370a1c6",
+      "stem": "What Docker command can be used to build an image from a Dockerfile?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "1af85911-27d2-47ea-bf8f-8955fe000017",
+      "clipId": "f00360b4-87e6-42d4-aaa2-34f0b3f7ac5b",
+      "clipTitle": "Cloud Computing Services Scenarios",
+      "distractors": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service   (PaaS)",
+        "Application as a Service (AaaS)"
+      ],
+      "key": "Software as a Service (SaaS)",
+      "moduleId": "332f4df5-7d15-4919-a855-c22a3bbb22d9",
+      "stem": "Which type of cloud computing service would be best for sophisticated collaboration applications?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "6afcba31-f98f-4171-b798-a4cc52594195",
+      "clipId": "37fcb050-ecaf-440e-b161-37034437b33b",
+      "clipTitle": "Azure SQL Data Sync Use Cases",
+      "distractors": ["Azure Data Factory", "Read-only replicas", "Azure Data Lake"],
+      "key": "SQL Data Sync",
+      "moduleId": "8288bad3-813e-4e2d-a87f-c37983418ba6",
+      "stem": "Which technology synchronizes data between multiple databases in the cloud?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "741215d4-78b1-4371-8e29-ba7cee3f9319",
+      "clipId": "3863547b-ad81-4cd7-bc92-17a34a537589",
+      "clipTitle": "Creating Our First Function",
+      "distractors": ["`metadata.json`", "`function.xml`", "`function.js`"],
+      "key": "`function.json`",
+      "moduleId": "9b94e8d0-0503-4d04-b324-11fc2baac008",
+      "stem": "If you create a new Azure function, it will consist of a source code file and what additional file?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "574b177a-077f-4e6c-8f90-9f8478a6ff60",
+      "clipId": "1a5145ab-fb4e-44c2-a094-b78653ffe41f",
+      "clipTitle": "Demo - Creating an Orchestrator Function",
+      "distractors": ["`GetInputData<T>`", "`GetOrchestrationInput<T>`", "`GetWorkflowInput<T>`"],
+      "key": "`GetInput<T>`",
+      "moduleId": "63aa8d2a-a381-44d5-92e0-f53f58f47f2a",
+      "stem": "What method on DurableOrchestrationContext is used to get the input data for an orchestrator function?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "5d60c205-485b-4ca5-a93b-75379016a5e6",
+      "clipId": "8f854ec5-4b54-4474-b171-f9cd8eaee765",
+      "clipTitle": "Advanced Messaging Queuing Protocol (AMQP)",
+      "distractors": ["broker-dependent", "closed-source", "UDP-based"],
+      "key": "vendor-neutral",
+      "moduleId": "834c3615-1ef5-4fa4-98a1-cc4f03933454",
+      "stem": "AMQP is a(n) _____________ messaging protocol.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "6f1ae7b7-4199-4387-8d73-2f469a20b933",
+      "clipId": "52e391ba-0a12-4186-abd0-c136c14d1692",
+      "clipTitle": "Azure Key Vault Examined",
+      "distractors": [
+        "Only available to Vnets and Azure services",
+        "Only available to Vnets and ExpressRoute",
+        "Only available to Azure services"
+      ],
+      "key": "Publicly available to the internet",
+      "moduleId": "baafb6b2-181a-458a-8539-119ccaffe8e6",
+      "stem": "By default, how are the endpoints for Key Vault configured?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "570d4bb8-5a50-4cbd-9ade-2b9dc4c026b4",
+      "clipId": "92624c80-f37e-4f61-8967-44ecfd364ed9",
+      "clipTitle": "Kubernetes Basics",
+      "distractors": ["Pod", "Namespace", "Deployment"],
+      "key": "Service",
+      "moduleId": "286fe99f-8dd8-4607-91ec-6dcb6ce0ed06",
+      "stem": "Which of the following Kubernetes resource types is responsible for load balancing?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "99e38817-daa5-46d5-9057-bf2d56aac295",
+      "clipId": "c9c6d441-8ca2-4dca-83ad-8492a6908b30",
+      "clipTitle": "Demo: Security",
+      "distractors": ["host", "admin", "anonymous"],
+      "key": "function",
+      "moduleId": "ffe07892-6d2a-4d9e-87e8-2367e88757aa",
+      "stem": "What is the name of the function authorization level that allows you to create secret keys specific to an individual function?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "5329e0ee-10c7-4046-a7fd-18ee75e78e49",
+      "clipId": "9e22fcbe-1226-414f-9fc8-bf94df26a3a2",
+      "clipTitle": "Types of Cloud Computing Services",
+      "distractors": [
+        "Application as a Service (AaaS)",
+        "Platform as a Service (PaaS)",
+        "Infrastructure as a Service (IaaS)"
+      ],
+      "key": "Software as a Service (SaaS)",
+      "moduleId": "332f4df5-7d15-4919-a855-c22a3bbb22d9",
+      "stem": "In what type of computing service does the cloud provider maintain servers and updates applications?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "c6cdff2e-bcc8-4d5b-ac62-99eb25df4dfe",
+      "clipId": "c94c5dc7-f37c-4499-9c18-236ebc9b4860",
+      "clipTitle": "Authenticating Against a Backend Service Using Certs",
+      "distractors": ["By certificate authority", "By certificate name"],
+      "key": "By certificate thumbprint",
+      "moduleId": "b0a9f645-c967-44ae-89db-19913f330378",
+      "stem": "How does API proxy identify a certificate to be used against the backend service?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "ec6266e7-bf7b-450e-b4ca-7845841ff9c2",
+      "clipId": "66c5b17e-36d8-4fc8-a828-da403e2b3b3d",
+      "clipTitle": "Manage Azure AD Using Azure CLI",
+      "distractors": ["aad", "app", "ad"],
+      "key": "None, the support is built in",
+      "moduleId": "5c206745-159d-487b-ad77-007a5e2cc3d4",
+      "stem": "What module do you need to install to manage AAD from Azure CLI?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "a5e6cbf3-6fa6-4325-b589-4100e8808861",
+      "clipId": "4f0d4f99-d80f-474c-bfcd-5f729c792428",
+      "clipTitle": "What Is Modern Authentication?",
+      "distractors": ["A programming language", "A standard for authentication"],
+      "key": "A standard for delegation",
+      "moduleId": "8ec0c697-7bbf-4c9f-a8b6-b6141d1c1563",
+      "stem": "What is OAuth?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "c63d0aa3-fd70-40ba-bb9b-62491907e7b5",
+      "clipId": "a0b36d6c-4db1-4cde-b91e-6a51b1c5dea6",
+      "clipTitle": "Management and Data Planes",
+      "distractors": ["Oauth2", "Client certificates", "LDAP"],
+      "key": "Azure Active Directory",
+      "moduleId": "f47157b8-93e0-4eeb-af65-686e8cd4a5b2",
+      "stem": "What service is used to provide authentication to the management and data plane in Key Vault?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "6f173e6a-23bb-4207-8955-13d61c8fd6a6",
+      "clipId": "d27c08eb-caf0-41cf-a67c-9cccae63c966",
+      "clipTitle": "Cloud Deployment Models",
+      "distractors": ["Azure Government", "Azure Compute", "Office 365"],
+      "key": "Azure Stack",
+      "moduleId": "915b5fc2-59c8-41e4-a4b0-9aecea0cf6d3",
+      "stem": "What Azure offering is adequate for a customer looking at implementing a private cloud?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "d2043665-cdde-4488-8180-d4ba39c057ee",
+      "clipId": "8106044c-0bf6-409d-995e-d3d775c8ad21",
+      "clipTitle": "Demo: Configuring Geo-replication",
+      "distractors": [
+        "Run an 'ALTER DATABASE HR FAILOVER' command on the HR database on Central US.",
+        "Run an 'ALTER DATABASE HR FAILOVER' command on the HR database on West US.",
+        "Run an 'ALTER DATABASE HR FAILOVER' command on the master database on Central US."
+      ],
+      "key": "Run an 'ALTER DATABASE HR FAILOVER' command on the master database on West US.",
+      "moduleId": "15086894-4996-4592-b4fd-4081c9a98df2",
+      "stem": "You have a database called HR with Geo-Replication set right now with Central US as Primary and West US as Secondary. You want to Failover from Central US to West US. What do you do?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "08cc3631-755c-4967-9e44-3e9fa32cdea6",
+      "clipId": "3b7c1fe9-26c4-4121-83af-9bdeba2d42cf",
+      "clipTitle": "Firewalls and Authentication",
+      "distractors": [
+        "Get the IP address of each application server and add a server-level and a database-level firewall rule for each one.",
+        "Get the IP address of each application server and add a server-level firewall rule for each one.",
+        "Get the hostname of each application server and add a database level-firewall rule for each one on their corresponding database."
+      ],
+      "key": "Get the IP address of each application server and add a database-level firewall rule for each one on their corresponding database.",
+      "moduleId": "37fc1eec-2a92-4d40-b8fa-e419e740676c",
+      "stem": "You have three different databases inside your Azure SQL Database server and need to provide access to three different application servers in the most secure way possible. What should you do?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "5542556b-54aa-4933-8e98-0eed5581ee31",
+      "clipId": "70f6c3be-6140-4673-9489-a77676f6066f",
+      "clipTitle": "Eternal Orchestrations",
+      "distractors": [
+        "They produce better diagnostic logging.",
+        "They can be written in JavaScript.",
+        "They can use blob bindings."
+      ],
+      "key": "They allow the interval between invocations to be varied.",
+      "moduleId": "8d5a5280-1d8f-42b5-9308-c081b0fca6b8",
+      "stem": "What is an advantage of creating an eternal orchestration instead of using a regular timer trigger for Azure Functions?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "aa358b2b-edad-4d47-8f10-5340defbcee2",
+      "clipId": "c135433d-7260-4969-839b-58273848f1cb",
+      "clipTitle": "App Management in Azure",
+      "distractors": ["A web app", "A public client"],
+      "key": "A multi tenant app",
+      "moduleId": "21e59445-ecc5-4eab-9fdf-a69e099a5324",
+      "stem": "What kind of app can be used across multiple Azure ADs?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "16d2d0bf-8d66-4bc7-841f-7ee017cfd556",
+      "clipId": "5efe1641-df2f-4644-ac5d-c6ebd1b9de9d",
+      "clipTitle": "Exploring the Storage Account",
+      "distractors": [
+        "In Table storage",
+        "In Queue storage",
+        "In the azure-webjobs-hosts blob container"
+      ],
+      "key": "In a Files file share",
+      "moduleId": "9b94e8d0-0503-4d04-b324-11fc2baac008",
+      "stem": "Where in your Function App Storage Account can you find the contents of the `wwwroot` folder that contains your function code?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "a78c9523-dacc-4738-9263-2b7ff6e47abc",
+      "clipId": "48d25659-4687-4d34-a2eb-2fc4baa6ca31",
+      "clipTitle": "Introducing Azure Kubernetes Service",
+      "distractors": [
+        "The first three nodes are free, you pay for all additional ones",
+        "You pay for all nodes including master and worker nodes",
+        "Worker nodes are free, you only pay for master nodes"
+      ],
+      "key": "Master nodes are free, you only pay for worker nodes",
+      "moduleId": "286fe99f-8dd8-4607-91ec-6dcb6ce0ed06",
+      "stem": "What is the pricing model for nodes in an Azure Kubernetes Service cluster?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "3bdcf136-2438-492a-9854-21d94cb3ed3d",
+      "clipId": "46005bb1-ed79-4cb8-9454-9b7cd980688e",
+      "clipTitle": "Azure SQL Database Purchasing Models",
+      "distractors": [
+        "Database Throughput Unit (DTU) based",
+        "Use infrastructure-as-a-service (IaaS) SQL virtual machines (VMs)",
+        "Both vCore and Database Throughput Unit (DTU)"
+      ],
+      "key": "vCore-based",
+      "moduleId": "ac028f5a-3d44-474c-937c-7fc86fc2fecd",
+      "stem": "You are migrating an on-premises database to Azure SQL Database. Which purchasing model is the easiest to calculate the resources you need?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "a4eeca7e-5ca5-4232-b061-2b36e1140187",
+      "clipId": "52e391ba-0a12-4186-abd0-c136c14d1692",
+      "clipTitle": "Azure Key Vault Examined",
+      "distractors": [
+        "Secrets, arrays, and linked lists",
+        "Keys, lists, and hashtables",
+        "Strings, lists, and maps"
+      ],
+      "key": "Keys, secrets, and certificates",
+      "moduleId": "baafb6b2-181a-458a-8539-119ccaffe8e6",
+      "stem": "What are the three types of data that can be stored in Azure Key Vault?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "054b3466-a325-4d90-9757-166063d90faf",
+      "clipId": "1ce05957-e968-4297-86b2-d25eb09be670",
+      "clipTitle": "Bindings",
+      "distractors": [
+        "Every function must have one binding and zero or more triggers.",
+        "Functions can have any number of bindings and triggers.",
+        "Every function must have one trigger and one binding."
+      ],
+      "key": "Every function must have one trigger and can have zero or more bindings.",
+      "moduleId": "eb5e98f5-3490-41bb-a316-2395a6432139",
+      "stem": "Which of the following statements correctly describes how many triggers and bindings a single function can have?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "011d872a-2bf9-44c2-b1eb-0b35bdd1a53b",
+      "clipId": "f00360b4-87e6-42d4-aaa2-34f0b3f7ac5b",
+      "clipTitle": "Cloud Computing Services Scenarios",
+      "distractors": [
+        "Software as a Service  (SaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Application as a Service (AaaS)"
+      ],
+      "key": "Platform as a Service (PaaS)",
+      "moduleId": "332f4df5-7d15-4919-a855-c22a3bbb22d9",
+      "stem": "Which type of cloud computing service would be best as a development framework?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "24c52c15-0bbb-494d-b6b2-96accd9b372d",
+      "clipId": "47b5f9bf-0984-451a-8587-c99c647e73f9",
+      "clipTitle": "Event Grid Topic Schema Choice",
+      "distractors": ["TLS", "Topic", "AMQP"],
+      "key": "CloudEvents",
+      "moduleId": "7db731aa-7dcc-4bf1-b2c2-7c832e9ae0f9",
+      "stem": "Azure Event Grid can use either its own schema or the __________ schema.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "334fd22c-703b-464c-87ed-982e8629baa4",
+      "clipId": "397048bc-8706-48ea-aa66-b60c5fca815e",
+      "clipTitle": "What Is AKS",
+      "distractors": [
+        "Customers have control on the Master Nodes and have to take care of its high availability",
+        "Customers get to choose the Container Runtime, either Docker or Rkt",
+        "Customer have to patch the Worker Nodes enabling them to choose an Update Management Software of their choice",
+        "Azure Kubernetes Service is free"
+      ],
+      "key": "Managed Control Plane (Worker Nodes are managed by Microsoft)",
+      "moduleId": "b0e58efb-ce07-4b74-8436-819995c8a572",
+      "stem": "Which of these is one of the biggest benefits of using Azure Kubernetes Service? (AKS)",
+      "stemImageUrl": null,
+      "courseId": "b9ad1d9c-0229-4ef5-a467-2d21e108cefc"
+    },
+    {
+      "questionId": "b0d317f9-61f2-4897-890e-7398c5ae0938",
+      "clipId": "0bdc2c46-1895-4f6e-882d-199a1f5e433c",
+      "clipTitle": "Demo: Create an Azure Functions App with ARM",
+      "distractors": ["az deploy arm", "az template deploy", "az group template create"],
+      "key": "az group deployment create",
+      "moduleId": "49c610b4-f3d1-4675-be50-40176d891255",
+      "stem": "What Azure CLI command can be used to deploy an ARM template?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "cd30b6ac-e101-48cd-9cfa-635085e268da",
+      "clipId": "e9739e03-a8c6-4c61-b4f8-dca02d2b7f5b",
+      "clipTitle": "Event Grid Functional Model",
+      "distractors": ["False"],
+      "key": "True",
+      "moduleId": "7db731aa-7dcc-4bf1-b2c2-7c832e9ae0f9",
+      "stem": "Event Grid can subscribe to Event Hub topics.",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "fd8b6803-765d-47b8-8b14-38f97a8e63c7",
+      "clipId": "19dc5686-2576-4d2f-bdcd-96c9b8cfb041",
+      "clipTitle": "Event Sourcing",
+      "distractors": ["Orchestration serialization", "Workflow recording", "History snapshotting"],
+      "key": "Event sourcing",
+      "moduleId": "5d952ff8-204f-4138-a70e-700ea9073758",
+      "stem": "What is the name for the technique Durable Functions use to store and replay the history of an orchestration?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "b343653f-10de-4a7f-9922-e97c527ee40b",
+      "clipId": "4f0d4f99-d80f-474c-bfcd-5f729c792428",
+      "clipTitle": "What Is Modern Authentication?",
+      "distractors": [
+        "Smart assertions marketing language",
+        "Secure applications microsoft language"
+      ],
+      "key": "Security Assertion Markup Language",
+      "moduleId": "8ec0c697-7bbf-4c9f-a8b6-b6141d1c1563",
+      "stem": "What does SAML stand for?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "1ca1223f-f74c-4281-a0c3-b2e08a43dd81",
+      "clipId": "cf2fcc6b-e499-470f-9aaa-1ed6c6c12eff",
+      "clipTitle": "Looking Inside Task Hubs",
+      "distractors": [
+        "Azure Durable Functions Explorer",
+        "Azure Task Hub Explorer",
+        "Azure Storage Emulator"
+      ],
+      "key": "Azure Storage Explorer",
+      "moduleId": "2402cc23-2ff0-432f-9311-636831bcea22",
+      "stem": "What tool is recommended for looking at the data stored inside the Task Hub?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "a15b6986-6680-4574-96bc-d806086e86df",
+      "clipId": "ba7bdab4-ddcf-40cd-b83b-cc2f03386891",
+      "clipTitle": "Managed Instance Advanced Security",
+      "distractors": [
+        "Enable public access for your managed instance",
+        "Open a few ports using the subnet's network security group inbound rules.",
+        "Use Azure Active Directory authentication."
+      ],
+      "key": "Deploy a virtual machine (VM) to the same virtual network and use it as a jumpbox.",
+      "moduleId": "dd2aac7d-7b03-4a4b-8e6b-ad74fe9d35ca",
+      "stem": "You deployed a managed instance with the default security settings. How can you connect to your instance?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "30cc5eda-3764-4b71-870e-27672407320f",
+      "clipId": "3ecbb1c2-ad3c-4e1a-b0cb-e7357e949513",
+      "clipTitle": "Demo: Table Storage Output",
+      "distractors": [
+        "PrimaryKey and SecondaryKey",
+        "RowKey and ColumnKey",
+        "ShardKey and SegmentKey"
+      ],
+      "key": "RowKey and PartitionKey",
+      "moduleId": "bc276fa3-451a-41d9-9421-e7c9d655bb16",
+      "stem": "What two properties are required on an entity to save to Table Storage?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "35015274-0868-4923-8b9d-f3ad01472266",
+      "clipId": "b3011b3e-9576-4c07-aab1-a17161a26863",
+      "clipTitle": "Demo: Docker Run",
+      "distractors": ["`-p`", "`-x`", "`-b`"],
+      "key": "`-d`",
+      "moduleId": "ac3e28d9-13a0-4228-9e56-b2650b305db5",
+      "stem": "What `docker run` flag allows us to run a container in the background?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "37765e5c-9b0e-4d50-b4ab-75f985170e21",
+      "clipId": "d05009e8-4192-4378-bc15-ff250d0f8e7a",
+      "clipTitle": "Performance System Views",
+      "distractors": [
+        "All 3 of them increase by 20%",
+        "Log Write increases from 20% to 50%",
+        "CPU increases from 30% to 60%"
+      ],
+      "key": "Data IO increases from 20% to 100%",
+      "moduleId": "2830a89c-ae2f-465f-80e8-0d148b497af7",
+      "stem": "You have a database that is currently showing the following resource consumption percentages:\r\n\r\nCPU 30%\r\n\r\nData IO 20%\r\n\r\nLog Write 20%\r\n\r\nWhich of the following will cause you to hit the limit of your DTU capacity?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "a06b0d33-3ad5-4e3b-ac71-8e3b684cd902",
+      "clipId": "52ba8dc1-9ec5-4761-ad9c-056147f82b09",
+      "clipTitle": "Introduction to Cloud Computing",
+      "distractors": [
+        "Neither OpEx or CapEx",
+        "Both OpEx and CapEx",
+        "Capital Expenditures (CapEx)"
+      ],
+      "key": "Operating Expenses (OpEx)",
+      "moduleId": "6bdb5d7c-67ba-47e2-b10f-f2176ae51f65",
+      "stem": "Which types of expenses are fully deducted in the same year they are made?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "f144c493-f4b2-4cfe-b383-eaeca900db60",
+      "clipId": "d27c08eb-caf0-41cf-a67c-9cccae63c966",
+      "clipTitle": "Cloud Deployment Models",
+      "distractors": ["Azure Government", "Power Platform", "Azure Germany"],
+      "key": "Azure Stack",
+      "moduleId": "915b5fc2-59c8-41e4-a4b0-9aecea0cf6d3",
+      "stem": "Which Microsoft product would you recommend for a client wanting to implement a hybrid cloud?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "d1952150-ec9c-434c-9338-a5275da6a379",
+      "clipId": "620a2fc6-09f7-4874-b682-9c89d09a61fb",
+      "clipTitle": "Demo: Get Todo by Id",
+      "distractors": ["/api/people/(id)", "/api/people/[id]", "/api/people/<id>"],
+      "key": "/api/people/{id}",
+      "moduleId": "0f4e0fe6-1220-418d-828b-9f3a1f02ba9c",
+      "stem": "What is the correct route syntax to allow us to set up a route that contains an id?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "78cf36e0-c1c7-4cff-8b0a-fda4761f3572",
+      "clipId": "5f7cb52f-a8fa-48b4-b6bf-8e579c7397e8",
+      "clipTitle": "Creating a Rate Limit Policy",
+      "distractors": ["Operation level", "API level", "Product level"],
+      "key": "Product, API and Operation level",
+      "moduleId": "d54f460f-af43-4685-85d9-21de9a078673",
+      "stem": "At what level can you apply policies?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "e46869ab-7542-4676-8e33-bf5f6fdd724c",
+      "clipId": "9a4f2374-f0de-4511-a1ba-63750f1fb349",
+      "clipTitle": "Understanding Cloud Computing",
+      "distractors": [
+        "SaaS - Software as a Service",
+        "IaaS - Infrastructure as a Service",
+        "PaaS - Platform as a Service"
+      ],
+      "key": "CaaS - Cloud as a Service",
+      "moduleId": "9f0e4f51-c61c-4df4-ab1b-846b544645d4",
+      "stem": "Which of the following is NOT a type of cloud computing?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "a6a41983-c427-462f-acaa-b3a76ad0a9ba",
+      "clipId": "fe502c1b-3aeb-4038-8b00-5c1883032a35",
+      "clipTitle": "Provisioning a Key Vault",
+      "distractors": [
+        "Additional space for secret storage",
+        "Support for Elliptic Curve Cryptography",
+        "Improved secret retrieval performance"
+      ],
+      "key": "Access to the Hardware Security Module",
+      "moduleId": "baafb6b2-181a-458a-8539-119ccaffe8e6",
+      "stem": "What is the primary benefit of using the Premium Sku over the Standard Sku on Azure Key Vault?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "96df84bb-93b5-4c15-8891-891d0ba9d7a6",
+      "clipId": "fddecca2-1021-4519-a126-61dea3998db7",
+      "clipTitle": "Demo: Configuring Continuous Delivery with ACR and Swapping Slots",
+      "distractors": ["Application settings", "Auto-scale", "Custom domain name hosting"],
+      "key": "Deployment slot swapping",
+      "moduleId": "5dbf9fd2-5bac-44b9-a26f-d64a3c58c596",
+      "stem": "What Azure App Service feature allows you to test a new version of your application before making it live?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "ce2fb74c-d8f3-49c3-94d6-6e40e4793183",
+      "clipId": "c0e712b4-feaa-4b11-aea1-283be140ba25",
+      "clipTitle": "Demo: Queue Triggered Function",
+      "distractors": [
+        "A queue binding and a blob binding",
+        "A queue trigger and a blob trigger",
+        "A blob trigger and a queue binding"
+      ],
+      "key": "A queue trigger and a blob binding",
+      "moduleId": "9f01be62-9818-4dc6-9918-8ecd9c457dc2",
+      "stem": "To create a function that responds to messages on a queue and writes a text file to blob storage, what triggers and bindings do you need?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "b512e2c3-c8da-4259-8c2d-47db4e530ae4",
+      "clipId": "12524094-ead6-4d00-85b5-ece38551024e",
+      "clipTitle": "Understanding Azure Management",
+      "distractors": [
+        "A collection of Docker containers used to run a web application",
+        "A collection of metrics in a management monitor definition",
+        "A collection of virtual machines that should be part of a scale set"
+      ],
+      "key": "A collection of subscriptions that provides a central point for management and policy",
+      "moduleId": "b22196f8-a19a-4a6a-8685-27290f1619cd",
+      "stem": "What is a management group in Azure?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "e2f07d00-61d1-4e9d-9f59-c6d40a8fd3dd",
+      "clipId": "018ffdad-ac99-49b0-8f6e-cffed92f07a4",
+      "clipTitle": "Developing Functions in the Azure Portal",
+      "distractors": ["Invocations", "Logs", "History"],
+      "key": "Monitor",
+      "moduleId": "138c20fb-6d3d-44ff-9a1b-6d55fb845c77",
+      "stem": "What is the name of the function view in the portal that allows you to view invocation history?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "3e84b135-8018-4769-9d98-dbaab806edf4",
+      "clipId": "9291c2bd-6ed5-4ec2-9a1b-294d92adef92",
+      "clipTitle": "Understanding SQL Agent Job Step, Schedule and Notification",
+      "distractors": ["Pager, Net Send, and emails", "Emails and pagers", "Emails and Net Send"],
+      "key": "Emails only",
+      "moduleId": "7dfcd39b-8468-471c-905e-3b7c01710f11",
+      "stem": "Which notification types does Azure SQL Database managed instance supports for Agent jobs?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "0c5dec7f-63ae-460f-996a-5c89eee9b951",
+      "clipId": "dff27087-9697-4fa1-870b-49c686c0e77d",
+      "clipTitle": "Demo: Azure Functions Proxies",
+      "distractors": ["settings.proxies.json", "host.json", "appsettings.json"],
+      "key": "proxies.json",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "What file defines the proxies in an Azure Functions App?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "1a2a485e-1c6e-4bc9-bcab-50f2f46eb6ac",
+      "clipId": "9d3955e7-4e20-4731-8cb6-53b32079d97d",
+      "clipTitle": "Authenticating Against a Backend Service Using OAuth2",
+      "distractors": ["Certificates", "Basic Authentication"],
+      "key": "oAuth",
+      "moduleId": "b0a9f645-c967-44ae-89db-19913f330378",
+      "stem": "If you intend to use Microsoft, Facebook, Twitter, and Google identities in Azure API management, which security policy should you use?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "bc6b6dc1-674d-4172-a5c8-568069f4322b",
+      "clipId": "6c809092-52e2-4525-9f80-9226fc106b1f",
+      "clipTitle": "Demo: Building an Image from a Multi-stage Dockerfile",
+      "distractors": [
+        "`docker\nrun -n Name -v Value imagename`",
+        "`docker\nrun -e \"{'name':'value'}\" imagename`",
+        "`docker\nrun -env Name Value imagename`"
+      ],
+      "key": "`docker\nrun -e Name=Value imagename`",
+      "moduleId": "7bfc895c-e28e-405e-86db-1f511370a1c6",
+      "stem": "Which example `docker run` command uses the correct syntax to set an environment variable?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "c23608dd-6b3d-47fc-b994-0053a1a9f1c8",
+      "clipId": "5c61d011-7992-40f3-b14b-f01421e5ae75",
+      "clipTitle": "Demo: Configurable Proxies",
+      "distractors": ["@APP_SETTING", "__APP_SETTING__", "${APP_SETTING}"],
+      "key": "%APP_SETTING%",
+      "moduleId": "2fe3d207-1ef7-40cd-ada9-de54b3f92d96",
+      "stem": "What syntax allows access to an application setting inside a `proxies.json` definition?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "a38f07f2-68aa-4a76-92d8-8101994a2ed8",
+      "clipId": "401645ff-7f9c-4291-86c3-84fd5fd1b082",
+      "clipTitle": "Demo: Publish from Visual Studio",
+      "distractors": [
+        "Press F5.",
+        "Select Rebuild Solution from the Build Menu.",
+        "Right-click the host.json file in solution explorer and click Publish."
+      ],
+      "key": "Right-click the project file in solution explorer and click Publish.",
+      "moduleId": "ffe07892-6d2a-4d9e-87e8-2367e88757aa",
+      "stem": "What must you do to initiate a Function App deployment in Visual Studio?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "6fbdfc76-0bff-4dc9-9f86-1956440931f8",
+      "clipId": "07e02681-4e47-4be6-80a8-c60131b40cee",
+      "clipTitle": "Demo: Queue Output Binding",
+      "distractors": ["`PostAsync`", "`Post`", "`Add`"],
+      "key": "`AddAsync`",
+      "moduleId": "33fe470c-f94f-424d-9a6b-fa5e269433ed",
+      "stem": "What method on `IAsyncCollector<T>` allows you to post a message with a queue binding?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "f9740a77-bd06-4155-a5e4-2415c9eb66f9",
+      "clipId": "8d19dbec-678f-4ccc-be9d-96cb05a2bd08",
+      "clipTitle": "Access Policy",
+      "distractors": [
+        "Multiple Key Vault instances in a subscription",
+        "Multiple Key Vault instances in a resource group",
+        "A sub-set of objects in a Key Vault instace"
+      ],
+      "key": "A single Key Vault instance",
+      "moduleId": "ffbbb1cb-4b53-45a2-9c42-3305a1c07326",
+      "stem": "What is the scope of an Access Policy in Azure Key Vault?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "9af919b8-8080-4810-9df6-ae3e6ea623fc",
+      "clipId": "ebce034c-0f43-49d8-9c38-8c5476848d28",
+      "clipTitle": "How Can I Build Reliable Workflows with Azure Functions?",
+      "distractors": [
+        "Workflow Functions and Step Functions",
+        "Pipeline Functions and Processor Functions",
+        "Map Functions and Reduce Functions"
+      ],
+      "key": "Orchestrator Functions and Activity Functions",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "What are the two types of function that define a Durable Functions?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "15ec8448-54d6-4fb7-a776-7e52112f086b",
+      "clipId": "7ff21d70-3287-4372-99c2-b1e494cd916d",
+      "clipTitle": "Introducing Service Fabric",
+      "distractors": ["Microservice Fabric", "Kubernetes", "App Service"],
+      "key": "Service Fabric",
+      "moduleId": "53d97948-2b25-4057-a849-418ed080c962",
+      "stem": "What is the name of the microservice application platform used to host many Microsoft services including Azure SQL, Cosmos DB and Skype for Business?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "4a48be65-cd87-42f0-aa16-7ba2bdd3e8e4",
+      "clipId": "4124a5da-e376-4da9-b363-ca691c002b71",
+      "clipTitle": "Azure Functions Pricing",
+      "distractors": [
+        "DTUs (Data Transfer Units)",
+        "vCPUs-h (Virtual CPU hours)",
+        "GB/s (Gigabytes per Second)"
+      ],
+      "key": "GB-s (Gigabyte Seconds)",
+      "moduleId": "6b83c3a6-8180-40f9-b498-0ef3628cac0f",
+      "stem": "What units are Azure Functions billed in?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "7a12340c-dfb1-4adb-ba53-0f6f16b6605c",
+      "clipId": "99135cd9-7507-4771-a87a-b587bbcfd7f3",
+      "clipTitle": "Understanding Azure Development",
+      "distractors": [
+        "The SDKs do not work on mobile devices",
+        "The SDKs are only available for Java and .NET",
+        "The SDKs work only on Windows and Linux"
+      ],
+      "key": "They are cross-platform, multi-language wrappers around Azure REST APIs",
+      "moduleId": "a59e2ecd-ce3b-4c96-9f1b-d9b07a1a537c",
+      "stem": "Which of the following is true about the Azure client SDKs?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "06473cd6-f5c7-4db9-80c3-4cc7968a0628",
+      "clipId": "ad043eee-3268-4e1f-8064-68f21848ce6a",
+      "clipTitle": "Beyond Management Kubernetes",
+      "distractors": [
+        "Azure Virtual Machine with Docker installed",
+        "Azure Batch",
+        "Service Fabric",
+        "Azure Kubernetes Service"
+      ],
+      "key": "Azure Container Instances (ACI)",
+      "moduleId": "b0e58efb-ce07-4b74-8436-819995c8a572",
+      "stem": "You need to deploy a Jenkins Docker Container on Container without worrying about the underlying compute and management. You also want to minimize the cost of running this Container. Which of the below Azure Service would suit best for this scenario?",
+      "stemImageUrl": null,
+      "courseId": "b9ad1d9c-0229-4ef5-a467-2d21e108cefc"
+    },
+    {
+      "questionId": "9bf440de-7036-4ccf-86c5-4a916118cd28",
+      "clipId": "ba7bdab4-ddcf-40cd-b83b-cc2f03386891",
+      "clipTitle": "Managed Instance Advanced Security",
+      "distractors": ["Managed Identities (MSI)", "Database logins", "Transport Layer Security"],
+      "key": "Azure Active Directory (AAD) authentication",
+      "moduleId": "dd2aac7d-7b03-4a4b-8e6b-ad74fe9d35ca",
+      "stem": "For managed instances, which authentication option can you use instead of Windows authentication?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "252159b3-c1e8-4bf1-995a-22d1ef0f3af4",
+      "clipId": "18b10187-1a27-48ce-92aa-cb2e5f560ba1",
+      "clipTitle": "Policy Reference",
+      "distractors": [
+        "*control and manage access.*",
+        "*improve performance through various caching techniques.*",
+        "*transform requests and responses.*",
+        "*assert rate limit and quota.*"
+      ],
+      "key": "*integrate social media with services.*",
+      "moduleId": "f50d9c0d-c55e-48fd-84a1-479a189136c9",
+      "stem": "Which one of the following statements is **not **true?\r\n\r\n*Azure API Management provides a mechanism to*...",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "9fac35d4-057f-467b-a217-0d4365e7d3a8",
+      "clipId": "6b60316b-0c92-409c-ae92-e45106b8ef09",
+      "clipTitle": "Key Vault Applications",
+      "distractors": [
+        "API Keys and Access Keys",
+        "Certificates for SSL and Customer Managed Key",
+        "Access Keys and Microsoft Managed Key"
+      ],
+      "key": "Access Keys and Customer Managed Key",
+      "moduleId": "baafb6b2-181a-458a-8539-119ccaffe8e6",
+      "stem": "What are two ways Azure Key Vault can be used with Storage Accounts?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "d5704320-2b75-457e-996f-d88585a4ffbb",
+      "clipId": "0ae118c5-b6a3-4b32-bdf6-b957ee9f1c21",
+      "clipTitle": "Demo: Webhook Trigger",
+      "distractors": ["`[HttpRequestTrigger]`", "`[WebTrigger]`", "`[WebRequestTrigger]`"],
+      "key": "`[HttpTrigger]`",
+      "moduleId": "33fe470c-f94f-424d-9a6b-fa5e269433ed",
+      "stem": "What attribute is required to declare a C# function that is triggered by a web request?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "c76a7bb4-eacc-4cb8-9bd9-ea814032e311",
+      "clipId": "c5b01fbb-1656-4c5c-89ac-a8be75ea2938",
+      "clipTitle": "Using Azure MFA",
+      "distractors": ["Authentication application", "Phone", "SMS"],
+      "key": "Security questions",
+      "moduleId": "b6951d9f-483f-4062-bea6-c94bbb55b003",
+      "stem": "What is not an MFA option with Azure AD?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "662ff4af-a4fa-4824-94c2-e1c74a0b4b35",
+      "clipId": "f7d5005f-48ae-41cb-8bae-38a4604ee130",
+      "clipTitle": "Demo: Deploying Containers to a Service Fabric Cluster",
+      "distractors": ["`az\nmesh publish`", "`az\nsf mesh push`", "`az\nsf deploy`"],
+      "key": "`az\nmesh deployment create`",
+      "moduleId": "53d97948-2b25-4057-a849-418ed080c962",
+      "stem": "Which Azure CLI command allows you to deploy an application to Service Fabric Mesh using an ARM template?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "4868497c-4637-462f-ae5a-de71c962eae8",
+      "clipId": "6a70c3eb-c3d2-48a6-955f-f0ca59e33b15",
+      "clipTitle": "Demo - Using Sub-orchestrations",
+      "distractors": [
+        "BeginOrchestratorAsync",
+        "InitiateSubOrchestrationAsync",
+        "StartSubOrchestrationAsync"
+      ],
+      "key": "CallSubOrchestratorAsync",
+      "moduleId": "14627f90-b89b-4184-959b-f1b54f64a2bf",
+      "stem": "Which method allows an orchestrator function to call another orchestrator as a sub-orchestration?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "73da269a-f0a9-439d-8da9-f0282f8a29b3",
+      "clipId": "7c373708-333e-48da-9a50-83f02d8aba4f",
+      "clipTitle": "Demo: Using the Azure Functions Core Tools",
+      "distractors": ["func host", "func local", "func execute"],
+      "key": "func start",
+      "moduleId": "2a9e4073-6ec8-4a43-bf58-844b3dbe4379",
+      "stem": "What Azure Functions Core Tools command can be used to start the local host?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "1868c449-84a3-4ea5-bcc2-92f4c9489013",
+      "clipId": "d1f55620-672b-4424-84bc-843160af97c3",
+      "clipTitle": "Azure Storage Queues",
+      "distractors": ["4 MB", "1 MB", "256 KB"],
+      "key": "64 KB",
+      "moduleId": "834c3615-1ef5-4fa4-98a1-cc4f03933454",
+      "stem": "What is the maximum message size supported by Azure storage queues?",
+      "stemImageUrl": null,
+      "courseId": "aa693e20-f653-486f-95e0-5fe59760b9c3"
+    },
+    {
+      "questionId": "b0f77e46-072a-4c4a-bd6c-8abb7e644e37",
+      "clipId": "ffe30395-69f4-4f73-832c-521c0630fb21",
+      "clipTitle": "Introduction",
+      "distractors": ["MFA", "User authentication"],
+      "key": "Automated scenarios",
+      "moduleId": "59ebafd6-cf48-4e33-9b4a-1be3fb17aac2",
+      "stem": "What is an example usage of a service principal?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "c083271b-dc4c-4f0e-9aa7-526fc4734389",
+      "clipId": "a2be3cb5-2a6d-4538-ada0-907a8ba5cf8c",
+      "clipTitle": "Sync Group, Sync Group Properties, Hub, Member, and Sync Databases",
+      "distractors": ["Bi-directional", "To Hub", "Not supported"],
+      "key": "From Hub",
+      "moduleId": "8288bad3-813e-4e2d-a87f-c37983418ba6",
+      "stem": "You must make sure only the members' data updates from the Hub and the Hub is intact. Which sync direction would you choose?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "bb1302d4-7bd1-4d5e-ae0e-936230fef9b0",
+      "clipId": "f8cf52aa-c1c7-42d0-9604-d4c6ae2f62fb",
+      "clipTitle": "Exploring Azure Networking Services",
+      "distractors": ["Virtual Networks", "Express Route", "Content Delivery Network"],
+      "key": "Traffic Manager",
+      "moduleId": "3e98b004-2a34-4e80-aebd-779455627135",
+      "stem": "Which Azure service is capable of routing network clients between regions?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "e3e3b5e7-e28d-4be3-ba2d-762a7799d576",
+      "clipId": "315bd680-cf34-459a-bef7-dd81a60fb4e8",
+      "clipTitle": "What Other Services Can I Integrate With?",
+      "distractors": [
+        "Azure DevOps Function Deployers",
+        "Azure DevOps Repos",
+        "Azre DevOps Artefacts"
+      ],
+      "key": "Azure DevOps Pipelines",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "What is the name of the cloud-based continuous deployment service that can be used to automate deployment of your Azure Function Apps?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "68cae5a3-3861-407d-8f73-ee23e90932fb",
+      "clipId": "49b91a4a-d9e2-4837-9733-a3eb75ffb0f3",
+      "clipTitle": "Processing Data in Azure",
+      "distractors": ["Azure Cosmos DB", "Service Bus", "Data Factory"],
+      "key": "Event Hubs",
+      "moduleId": "193db0d5-a614-4584-8bc4-67c77c07fc8b",
+      "stem": "Which service is used for ingesting data?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "a4d6a3f6-22c3-4ce4-88a1-30d997e8843b",
+      "clipId": "cd019de8-84f6-4f24-9f93-bf0ecc300cd7",
+      "clipTitle": "Service Cost and Value",
+      "distractors": [
+        "The edition of the database",
+        "The SQL Server version selected",
+        "The service tier selected for the server"
+      ],
+      "key": "The service tier selected for the database",
+      "moduleId": "ba851147-d476-4405-8f0c-2c25c3abaeb6",
+      "stem": "Which one is a cost component of Azure SQL Database?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "040f6038-4b09-465d-a586-4aab37b576d4",
+      "clipId": "dcbe3218-2ae8-47b9-832a-8e3bdc285bd7",
+      "clipTitle": "Analyzing Data",
+      "distractors": [
+        "It connects SQL Data Warehouse to Analysis Services",
+        "It visualizes data that has been analyzed",
+        "It provides networking monitoring for the Analysis Services service"
+      ],
+      "key": "It analyzes data as it is ingested and produces output",
+      "moduleId": "a287632c-d1f7-45f1-bd34-0096a766819a",
+      "stem": "What does the Stream Analytics service do?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "61859121-3dbe-4d59-b836-1ad6692d6e84",
+      "clipId": "4f0d4f99-d80f-474c-bfcd-5f729c792428",
+      "clipTitle": "What Is Modern Authentication?",
+      "distractors": ["key exchange token", "id token"],
+      "key": "refresh token",
+      "moduleId": "8ec0c697-7bbf-4c9f-a8b6-b6141d1c1563",
+      "stem": "What token do you use to renew an access token?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "1ddb5a09-0ae0-470a-a6a3-2c91cb8245c8",
+      "clipId": "177eb737-aaa8-4743-b066-19660017d331",
+      "clipTitle": "Docker Basics",
+      "distractors": ["Dockerinit", "Dockerscript", "Dockerbuild"],
+      "key": "Dockerfile",
+      "moduleId": "c86ff451-4c7e-4222-a8fa-79aac1228371",
+      "stem": "What is the name of the file that contains instructions to build a Docker image?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "df3b935d-2730-4b6d-bf52-eea240d15df9",
+      "clipId": "c87ba9fd-c581-438b-bebc-32630b49a2d7",
+      "clipTitle": "Securing Azure SQL Database",
+      "distractors": [
+        "Transparent Data Encryption (TDE)",
+        "Secure Sockets Layer (SSL)/Transport Layer Security (TLS) for data in transit",
+        "Managed Identities (MSI)"
+      ],
+      "key": "Always Encrypted",
+      "moduleId": "e35c7cc7-8ffa-4534-8834-2f3912d14274",
+      "stem": "You must make sure database administrators can not see employees' personal information. Which technology will you use?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "62f263cf-6d01-4448-9ba1-dbc3bedce3c9",
+      "clipId": "e11170f1-5799-43e9-8830-0788d5cbb04d",
+      "clipTitle": "Working with Containers and Deployment",
+      "distractors": [
+        "The name for a shelved set of code in Azure Source Control",
+        "A training program for learning about Azure SDKs",
+        "Code repositories in Azure DevOps used to store container images for deployment"
+      ],
+      "key": "A development system built on top of AKS to simplify team development with containers",
+      "moduleId": "a59e2ecd-ce3b-4c96-9f1b-d9b07a1a537c",
+      "stem": "What is Azure Dev Spaces?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "14232ccb-375d-4176-88c4-455a59f6d185",
+      "clipId": "ee95adc0-2fcf-4250-a9a1-19d6c354a035",
+      "clipTitle": "Waiting for External Events",
+      "distractors": ["WaitForMessage", "WaitForHumanInteraction", "WaitForHumanInput"],
+      "key": "WaitForExternalEvent",
+      "moduleId": "8b7b76ca-6a8e-4527-a37e-0c05561420e6",
+      "stem": "What method can be used in an orchestrator to wait for human interaction?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "03b57ce8-03cc-482e-b918-8f74cd3e3134",
+      "clipId": "315bd680-cf34-459a-bef7-dd81a60fb4e8",
+      "clipTitle": "What Other Services Can I Integrate With?",
+      "distractors": [
+        "Azure Functions Gateway",
+        "Azure Functions Router",
+        "Azure Functions Front Door"
+      ],
+      "key": "Azure Functions Proxies",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "Which Azure Functions feature allows us to route incoming HTTP requests onto other destinations, and modify their header parameters along the way?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "88012fd5-e8ec-42a9-9503-d33d16eec41d",
+      "clipId": "889f4a8b-8878-42aa-886e-21e10eb2e144",
+      "clipTitle": "Demo: View Function Invocation History",
+      "distractors": ["Azure Container Instances", "Azure Event Hubs", "Azure Log Analytics"],
+      "key": "Azure Application Insights",
+      "moduleId": "138c20fb-6d3d-44ff-9a1b-6d55fb845c77",
+      "stem": "What resource type is recommended to be connected to an Azure Function App for logging and monitoring purposes?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "f0645a3b-2e89-456c-a96a-7bd890071239",
+      "clipId": "613a45b3-b071-432d-89c1-6303a4106a74",
+      "clipTitle": "Demo: Docker Exec",
+      "distractors": ["`docker\nlaunch`", "`docker\nsh`", "`docker\nstart`"],
+      "key": "`docker\nexec`",
+      "moduleId": "ac3e28d9-13a0-4228-9e56-b2650b305db5",
+      "stem": "What Docker command allows us to execute a command inside a running container?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "02e97cd9-5160-4d37-a030-0b5b722d34fc",
+      "clipId": "ea088ee3-2e4a-421b-9f2a-beef7b3eac32",
+      "clipTitle": "Demo: Creating an AKS Cluster",
+      "distractors": ["`az\naks login`", "`az\naks kubectl init`", "`az\naks connect`"],
+      "key": "`az\naks get-credentials`",
+      "moduleId": "286fe99f-8dd8-4607-91ec-6dcb6ce0ed06",
+      "stem": "What Azure CLI command lets you configure kubectl to securely communicate with an AKS cluster?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "58397ed6-16c3-47e7-97c5-e35b6070c3f2",
+      "clipId": "d27c08eb-caf0-41cf-a67c-9cccae63c966",
+      "clipTitle": "Cloud Deployment Models",
+      "distractors": ["A hybrid cloud", "A public cloud", "A private cloud"],
+      "key": "A community cloud",
+      "moduleId": "915b5fc2-59c8-41e4-a4b0-9aecea0cf6d3",
+      "stem": "In which type of cloud deployment model do multiple organizations with similar security and compliance concerns share the same datacenter and/or hardware?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "42ab4083-44b3-4ab6-81a7-7ed3ec96c578",
+      "clipId": "37fcb050-ecaf-440e-b161-37034437b33b",
+      "clipTitle": "Azure SQL Data Sync Use Cases",
+      "distractors": ["Read-only replicas", "Azure SQL Data Sync", "Azure Data Factory"],
+      "key": "Azure Database Migration Service",
+      "moduleId": "8288bad3-813e-4e2d-a87f-c37983418ba6",
+      "stem": "Which technology should be used for data migration?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "2140d3ef-c36b-45b7-a0df-baf54157167d",
+      "clipId": "664e4676-a590-4d63-944a-833c6f847a84",
+      "clipTitle": "Point in Time and Long Term Retention Backups",
+      "distractors": [
+        "All backup types are kept",
+        "Full and differential backups",
+        "Transaction log backups"
+      ],
+      "key": "Full weekly backups only",
+      "moduleId": "f5de9e1c-f6a0-47dd-8221-5977c909a323",
+      "stem": "What kind of backups are kept for the long-term-retention (LTR) backups?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "68b468e7-88c2-4a64-afd8-5b6c8fe6b9ad",
+      "clipId": "6cf68e2f-dc20-4131-b600-5db0e5d7dfd2",
+      "clipTitle": "Serverless Architecture",
+      "distractors": [
+        "Cloud as a Service (CaaS)",
+        "Infrastructure as a Service (IaaS)",
+        "Software as a Service (SaaS)"
+      ],
+      "key": "Functions as a Service (FaaS)",
+      "moduleId": "eb5e98f5-3490-41bb-a316-2395a6432139",
+      "stem": "Which of category of cloud service does Azure Functions fit into?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "a87902a3-8686-48fe-a3af-f2c173ee0855",
+      "clipId": "810f63ec-6bdb-4596-8597-b813cba3d959",
+      "clipTitle": "ACI Features",
+      "distractors": ["Azure Table Storage", "Azure Log Analytics", "Azure Blob Container"],
+      "key": "Azure File Share",
+      "moduleId": "7a0d7b98-19e9-4235-a15d-1ea4211e2a24",
+      "stem": "Which of the following can be mounted as a volume to an ACI container?",
+      "stemImageUrl": null,
+      "courseId": "eaa05a78-36d9-49c0-9d84-aef979df9700"
+    },
+    {
+      "questionId": "313ab1a4-4618-44a0-a989-27e80ee4bbf9",
+      "clipId": "b12efb8a-c4b3-4c7c-8551-5537e98e9d31",
+      "clipTitle": "Preventing Excessive Usage",
+      "distractors": [
+        "Validating JWT token",
+        "Limiting usage quota",
+        "Limiting call rate",
+        "Restricting caller IP address"
+      ],
+      "key": "Permanently blocking a user",
+      "moduleId": "b0a9f645-c967-44ae-89db-19913f330378",
+      "stem": "Which one of the access restrictions policies is **not **supported in Azure API management?",
+      "stemImageUrl": null,
+      "courseId": "6d5306db-c128-4ec7-ae05-575390757fc3"
+    },
+    {
+      "questionId": "36d35ff5-288b-4745-887a-a8825de65752",
+      "clipId": "11038afa-5f13-4d61-b945-57d0aa2aa84b",
+      "clipTitle": "Keys Scenario",
+      "distractors": ["Certificates", "DiskKeys", "Keys"],
+      "key": "Secrets",
+      "moduleId": "2bff8526-a069-44b9-b0cb-93098607349c",
+      "stem": "When using Azure Disk Encryption, where is the BitLocker Encryption Key stored within Key Vault?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "04478053-6545-4897-b0b8-cd4ce802a571",
+      "clipId": "c87ba9fd-c581-438b-bebc-32630b49a2d7",
+      "clipTitle": "Securing Azure SQL Database",
+      "distractors": [
+        "Always Encrypted",
+        "Transparent Data Encryption (TDE)",
+        "Azure Active Directory authentication"
+      ],
+      "key": "Dynamic data masking",
+      "moduleId": "e35c7cc7-8ffa-4534-8834-2f3912d14274",
+      "stem": "You must make sure less-privileged users can not see s sensitive table column. Which technology can help?",
+      "stemImageUrl": null,
+      "courseId": "fdb4f038-291d-47b2-870b-3d5f73f81ac2"
+    },
+    {
+      "questionId": "b82804ac-3ade-441b-aa4b-983d65423520",
+      "clipId": "a9b0b7ac-d11d-4263-b52f-7e703b41d4a9",
+      "clipTitle": "Understanding Azure Networking",
+      "distractors": ["Content delivery network", "Traffic Manager", "Express Route"],
+      "key": "Virtual networks",
+      "moduleId": "3e98b004-2a34-4e80-aebd-779455627135",
+      "stem": "What is the primary component for networking in Azure?",
+      "stemImageUrl": null,
+      "courseId": "bf77b1d3-cb8f-4cce-8490-0278133464d5"
+    },
+    {
+      "questionId": "9c31bda9-d08a-418b-ae47-f8ffe02ab47d",
+      "clipId": "61ec58c1-501f-48c5-a0fc-52a973ec504f",
+      "clipTitle": "Key Vault Secrets",
+      "distractors": ["Use the Description field", "Use the Purpose field", "Add a metadata tag"],
+      "key": "Use the ContentType field",
+      "moduleId": "2bff8526-a069-44b9-b0cb-93098607349c",
+      "stem": "When storing a secret in Azure Key Vault, how can you provide information about the secret?",
+      "stemImageUrl": null,
+      "courseId": "b95632ba-8372-4747-bac3-e20b2e045323"
+    },
+    {
+      "questionId": "dc20da01-466d-4c44-8df4-247911e79145",
+      "clipId": "e1bb7cec-a55e-4fb8-a353-0fa03a10eb1c",
+      "clipTitle": "Demo: Queue Trigger, Blob Output",
+      "distractors": [
+        "`AzureStorageEmulator=true`",
+        "`UseEmulator=true`",
+        "`LocalDevStorage=true`"
+      ],
+      "key": "`UseDevelopmentStorage=true`",
+      "moduleId": "bc276fa3-451a-41d9-9421-e7c9d655bb16",
+      "stem": "What connection string can be used to connect to the Azure Storage emulator when running locally?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "e9ace115-18d7-4d88-957f-db2c889be392",
+      "clipId": "eb755ca5-f3ee-4498-8742-022017dcc55a",
+      "clipTitle": "Securing Durable Functions",
+      "distractors": [
+        "They would need to know the public IP address of your function app.",
+        "They would need to know the name of your orchestrator function.",
+        "They would need to know your Application Insights key."
+      ],
+      "key": "They would need credentials to call your starter function.",
+      "moduleId": "6a71b58d-893c-4188-ab56-f783e59ed3f7",
+      "stem": "What prevents a malicious actor starting an orchestration without permission?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "773bf919-7240-4be5-8f3c-2a143d477da1",
+      "clipId": "4ac326ca-64c2-49ee-b955-b27a53dccf24",
+      "clipTitle": "Obtaining Azure AD",
+      "distractors": ["Azure AD Basic", "Azure AD Premium P2"],
+      "key": "Azure AD Premium P1",
+      "moduleId": "296bc597-3f62-4c9e-bb91-178655d2d627",
+      "stem": "What is the minimum SKU to use conditional access?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "7ac9caf5-9381-4ca9-987d-64655cf04f76",
+      "clipId": "f6ac92d4-3e7a-4a59-a8ae-87a48eff11a2",
+      "clipTitle": "Performing Restores",
+      "distractors": [
+        "The database can be recovered only if it was configured for Geo-Replication.",
+        "The database can be recovered only if it's done within the next 24 hours.",
+        "The database is lost and unrecoverable."
+      ],
+      "key": "The database can be recovered as long as it is done in the next 35 days.",
+      "moduleId": "15086894-4996-4592-b4fd-4081c9a98df2",
+      "stem": "A co-worker has accidentally deleted a database on the Standard tier; which of the following is true?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "045d3680-eeab-40cd-b88e-96d7ba10d25c",
+      "clipId": "2ee6b671-4453-4aa7-a11f-f40825a69524",
+      "clipTitle": "Demo: Creating a Function App in Visual Studio",
+      "distractors": [
+        "Visual Studio Enterprise 2017",
+        "Visual Studio Professional 2017",
+        "Visual Studio Free 2017"
+      ],
+      "key": "Visual Studio Community 2017",
+      "moduleId": "e5ccc296-c6f8-4e3d-97b9-4717a5d0c26b",
+      "stem": "What is the name of the free edition of Visual Studio 2017 that can be used to develop Azure Function applications?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "780c4ffb-6c22-4330-9f84-25970d799fc9",
+      "clipId": "d27c08eb-caf0-41cf-a67c-9cccae63c966",
+      "clipTitle": "Cloud Deployment Models",
+      "distractors": ["Azure Functions", "Azure Stack", "Azure Compute"],
+      "key": "Azure Germany",
+      "moduleId": "915b5fc2-59c8-41e4-a4b0-9aecea0cf6d3",
+      "stem": "Which Azure offering is an example of a community cloud?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "87a522a9-20a1-4e7d-b751-28161742c7f7",
+      "clipId": "ec1f98f5-bbdc-4b9d-9638-ce7186533582",
+      "clipTitle": "Management Groups Introduction",
+      "distractors": ["Management groups and resource groups", "Only subscriptions"],
+      "key": "Management groups and subscriptions",
+      "moduleId": "b6951d9f-483f-4062-bea6-c94bbb55b003",
+      "stem": "What can be child objects of management groups?",
+      "stemImageUrl": null,
+      "courseId": "f96f8b61-e89a-440c-ab52-0db02b0c42a7"
+    },
+    {
+      "questionId": "b075f58c-1931-4186-aa6e-9cda720036e6",
+      "clipId": "9e22fcbe-1226-414f-9fc8-bf94df26a3a2",
+      "clipTitle": "Types of Cloud Computing Services",
+      "distractors": ["Windows 10", "Azure Compute", "Azure Logic Apps"],
+      "key": "SharePoint Online",
+      "moduleId": "332f4df5-7d15-4919-a855-c22a3bbb22d9",
+      "stem": "Which Microsoft product is considered a Software as a Service (SaaS)?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "26ff3034-3ad9-45ef-b6aa-3a821fa72bda",
+      "clipId": "f00360b4-87e6-42d4-aaa2-34f0b3f7ac5b",
+      "clipTitle": "Cloud Computing Services Scenarios",
+      "distractors": [
+        "Software as a Service   (SaaS)",
+        "Platform as a Service   (PaaS)",
+        "Applications as a Service (AaaS)"
+      ],
+      "key": "Infrastructure as a Service (IaaS)",
+      "moduleId": "332f4df5-7d15-4919-a855-c22a3bbb22d9",
+      "stem": "Which type of cloud computing service would be best for high performance computing?",
+      "stemImageUrl": null,
+      "courseId": "1116b21c-3cdd-4824-9513-ae6f092207eb"
+    },
+    {
+      "questionId": "dec75d25-8f3c-4168-a57a-6b8c40c1808b",
+      "clipId": "2a574cea-8774-4537-9f49-312fdf38c500",
+      "clipTitle": "Migration Methodology",
+      "distractors": [
+        "Defining the CPU chip preference for Azure SQL Database",
+        "Pre-allocating the storage for Azure SQL Database",
+        "Purchasing the license to move to Azure SQL Database"
+      ],
+      "key": "Identifying the right service tier for the target database",
+      "moduleId": "d6f95092-930f-42ff-a35f-b09bcd404d6e",
+      "stem": "Which of the following is a critical step in a migration plan to Azure SQL Database?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "9c30dc58-38fd-43b2-9858-a296ce7639ee",
+      "clipId": "fc818aa9-ee41-42e6-a632-6de0c3f36d75",
+      "clipTitle": "Azure Functions Docker Images",
+      "distractors": [
+        "microsoft/azure-functions2.0",
+        "microsoft/azure-functions-base2.0",
+        "microsoft/azure-functions-runtime2.0"
+      ],
+      "key": "microsoft/azure-functions-dotnet-core2.0",
+      "moduleId": "2fe3d207-1ef7-40cd-ada9-de54b3f92d96",
+      "stem": "What is the name of the official Microsoft Docker image containing the Azure Functions 2.0 runtime?",
+      "stemImageUrl": null,
+      "courseId": "069a9d7f-648f-4d82-a14c-4f6e6f4e435e"
+    },
+    {
+      "questionId": "6174e09b-ed0b-4b2a-be37-2860f5741535",
+      "clipId": "0ab3531c-cac7-40ef-a6d2-9a97a105e3cf",
+      "clipTitle": "Demo: Accessing Secrets in Key Vault",
+      "distractors": ["Azure Password Vault", "Azure Secret Vault", "Azure Crypto Vault"],
+      "key": "Azure Key Vault",
+      "moduleId": "2cf5e327-54d3-4b28-8cb4-f34f1deaa99d",
+      "stem": "What is the name of the Azure Service that can be used to securely store secrets?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "0cb8889d-2ef4-4750-bdbf-d5669d2da20b",
+      "clipId": "ed755900-f397-498b-9027-0413dc60b671",
+      "clipTitle": "Demo: Creating an Azure Function App with the Azure CLI",
+      "distractors": ["`az functionapp new`", "`az create functionapp`", "`az new functionapp`"],
+      "key": "`az functionapp create`",
+      "moduleId": "49c610b4-f3d1-4675-be50-40176d891255",
+      "stem": "What command creates a new Function App with the Azure CLI?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "ba2eafb9-87b3-4c2d-9fc7-0c4a0c705075",
+      "clipId": "2df2160d-e4a5-4bce-9e25-16f43d7d65cb",
+      "clipTitle": "Register an App",
+      "distractors": ["Native App", "JavaScript SPA", "Web App"],
+      "key": "Web API",
+      "moduleId": "e850b6ac-cadc-4ef4-9db9-35e7209e520b",
+      "stem": "What kind of application does NOT need a redirect URI?",
+      "stemImageUrl": null,
+      "courseId": "587ebc30-92a5-4413-ab58-e8abf4c9fe6f"
+    },
+    {
+      "questionId": "d01b8c5d-5713-41df-8cef-28a9aceb834f",
+      "clipId": "b8bca43c-f2f4-4a8a-b2e6-d521e2d1be23",
+      "clipTitle": "Azure Performance Tools",
+      "distractors": ["Plan Guides", "In-Memory OLTP", "Plan Cache"],
+      "key": "Query Store",
+      "moduleId": "2830a89c-ae2f-465f-80e8-0d148b497af7",
+      "stem": "Which feature is necessary for using the 'Query Performance Insights' and 'Performance Recommendations' tools?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "2d861862-6c36-4d0d-9f3f-6a0810ebab34",
+      "clipId": "af123a1b-a074-4ab3-8973-42db50a5e86b",
+      "clipTitle": "Demo - Creating a Starter Function",
+      "distractors": [
+        "CreateOrchestrationInfoResponse",
+        "CreateQueryWorkflowResponse",
+        "CreateRestApiResponse"
+      ],
+      "key": "CreateCheckStatusResponse",
+      "moduleId": "63aa8d2a-a381-44d5-92e0-f53f58f47f2a",
+      "stem": "What method on DurableOrchestrationClient helps generate the URLs for querying the orchestration status?",
+      "stemImageUrl": null,
+      "courseId": "fde07029-605a-4fe7-bfd8-a7c668917d96"
+    },
+    {
+      "questionId": "9e458fcd-ab75-498a-a796-f56abd6fec82",
+      "clipId": "02802bd7-c72a-4f0c-acf1-ee76220fb998",
+      "clipTitle": "Azure Metrics Alerts",
+      "distractors": [
+        "Size of the database plan cache",
+        "Number of users in the database",
+        "Size of a specific table"
+      ],
+      "key": "Percentage of In-Memory OLTP storage consumed",
+      "moduleId": "2830a89c-ae2f-465f-80e8-0d148b497af7",
+      "stem": "Which of the following can be monitored with the built-in Azure metrics?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "44640a26-b26a-4e1d-b83c-d0448a928723",
+      "clipId": "4171b840-cdee-44e7-a205-766482dfd29d",
+      "clipTitle": "Backup Capabilities",
+      "distractors": ["Log backup every hour", "Daily Incremental backup", "Daily Full backup"],
+      "key": "Incremental backup every hour",
+      "moduleId": "15086894-4996-4592-b4fd-4081c9a98df2",
+      "stem": "Which of the following is one of the backup operations done by the Azure SQL Database Service?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "6b1e9d4f-6afa-4dc7-9681-3a537605142f",
+      "clipId": "80aed117-8f33-4aa7-8848-0ea6801bfaff",
+      "clipTitle": "What Is Azure SQL Database?",
+      "distractors": [
+        "A Golden Image VM with automated configuration",
+        "Billing by the minute",
+        "Automated scaling of resources"
+      ],
+      "key": "Ability to create or destroy resources on demand",
+      "moduleId": "ba851147-d476-4405-8f0c-2c25c3abaeb6",
+      "stem": "Which one is a fundamental characteristic of a DbaaS offering?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    },
+    {
+      "questionId": "eda429d4-a721-457b-8800-7398beb76e37",
+      "clipId": "5fac932e-aea7-4563-bcc4-a343700f7aaa",
+      "clipTitle": "Ways to Deploy Azure Functions",
+      "distractors": ["HTML", "XML", "YAML"],
+      "key": "JSON",
+      "moduleId": "49c610b4-f3d1-4675-be50-40176d891255",
+      "stem": "An ARM template contains a declarative definition of your Azure resources in what format?",
+      "stemImageUrl": null,
+      "courseId": "aaad66cd-9615-4d7b-b0d9-0f5e87ef5f6d"
+    },
+    {
+      "questionId": "f728ce46-85bf-44dd-9cc8-145f557f38d5",
+      "clipId": "0625dead-46f5-4ff2-8e41-6c55b3e24334",
+      "clipTitle": "Getting Started",
+      "distractors": [
+        "V11 is equivalent to SQL 2008; V12 is equivalent to SQL 2016.",
+        "V11 is built on an older VM model; V12 is built on a newer VM model.",
+        "V11 is equivalent to Standard Edition; V12 is equivalent to Enterprise Edition."
+      ],
+      "key": "V11 was the first release of Azure SQL Db and is legacy; V12 is the current version.",
+      "moduleId": "ba851147-d476-4405-8f0c-2c25c3abaeb6",
+      "stem": "What is the difference between V11 and V12 of Azure SQL database?",
+      "stemImageUrl": null,
+      "courseId": "16ee5647-fa68-4af5-a1b4-4043bb3b7a5b"
+    }
+  ]
+}

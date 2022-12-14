@@ -1,0 +1,1889 @@
+{
+  "collection": [
+    {
+      "questionId": "2cd8775e-92a7-47b3-ba38-e5bb21b3b5c1",
+      "clipId": "9a678f6d-e96e-41dd-884f-56998b4d0993",
+      "clipTitle": "if ... else",
+      "distractors": ["(nothing)", "first second", "second"],
+      "key": "first",
+      "moduleId": "8ea80b7f-c05f-4982-b763-4b751df62429",
+      "stem": "What shows in the console?\r\n\r\n\r\n    if (5 >= 5) {\r\n      console.log('first');\r\n    }\r\n    else {\r\n      console.log('second');\r\n    }",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "797b4dd6-9a65-40b4-9635-8e58832a54e4",
+      "clipId": "5e782e54-4644-48b2-9b0f-43b2fa7ecc96",
+      "clipTitle": "Accessing Typed Arrays with Views",
+      "distractors": ["Neither", "Method 2", "Method 1"],
+      "key": "Both",
+      "moduleId": "e4c7164a-1abe-4f7b-a559-9155b08f0f3b",
+      "stem": "Which method is correct when creating a view that will communicate to a buffer?\r\n\r\n**Method 1**\r\n\r\n\r\n    let testBuffer = new ArrayBuffer(16);\r\n    let view = new Int16Array(testBuffer);\r\n\r\n\r\n**Method 2**\r\n\r\n\r\n    let testBuffer = new ArrayBuffer(8);\r\n    let view = new DataView(testBuffer);",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "00c690ec-b22d-4c59-90e9-195aada0a5c3",
+      "clipId": "fd0b2ce3-3632-4d8c-a167-c8eeaab5b348",
+      "clipTitle": "Rejecting a Promise",
+      "distractors": ["settle", "catch", "fail"],
+      "key": "reject",
+      "moduleId": "7dccf507-47fe-4617-b265-3d2bd70e53fb",
+      "stem": "What is the conventional name for the function used by a promise to set its state to rejected?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "5a6d989b-3ed4-4dcb-85f6-91ecc2609543",
+      "clipId": "199d5a33-1d01-4600-85c2-007d1ab78d9a",
+      "clipTitle": "'this' in Event Handlers",
+      "distractors": [
+        "It is undefined",
+        "The value is a reference to the event handler function",
+        "The value is the global/window object"
+      ],
+      "key": "The instance of the HTML element with the event handler",
+      "moduleId": "4df1de19-1b82-450d-846c-6f03ed917647",
+      "stem": "What is the value of `this` in an event handler?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "374951da-30d9-41fd-810d-aa0618a4c1e0",
+      "clipId": "403a7a6f-64d1-4220-bbee-1e530d81feae",
+      "clipTitle": "What Is an Iterable?",
+      "distractors": [
+        "It requires a Symbol.IsIterable promise",
+        "It must be a promise",
+        "The iterable method"
+      ],
+      "key": "The @@iterator method",
+      "moduleId": "bad07ef3-da8b-404a-8735-a75696bffa1e",
+      "stem": "For an object to be an iterable, what method must it implement?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "2cfe289a-9e65-49fd-bdc6-f2627aa22703",
+      "clipId": "9d836f52-8715-4a3d-a1a8-0182284ae354",
+      "clipTitle": "Default Imports",
+      "distractors": [
+        "Modules are bundled and all downloaded at once",
+        "The page loads",
+        "The application is executed"
+      ],
+      "key": "The import statement is executed",
+      "moduleId": "f4d7c79d-16cb-4643-a3b5-bc0b1ef73fc8",
+      "stem": "JavaScript Module files are downloaded in the browser when:",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "b1ac4eab-63dc-4293-91ff-b42df6f259d0",
+      "clipId": "dcabc8f8-3b48-4783-ab3a-62057ad17d03",
+      "clipTitle": "Consuming Promises",
+      "distractors": ["settled", "next", "fulfilled"],
+      "key": "then",
+      "moduleId": "79038247-dfce-411d-bcf1-de51b057f4e2",
+      "stem": "What function handles the fulfillled state of a promise?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "9f2dcd00-88cf-421d-928c-8f6c2c00c1de",
+      "clipId": "afce234e-064c-4a94-91d3-cea3ee605721",
+      "clipTitle": "Plus Sign with Strings and Numbers",
+      "distractors": ["NaN", "A runtime error is thrown", "300"],
+      "key": "100200",
+      "moduleId": "41e8f319-876c-4c2a-a1eb-72b18ff697d3",
+      "stem": "What is the value of result in the following statement?\r\n\r\n\r\n    let result = 100 + \"200\"",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "00d3c769-8f77-4638-9382-121faba117bc",
+      "clipId": "cb77f32d-ab66-4428-87bf-66b15c4cb4a1",
+      "clipTitle": "Operator Precedence",
+      "distractors": [
+        "`Equal (=)`, `And (&&)`, `Not (!)`",
+        "`Multiplication (*)`, `Less Than (<)`, `Not (!)`",
+        "`Or (||)`, `Not Equal (!=)`, `Not (!)`"
+      ],
+      "key": "`Not (!)`, `Not Equal (!=)`, `Or (||)`",
+      "moduleId": "9ec5ad70-391c-4f2a-af53-c8a7bdcff796",
+      "stem": "What is the correct order of precedence?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "19e1db5c-e89f-4586-8af5-34a11b84c9de",
+      "clipId": "99f93df9-6764-4d02-b5b0-d442b1fd10a5",
+      "clipTitle": "Defining Typed Arrays",
+      "distractors": [
+        "When you add numbers to through the data view for example `setInt8()`",
+        "When you create the view",
+        "You do not need to define the number of bytes"
+      ],
+      "key": "When you create the Array Buffer",
+      "moduleId": "e4c7164a-1abe-4f7b-a559-9155b08f0f3b",
+      "stem": "At what point do you define how many bytes you can work with when using Typed Arrays?",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "94382b1e-cfaf-4b12-bdde-056c067e208f",
+      "clipId": "5f03d1b4-f191-4e54-9fd6-b3d50dca0230",
+      "clipTitle": "Behavior of This Keyword",
+      "distractors": ["Window", "this", "Empty object {}"],
+      "key": "printThis {}",
+      "moduleId": "e9ef2a4d-7bd6-471f-a782-c33ae4a46d30",
+      "stem": "What is the output?\r\n\r\n\r\n    function printThis() {\r\n        console.log(this);\r\n    }\r\n    new printThis();",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "cd4059fb-85ff-4378-93b4-58329c5045b8",
+      "clipId": "f19910bf-5f1b-4b05-88d9-d3c7dc2a03ae",
+      "clipTitle": "Named Exports",
+      "distractors": [
+        "`export default function sessionTemplate(sessions) {...}`",
+        "require function sessionTemplate(sessions) {...}",
+        "`module.exports = function sessionTemplate(sessions) {``...}`"
+      ],
+      "key": "`export function sessionTemplate(sessions) {...}`",
+      "moduleId": "868675b4-8bc4-4869-9f9c-8048e3961fc8",
+      "stem": "Which is the proper syntax to make `sessionTemplate` available by name from a JavaScript module?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "58ceca79-7fd0-48e0-980f-bd66176b91bc",
+      "clipId": "c2ad62bf-044b-49b9-8647-9c7111334578",
+      "clipTitle": "Handling Errors with Promises",
+      "distractors": ["error", "rejected", "then"],
+      "key": "catch",
+      "moduleId": "79038247-dfce-411d-bcf1-de51b057f4e2",
+      "stem": "What function handles the rejected state of a promise?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "4f304777-c401-4b4b-9a52-c80dda5aa942",
+      "clipId": "afbe84cd-c227-4222-b54b-7c15d49e1ada",
+      "clipTitle": "Immediately Invoked Function Expression",
+      "distractors": [
+        "Indirectly Invoked Function Expression",
+        "Implicitly Invoked Function Expression",
+        "Individually Identified Function Expression"
+      ],
+      "key": "Immediately Invoked Function Expression",
+      "moduleId": "1ccb4b81-871b-41c7-8b59-43b745f62539",
+      "stem": "What is IIFE?",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "7d041a22-6ead-4f56-989d-e3b4cc1e8887",
+      "clipId": "36bbc5af-6d61-4df6-9fcb-d5a6cd6efaeb",
+      "clipTitle": "Passing Information to Functions",
+      "distractors": ["6", "b", "4"],
+      "key": "5",
+      "moduleId": "42dfe6a0-b256-462f-a336-567e160219e3",
+      "stem": "What shows in the console?\r\n\r\n\r\n    function foo(a, b, c) {\r\n      console.log( b );\r\n    }\r\n    foo( 4, 5, 6 );",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "fd9dd8af-9e8d-459a-a590-519097e96e8d",
+      "clipId": "eef9cda6-d2ff-4c53-b7f7-8a82276e27e0",
+      "clipTitle": "Create a Tagged Template Literal",
+      "distractors": [
+        "You can chain **template literal** **tags **by putting multiple tag functions in front of a template literal",
+        "A template literal always has more **values **than **string**"
+      ],
+      "key": "A template literal always has more **strings **than **values**",
+      "moduleId": "0048aac8-372b-43c0-96dc-021602e26812",
+      "stem": "Which statement about** template literals **is true?",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "3a17ccbc-c1fa-4982-a07d-7576c969e533",
+      "clipId": "08f9d0fb-2257-448e-9aab-7db2afa79077",
+      "clipTitle": "Yield Delegation",
+      "distractors": [
+        "Yield delegation lets you skip over yield pause points.",
+        "Yield delegation is a way to throw an error using the yield keyword.",
+        "Yield delegation is similar to a for..of loop, in which it iterates over enumerable properties only."
+      ],
+      "key": "Yield delegation is the act of consuming another iterable object from within a generator function.",
+      "moduleId": "54af82ee-f263-42c6-a050-9becf1ddbbc0",
+      "stem": "What is yield delegation?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "6415258a-b7c3-4d55-b167-19fec2cebde7",
+      "clipId": "fdf6d2ec-b454-42e1-8dfa-14f53356fee5",
+      "clipTitle": "Multiple Case Statements and Forget a Break",
+      "distractors": [
+        "Execution goes to the default statement",
+        "You get a runtime error",
+        "Execution exits out of the switch statement"
+      ],
+      "key": "Execution falls through to the next case statement",
+      "moduleId": "649ec466-bdd6-488d-b0c1-05028948b1bd",
+      "stem": "What happens if you forget a break statement?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "54129be3-bfff-4196-8510-d9c7dffc615f",
+      "clipId": "0e54bc69-250a-484b-9bbd-af26528ff82a",
+      "clipTitle": "Intro to Generator Functions",
+      "distractors": ["1", "4", "3"],
+      "key": "2",
+      "moduleId": "54af82ee-f263-42c6-a050-9becf1ddbbc0",
+      "stem": "How many `next()` calls will need to happen before this generator function is complete?\r\n\r\n\r\n    function* myGenerator() {\r\n     const result = yield;\r\n     console.log(`result: ${result}`);\r\n    }",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "e43cb775-f646-4338-a610-ba897174d6ec",
+      "clipId": "c2ad62bf-044b-49b9-8647-9c7111334578",
+      "clipTitle": "Handling Errors with Promises",
+      "distractors": ["Undefined", "The data from the call", "An exception object"],
+      "key": "A reason",
+      "moduleId": "79038247-dfce-411d-bcf1-de51b057f4e2",
+      "stem": "When a promise is rejected, what data does it pass back?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "56780262-0d73-4250-8f6d-86d1ca645df2",
+      "clipId": "a8e7cbf4-92e3-4e40-9754-3f892b10e9b0",
+      "clipTitle": "'this' in Global and Function Scope",
+      "distractors": [
+        "The first function in your script tag",
+        "An instance of the JavaScript interpreter",
+        "it is undefined"
+      ],
+      "key": "The global/window object",
+      "moduleId": "4df1de19-1b82-450d-846c-6f03ed917647",
+      "stem": "When in the global scope, what is the value of `this`?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "25c4169a-9937-40fa-978a-85d21525eba2",
+      "clipId": "2ef7bf89-dc39-40ea-b20f-86a6941b106d",
+      "clipTitle": "Typed Arrays vs. Standard Arrays",
+      "distractors": [
+        "You can work with strings easier",
+        "There is no real benefit",
+        "Accept any data type"
+      ],
+      "key": "Restricted data type",
+      "moduleId": "e4c7164a-1abe-4f7b-a559-9155b08f0f3b",
+      "stem": "What is a benefit to using Typed Arrays over Standard Arrays?",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "0173b2a7-07a7-46d9-a4db-dd2434bfde4c",
+      "clipId": "08f9d0fb-2257-448e-9aab-7db2afa79077",
+      "clipTitle": "Yield Delegation",
+      "distractors": [
+        "The value is always undefined.",
+        "The value is the sum of all iterable values.",
+        "The value would change based on the next value in the iterator."
+      ],
+      "key": "The value returned by the iterable object or generator function.",
+      "moduleId": "54af82ee-f263-42c6-a050-9becf1ddbbc0",
+      "stem": "In yield delegation, what is the value of `yield*`?\r\n\r\nFor example:\r\n\r\n\r\n    ...\r\n    const value = yield* someGenerator();\r\n    // What is \"value\"?\r\n    ...",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "ce45c3a7-e40d-4a98-b995-05d99a55906d",
+      "clipId": "d9bc1fd5-50a0-410d-a8cf-92f43b7c0d28",
+      "clipTitle": "Creating Property Getters and Setters",
+      "distractors": [
+        "`student.fullName.set('John Doe');`",
+        "`student.fullName('John Doe');`",
+        "`student.setFullName('John Doe');`"
+      ],
+      "key": "`student.fullName = 'John Doe';`",
+      "moduleId": "616e802c-9968-4e77-b279-7bea1951311f",
+      "stem": "Given the following code, what is the correct way to set the student's fullName?\r\n\r\n\r\n    let student = {};\r\n    Object.defineProperty(student, 'fullName', \r\n      {\r\n        set: function(value) { \r\n          this.name.fullName = value;\r\n        }\r\n      }\r\n    );",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "d37cccab-aa81-475d-a205-278e4905494f",
+      "clipId": "bdc504e6-011b-43aa-9392-28d03cf75312",
+      "clipTitle": "Break and Continue Statements",
+      "distractors": [
+        "Continues with the line after the loop",
+        "Executes the line immediately after the break statement",
+        "Leaves a loop early"
+      ],
+      "key": "Goes back to the top of a loop and continues with next iteration",
+      "moduleId": "17b9f263-de50-4134-975a-ae9ca22edec7",
+      "stem": "What does the continue statement do?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "4b208261-4bf9-411a-b710-fbd068ce766a",
+      "clipId": "28e379f0-b9b7-48f5-95c4-403efffa8225",
+      "clipTitle": "Labeled Statements",
+      "distractors": [
+        "Add the keyword label followed by a colon",
+        "Add the keyword label followed by a name and a colon",
+        "On a separate line create a name followed by a semi-colon"
+      ],
+      "key": "On a separate line create a name followed by a colon",
+      "moduleId": "17b9f263-de50-4134-975a-ae9ca22edec7",
+      "stem": "How do you define a label in JavaScript?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "bc6a13ee-dd07-4d88-bbe9-7f56be8ea215",
+      "clipId": "1f8d65b2-7a0f-4d52-b151-56debb74e59b",
+      "clipTitle": "Use the Destructing Syntax to Get Values from Arrays and Objects",
+      "distractors": [
+        "`var\n( Id : a, ApplicantName: b ) = obj;`",
+        "`var\n[ Id, ApplicantName ] = obj;`",
+        "`obj ={ Id, ApplicantName }j;`"
+      ],
+      "key": "`var { Id : a, ApplicantName: b } = obj;`",
+      "moduleId": "0048aac8-372b-43c0-96dc-021602e26812",
+      "stem": "What is an example of a correct **destructuring syntax** for deconstructing an **object**?",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "60e25c10-5d84-46c6-bd05-0e20bc14d825",
+      "clipId": "5cf26d1d-1fa3-4d39-97a2-627501a834df",
+      "clipTitle": "The Difference Between Let and Const",
+      "distractors": ["PI = 3.14159", "PI = \"3.214159\"", "undefined"],
+      "key": "TypeError: Assignment to constant variable;",
+      "moduleId": "0048aac8-372b-43c0-96dc-021602e26812",
+      "stem": "Consider te following code example. What will be the result?\r\n\r\n\r\n    const PI = 3.14159;PI = \"3.214159\";",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "8f8871da-20f6-4fdc-b0c4-027e3c7d0f1f",
+      "clipId": "77e95233-74bc-41f3-a2b4-ae0c61646555",
+      "clipTitle": "Using Object Literals to Create JavaScript Objects",
+      "distractors": ["Constructor functions", "Object.create()", "JavaScript classes"],
+      "key": "Object literals",
+      "moduleId": "e82ffe35-ef92-4c12-abb7-ecd684ad45d1",
+      "stem": "What is the simplest way to create objects?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "9dfeb882-cdb2-476a-9ff8-d358329b8289",
+      "clipId": "7c763718-6292-482c-a6e7-13b5a6c1c6a6",
+      "clipTitle": "The typeof Operator",
+      "distractors": [
+        "A DataType object",
+        "An object with a property called name which contains a data type",
+        "An object value with the name of the data type of the expression"
+      ],
+      "key": "A string value with the data type of the expression",
+      "moduleId": "201f3bb5-3b49-4f50-9b18-c5269073658a",
+      "stem": "What does the `typeof` operator return?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "97c78003-3461-4f38-a3fb-f2b2a7cd8803",
+      "clipId": "74fc4cb8-e398-4ce2-b7d6-5fd53eb770ba",
+      "clipTitle": "Function Return Values",
+      "distractors": ["undefined", "null", "foo"],
+      "key": "bar",
+      "moduleId": "42dfe6a0-b256-462f-a336-567e160219e3",
+      "stem": "What shows in the console?\r\n\r\n\r\n    function foo() {\r\n      return \"bar\";\r\n    }\r\n    console.log( foo() );",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "83a9a460-9315-4893-9db3-ed9b67c19a3f",
+      "clipId": "71df3a14-4d0a-4ca6-8a0d-e7d6cfbbd159",
+      "clipTitle": "'this' in an Object Literal",
+      "distractors": [
+        "The global/window object",
+        "The collection of properties in the object",
+        "It is ndefined"
+      ],
+      "key": "The object itself",
+      "moduleId": "4df1de19-1b82-450d-846c-6f03ed917647",
+      "stem": "In an object literal, what does `this` refer to?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "aee1fb53-43a4-4a8d-8315-2156e3f8a2f3",
+      "clipId": "208e84d6-3887-450a-9005-4dc29f0a7011",
+      "clipTitle": "Validating Strings with the RegExp.test() Function",
+      "distractors": [
+        "This will return an error because regex objects only have an exec function, not a test function.",
+        "The result variable will be set to a string that matches the portion of the string matched by the regex.",
+        "The result variable will be set to an array containing matches from the string."
+      ],
+      "key": "The result variable will be set to true.",
+      "moduleId": "d634b407-4c16-474c-9470-da02568c3115",
+      "stem": "Given this regex that matches strings containing numbers only:\r\n\r\n\r\n    let regex = /^\\d*$/;\r\n    let result = regex.test('1234');\r\n\r\n\r\nWhich of the following is true?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "b047eb7c-6418-4286-ba62-2a65d26338ee",
+      "clipId": "e5a2f688-b53b-4c41-be87-ae3c2d5f612b",
+      "clipTitle": "Accessing Array Items",
+      "distractors": ["2", "1", "3"],
+      "key": "undefined",
+      "moduleId": "9e8bca7b-a402-4a88-b542-034e80c099e9",
+      "stem": "What shows in the console?\r\n\r\n\r\n    let arr = [ 1, 2, 3 ];\r\n    console.log( arr[3] );",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "edfedcbf-8934-4dc9-9b55-11561f9ebfba",
+      "clipId": "bd4ab84a-199e-4b89-9b41-aa4b6a8738ad",
+      "clipTitle": "Understanding Function Context",
+      "distractors": ["Empty object", "printThis {}", "this"],
+      "key": "Window Object",
+      "moduleId": "52773505-2234-46fa-a5dd-c187e6325e46",
+      "stem": "What is the output of the following?\r\n\r\n\r\n    function printThis() {\r\n        console.log(this);\r\n    }\r\n    printThis();",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "cfb159c0-e5fe-4934-9d1a-812394c646f8",
+      "clipId": "f5448478-0d27-407d-9d6b-c8debfe0c355",
+      "clipTitle": "Cancelable Async Flows",
+      "distractors": ["null", "token.signal", "true"],
+      "key": "token",
+      "moduleId": "46e5da67-004f-49c7-9a04-e3be0a688b0b",
+      "stem": "Which of these answers shows the correct parameter to pass to a Cancelable Async Flows (CAF) function that uses a CAF.timeout token?\r\n\r\n\r\n    const token = new CAF.timeout(300, \"This is taking too long!\");\r\n    const fetchCAF = CAF(function* fetchData(?) {\r\n      yield CAF.delay(?, 400);\r\n      const promise = yield axios.get(\"http://localhost:3000/users\");\r\n      return promise;\r\n    });\r\n    fetchCAF(?) // What do you pass here?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "7e3d5feb-07ca-4e38-bab8-53a70ca545cc",
+      "clipId": "40592934-0223-409d-900c-f442e8d35207",
+      "clipTitle": "The instanceof Operator",
+      "distractors": [
+        "Tests to see if an object is of the type String",
+        "Tests to see if an object is undefined",
+        "Tests to see if an object is null"
+      ],
+      "key": "Tests to see if an object inherits from Object",
+      "moduleId": "201f3bb5-3b49-4f50-9b18-c5269073658a",
+      "stem": "What does the `instanceof` operator do?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "5fe3d56e-cf68-40d6-a9c6-79f7714c2fd9",
+      "clipId": "b63b84be-275b-426d-b3a1-233612ba7e21",
+      "clipTitle": "Understanding Function Scope",
+      "distractors": ["Empty", "Hello", "Undefined"],
+      "key": "ReferenceError: message is not defined",
+      "moduleId": "1ccb4b81-871b-41c7-8b59-43b745f62539",
+      "stem": "What is the output of the following?\r\n\r\n\r\n    function greeting() {\r\n      let message = \"Hello\";\r\n    }\r\n    greeting();\r\n    console.log(message);",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "8b2617ae-489e-4da1-a002-dfe750366466",
+      "clipId": "aee6cd7b-f948-48a3-bf7e-c332509518d5",
+      "clipTitle": "'this' with call() and apply() Methods",
+      "distractors": [
+        "The global/window object",
+        "It is undefined",
+        "A reference to the call or apply object"
+      ],
+      "key": "A reference to the object passed to call or apply",
+      "moduleId": "4df1de19-1b82-450d-846c-6f03ed917647",
+      "stem": "What is the value of `this` in the call or apply method?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "cb03bc93-7a22-446e-849b-9921ab5a5f51",
+      "clipId": "75a8bfe7-e87d-4e63-9a37-554911ba65fd",
+      "clipTitle": "Default Exports",
+      "distractors": [
+        "`module.exports``function sessionTemplate(sessions) {...}`",
+        "`default export``function sessionTemplate(sessions) {...}`",
+        "`export``function sessionTemplate(sessions) {...}`"
+      ],
+      "key": "`export default``function sessionTemplate(sessions) {...}`",
+      "moduleId": "868675b4-8bc4-4869-9f9c-8048e3961fc8",
+      "stem": "What is the proper syntax to make `sessionTemplate` available by default from a JavaScript module?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "946a3663-b60f-45a1-b552-d40d1496785c",
+      "clipId": "2687feed-ebdf-47a3-8e01-0b07a7a8144f",
+      "clipTitle": "'this' in Constructor Functions",
+      "distractors": [
+        "The global/window object",
+        "The collection of properties in the object",
+        "It is undefined"
+      ],
+      "key": "The object itself",
+      "moduleId": "4df1de19-1b82-450d-846c-6f03ed917647",
+      "stem": "What is the value of `this` in a constructor function?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "0821c5ba-50d2-4f90-ae6a-8926d7e09127",
+      "clipId": "5af016cc-060b-4295-85c6-13ca60f1b002",
+      "clipTitle": "The Dynamic Nature of JavaScript",
+      "distractors": [
+        "must use Object.defineProperty",
+        "must first modify the class or function from which the object is derived",
+        "must create a new object with the correct shape and copy the values from the old object"
+      ],
+      "key": "simply add it to the object",
+      "moduleId": "e82ffe35-ef92-4c12-abb7-ecd684ad45d1",
+      "stem": "If you want to add a property to an object after the object has been created, you _________.",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "0ba9d416-ae75-445b-9a51-61b5b59bc120",
+      "clipId": "8cde6c5b-3b91-4530-b57e-9b6f44d26165",
+      "clipTitle": "What Are Iterators?",
+      "distractors": [
+        "{\r\n      next: next value,\r\n      return {property}: boolean, represents the presence of more values\r\n    }",
+        "{\r\n      return: returns the next value,\r\n      throw: function, throws an error\r\n    }",
+        "{\r\n      val {property}: returns the next value,\r\n      finished {property}: boolean, represents completion of iterator\r\n    }"
+      ],
+      "key": "{\r\n      value {property}: current iteration value,\r\n      done {property}: boolean, represents completion of iterator\r\n    }",
+      "moduleId": "bad07ef3-da8b-404a-8735-a75696bffa1e",
+      "stem": "What is the iterator result interface?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "fbb549c0-2cfe-42be-ad5c-b07deb210bac",
+      "clipId": "1745816b-edc9-4913-9d1b-173459d3e5a8",
+      "clipTitle": "Using Template Literals",
+      "distractors": [
+        "`var\nstr = `Hi #{ name }, how are you?`;`",
+        "`let\nstr = \"Hi $( name ), how are you?\";`",
+        "`var\nstr = \"Hi ${ name }, how are you?\";`"
+      ],
+      "key": "`var str = `Hi ${ name }, how are you?`;`",
+      "moduleId": "0048aac8-372b-43c0-96dc-021602e26812",
+      "stem": "What is the right syntax to create a **template literal**?",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "0f3c1b51-add8-45d9-8a14-d69586f86a61",
+      "clipId": "5cf26d1d-1fa3-4d39-97a2-627501a834df",
+      "clipTitle": "The Difference Between Let and Const",
+      "distractors": [
+        "**const**variables can have a block scope. **let **variables can only have global of function scope",
+        "**let**variables can have a block scope. **const **variables can only have global of function scope"
+      ],
+      "key": "**let **variables can be reassigned and **const **variables can not be reassigned or redeclared",
+      "moduleId": "0048aac8-372b-43c0-96dc-021602e26812",
+      "stem": "What is the difference between the **let **and **const **keywords?",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "1d1f7623-2e3a-4434-bb7a-33f1b9fb1a9f",
+      "clipId": "5b3c06f0-934b-415f-a6f1-643d913ed780",
+      "clipTitle": "Manipulating Arrays",
+      "distractors": [
+        "myArray.poke( 5 );",
+        "myArray.insert( 5 );",
+        "myArray.append( 5 );",
+        "myArray.add( 5 );"
+      ],
+      "key": "myArray.push( 5 );",
+      "moduleId": "9e8bca7b-a402-4a88-b542-034e80c099e9",
+      "stem": "How do you add an item to an array?",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "a62267f2-06c3-46e1-9bcb-6dbe43b6b0a3",
+      "clipId": "1eeecdc8-8934-481b-952f-5ca6e14e260a",
+      "clipTitle": "Changing a Functions Prototype",
+      "distractors": ["5", "undefined", "null"],
+      "key": "29",
+      "moduleId": "4cc249ea-8463-4596-aa76-5ce54a7f8b13",
+      "stem": "Given the following code:\r\n\r\n\r\n    function Person(firstName, lastName) {\r\n     this.firstName = firstName;\r\n     this.lastName = lastName;\r\n    }\r\n    Person.prototype.age = 29;\r\n    let jim = new Person('Jim', 'Cooper');\r\n    Person.prototype = {age: 18}; //Note: Assigning to a new object.\r\n\r\n\r\nWhat does jim.age return?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "f829ce23-f6ef-4851-9ea1-ebc6c3624d70",
+      "clipId": "f19910bf-5f1b-4b05-88d9-d3c7dc2a03ae",
+      "clipTitle": "Named Exports",
+      "distractors": [
+        "export sessionTemplate, errorMessage;",
+        "export default {sessionTemplate, errorMessage};",
+        "default export {sessionTemplate, errorMessage};"
+      ],
+      "key": "`export {sessionTemplate, errorMessage};`",
+      "moduleId": "868675b4-8bc4-4869-9f9c-8048e3961fc8",
+      "stem": "What is the proper syntax to export `sessionTemplate` and `errorMessage` from a JavaScript Module?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "1cefcaff-0101-4c6a-b3c1-26444f745bcb",
+      "clipId": "e3b9efe3-5b0b-4137-b9f1-c7f2a6deb2e0",
+      "clipTitle": "Detect the Error Type",
+      "distractors": ["error.message", "error.errorType", "error.type"],
+      "key": "error.name",
+      "moduleId": "35b681a9-47dd-4a77-9bea-797aa0d3ca18",
+      "stem": "In which property is the error type?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "aa4a3ded-61bb-4e6e-aac7-0cca0894d0d2",
+      "clipId": "d315e064-c7a3-42d2-b107-d45f21180b09",
+      "clipTitle": "Test Numbers for Type and Safety",
+      "distractors": [
+        "Move the value to another partition of memory",
+        "Test if the value has decimals",
+        "Test if the value is floating point value"
+      ],
+      "key": "Test if the value is and integer and falls between MIN_SAFE_INTEGER and MAX_SAFE_INTEGER",
+      "moduleId": "12b9e9e7-82db-4362-a351-a5cad51e097a",
+      "stem": "What does`Number.isSafeInteger(value)` do?",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "2d706092-bdfa-4684-b5ea-f988c6f206db",
+      "clipId": "e5a2f688-b53b-4c41-be87-ae3c2d5f612b",
+      "clipTitle": "Accessing Array Items",
+      "distractors": ["null", "Paris", "Amsterdam"],
+      "key": "Sacramento",
+      "moduleId": "9e8bca7b-a402-4a88-b542-034e80c099e9",
+      "stem": "What is the value of `result`?\r\n\r\n\r\n    let places = [\r\n      { city: 'Amsterdam', europe: true },\r\n      { city: 'Paris', europe: true },\r\n      { city: 'Sacramento', europe: false }\r\n    ];\r\n    let result = places[2].city;",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "1f43ca74-30b7-47dd-b2ca-0c780ecd6bb3",
+      "clipId": "e13b7261-9872-40ef-8926-c976abebd631",
+      "clipTitle": "Function Scope",
+      "distractors": ["TypeError", "undefined", "null"],
+      "key": "no",
+      "moduleId": "c943a6b3-4943-4ce9-b638-48b0be86c99f",
+      "stem": "What shows in the console?\r\n\r\n\r\n    var message = \"no\";\r\n    function foo(message) {\r\n      message = \"yes\";\r\n    }\r\n    foo( message );\r\n    console.log( message );",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "d571f93b-5534-4a12-a96b-8c0897d6a7d3",
+      "clipId": "8965459a-88c3-452f-bc8f-ddd6783a526c",
+      "clipTitle": "The Effect of 'use strict'",
+      "distractors": ["// use strict;", "// 'use strict';", "use strict;"],
+      "key": "'use strict';",
+      "moduleId": "41e8f319-876c-4c2a-a1eb-72b18ff697d3",
+      "stem": "What is the correct syntax for use strict?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "258a7b96-4bbc-4118-b147-68d4fec143bf",
+      "clipId": "403a7a6f-64d1-4220-bbee-1e530d81feae",
+      "clipTitle": "What Is an Iterable?",
+      "distractors": [
+        "Objects have custom Symbol.iterator implementations that don't allow iteration.",
+        "Objects are iterables.",
+        "Arrays and Maps are the ONLY iterables in Javascript."
+      ],
+      "key": "Objects don't have a Symbol.iterator implementation.",
+      "moduleId": "bad07ef3-da8b-404a-8735-a75696bffa1e",
+      "stem": "Why are arrays (`[]`) and maps (`new Map()`) iterable, but objects `{}` aren't?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "e411df01-282a-4adc-a340-cdb58764bbfe",
+      "clipId": "e4c52043-edd6-4c02-93f2-387928c8476f",
+      "clipTitle": "Custom Iterators",
+      "distractors": [
+        "const customIt = {\r\n      Symbol: {\r\n        iterator: {\r\n          next() {\r\n            return { value: 'hello', done: false}\r\n          }\r\n        }\r\n      }\r\n    }",
+        "const customIt = {\r\n      next() {\r\n        return { value: 'hello', done: false}\r\n      }\r\n    }",
+        "const customIt = {\r\n      return() {\r\n        return { value:false, hello', done: true}\r\n      }\r\n    }"
+      ],
+      "key": "const customIt = {\r\n      [Symbol.iterator]() {\r\n        return {\r\n          [Symbol.iterator]() { return this; },\r\n          next() {\r\n            return { value: 'hello', done: false}\r\n          }\r\n        }\r\n      },\r\n    }",
+      "moduleId": "bad07ef3-da8b-404a-8735-a75696bffa1e",
+      "stem": "Which of these is a valid custom iterator?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "0c33a505-beb6-4b31-9899-0e2833b27dd0",
+      "clipId": "dad12e98-e47e-4893-aa81-959fa0afbbc6",
+      "clipTitle": "Racing Promises",
+      "distractors": ["allSettled", "first", "all"],
+      "key": "race",
+      "moduleId": "7dccf507-47fe-4617-b265-3d2bd70e53fb",
+      "stem": "What function will return as soon as the first promise is either fulfilled or rejected?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "c3448def-a701-444d-ba43-89fbbfbd2628",
+      "clipId": "d34be493-e30c-467f-98f8-7389f24c6ffc",
+      "clipTitle": "Simple Switch Statement Demo",
+      "distractors": ["let", "exit", "switch"],
+      "key": "break",
+      "moduleId": "649ec466-bdd6-488d-b0c1-05028948b1bd",
+      "stem": "What statement is used to exit each case statement?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "a3560934-81a3-4df5-bcd0-f2e0989eb3a6",
+      "clipId": "5cf26d1d-1fa3-4d39-97a2-627501a834df",
+      "clipTitle": "The Difference Between Let and Const",
+      "distractors": ["undefined", "Hello", "TypeError: Assignment to constant variable;"],
+      "key": "10",
+      "moduleId": "0048aac8-372b-43c0-96dc-021602e26812",
+      "stem": "Consider te following code example. What will be the result?\r\n\r\n\r\n    var x = 10;  if (true) {     var x = \"Hello\";  }    console.log(x);",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "0bd8400e-2121-4742-8587-e4b64c0d1112",
+      "clipId": "e56a6fcf-4a1f-436d-a51f-431cdc3713d1",
+      "clipTitle": "Using a for/of loop",
+      "distractors": [
+        "It does the same thing as a for loop",
+        "Iterates over just the properties of an object",
+        "Iterates over the properties and methods of an object"
+      ],
+      "key": "Iterates over any iterable object",
+      "moduleId": "17b9f263-de50-4134-975a-ae9ca22edec7",
+      "stem": "What does the `for/of` loop do?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "78c3810d-6792-4380-bc3c-e926d992f09d",
+      "clipId": "198e5228-0430-4880-9229-a704c93f3cdb",
+      "clipTitle": "Managing Dates with the Date Object",
+      "distractors": [
+        "This code is invalid and the month parameter should be a string such as `January`.",
+        "This code is invalid, because the Date function only takes in single string representing the entire date.",
+        "The month parameter is one based, so 3 = March."
+      ],
+      "key": "The month parameter is zero based, so 3 = April.",
+      "moduleId": "d634b407-4c16-474c-9470-da02568c3115",
+      "stem": "Which of the following is true about the Month property (the second property) in this Date constructor:\r\n\r\n\r\n    let date = new Date(2050, 3, 25, 13, 1, 30, 50);",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "9c4d7b97-8613-4dd8-afc6-b38274868846",
+      "clipId": "21cd9007-e03a-4232-892d-a31a10af222e",
+      "clipTitle": "Using the Spread Operator with Arrays",
+      "distractors": ["$arrayName", "arrayName[1,2,3]", "arrayName"],
+      "key": "...arrayName",
+      "moduleId": "85b0f68b-014f-46fc-9d07-3cf656290ea8",
+      "stem": "What is the proper syntax for passing in an entire array to a function?",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "92cfddab-ec3a-4760-8575-984703c09d71",
+      "clipId": "2d1e4d5e-8414-4311-9223-7a6fc8597309",
+      "clipTitle": "Using the Constructor Property to Determine Type",
+      "distractors": ["This", "String", "Base"],
+      "key": "Object",
+      "moduleId": "201f3bb5-3b49-4f50-9b18-c5269073658a",
+      "stem": "What object do all other object data types inherit from?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "9de29e1b-0290-4728-9675-e0239754f3aa",
+      "clipId": "69d7f4a1-754e-484b-aab4-7468ac5ed822",
+      "clipTitle": "Named Imports",
+      "distractors": [
+        "`import {sessions} from './sessionRepository.js';`",
+        "`import sessions from getSessions './sessionRepository.js';`",
+        "`import getSessions as sessions from './sessionRepository.js';`"
+      ],
+      "key": "`import {getSessions as sessions} from './sessionRepository.js';`",
+      "moduleId": "f4d7c79d-16cb-4643-a3b5-bc0b1ef73fc8",
+      "stem": "How would you rename a named export of `getSessions` to `sessions` on import?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "6339056b-6828-4d54-aa40-9db27b173c64",
+      "clipId": "52de41b1-7c95-4244-aa82-26c4f2068775",
+      "clipTitle": "Understanding Promises",
+      "distractors": [
+        "Waiting, success, fail",
+        "Fulfilled, rejected, waiting",
+        "Pending, fulfilled, canceled"
+      ],
+      "key": "Pending, fulfilled, rejected",
+      "moduleId": "ebc368bc-9e02-4e8f-b26e-f422c7b5cac9",
+      "stem": "What are the three states of a promise?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "4a7139e6-9e9b-4eb0-9bad-800003bcf628",
+      "clipId": "d4aef241-2c69-4388-b805-184803de3f22",
+      "clipTitle": "Adding and Removing Values to a Set",
+      "distractors": ["Amount", "Count", "Length"],
+      "key": "Size",
+      "moduleId": "b78b40d9-00d0-4a4a-afb4-c1cc960e5b86",
+      "stem": "Which property do you have access to when working with a set?",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "a2db88fa-3da3-4062-a2c9-cf59f02185b4",
+      "clipId": "860d48e1-585d-4ad4-80ab-2bcc130a49b1",
+      "clipTitle": "Introduction",
+      "distractors": [
+        "An instance of a class",
+        "Code that allows us to write loops",
+        "A statement that evaluates an expression"
+      ],
+      "key": "A block of organized, reusable code that performs a single action",
+      "moduleId": "1ccb4b81-871b-41c7-8b59-43b745f62539",
+      "stem": "What is a function in JavaScript?",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "4dd51170-b7dd-420c-9ad4-7b09a9de9f96",
+      "clipId": "0934d538-0d59-49e7-9893-66847c7c5a9b",
+      "clipTitle": "Using Static Properties and Methods",
+      "distractors": [
+        "Student.prototype.adultAge;",
+        "`Student.__proto__.adultage;`",
+        "let jim = new Student();jim.adultAge"
+      ],
+      "key": "Person.adultAge;",
+      "moduleId": "9c29fd10-ed20-4780-b672-b821ff47d3c1",
+      "stem": "Given the following class:\r\n\r\n\r\n    class Person {\r\n      static adultAge = 29;\r\n      ...\r\n    }\r\n\r\n\r\nHow would you call the fromPerson function",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "2751a771-12b9-4fc9-afa3-552fd370026f",
+      "clipId": "1a8dffae-cb66-4af7-afe3-8ce09b2f3dbd",
+      "clipTitle": "Using the Spread Operator",
+      "distractors": ["45", "12345", "21"],
+      "key": "1 2",
+      "moduleId": "2393e792-7498-4c18-a566-1e74bb9c982d",
+      "stem": "What is the output of the following?\r\n\r\n\r\n    function display(num1, num2) {\r\n        console.log(num1, num2);\r\n    }\r\n    let nums = \"12345\";\r\n    display(...nums);",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "1a64b4e6-4d99-44ee-a883-1ac2bff3ea5d",
+      "clipId": "a8e7cbf4-92e3-4e40-9754-3f892b10e9b0",
+      "clipTitle": "'this' in Global and Function Scope",
+      "distractors": [
+        "The value is the global/window object",
+        "The value is a reference to the function",
+        "The value becomes null"
+      ],
+      "key": "The value becomes undefined",
+      "moduleId": "4df1de19-1b82-450d-846c-6f03ed917647",
+      "stem": "What is the value of `this` in a function when `use strict` is on?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "a61049be-8638-46af-9f27-183fd0af2114",
+      "clipId": "f791cce1-cc0a-4470-844f-6b715d7e7e01",
+      "clipTitle": "Try, Catch, and Finally Blocks",
+      "distractors": [
+        "The line number where the error occurred",
+        "A string with the name of the error",
+        "The expression that failed"
+      ],
+      "key": "An error object",
+      "moduleId": "35b681a9-47dd-4a77-9bea-797aa0d3ca18",
+      "stem": "What is passed to the catch block?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "2a71d984-daa7-48cb-a799-64544ffd8762",
+      "clipId": "77583204-5d22-47f8-85bb-b901989e0681",
+      "clipTitle": "The Document Object Model (DOM)",
+      "distractors": ["elementId", "name", "tagId", "tag"],
+      "key": "id",
+      "moduleId": "f4250117-9996-47e8-a2c1-cc0f28d8ef74",
+      "stem": "What attribute allows you to uniquely identify any HTML element?",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "50d74982-2822-45d9-9bb4-6239794c5953",
+      "clipId": "23d9fb8a-5bc6-4c44-91af-069150e3c5f5",
+      "clipTitle": "Creating Promises",
+      "distractors": ["settle", "complete", "fulfill"],
+      "key": "resolve",
+      "moduleId": "7dccf507-47fe-4617-b265-3d2bd70e53fb",
+      "stem": "What is the conventional name for the function used by a promise to set its state to fulfilled?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "af5a59ff-135c-451c-85aa-466ff464136c",
+      "clipId": "fefbc241-382a-40dd-bdcb-6c12d574b9f8",
+      "clipTitle": "Introducing Sets",
+      "distractors": [
+        "It uses raw binary data",
+        "You cannot iterate a set",
+        "It uses getters and setters"
+      ],
+      "key": "Each value is unique",
+      "moduleId": "b78b40d9-00d0-4a4a-afb4-c1cc960e5b86",
+      "stem": "What makes sets stand out from other data collections?",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "a81276d6-5cda-4f3f-b48c-e3aede422f55",
+      "clipId": "3d2342e1-f122-40e0-a503-02ef13c6a809",
+      "clipTitle": "Throw a Custom Error Object",
+      "distractors": ["type and name", "error and message", "message and type"],
+      "key": "name and message",
+      "moduleId": "35b681a9-47dd-4a77-9bea-797aa0d3ca18",
+      "stem": "What two properties must be in a custom error object?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "b6f4aa57-ca1f-4f06-ade4-0832732eb739",
+      "clipId": "777fefa5-2a29-4c42-bc3a-e9b8e65cbded",
+      "clipTitle": "Looping with for()",
+      "distractors": ["0", "4", "5"],
+      "key": "6",
+      "moduleId": "8ea80b7f-c05f-4982-b763-4b751df62429",
+      "stem": "How many times will the value i show in the console?\r\n\r\n\r\n    for (let i=0; i <= 5; i++) {\r\n      console.log(i);\r\n    }",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "bda745a5-03c2-4dac-a5ce-c26640d4e4be",
+      "clipId": "643a8074-916e-4e76-befe-12da5ae37f73",
+      "clipTitle": "Using Inheritance with Javascript Classes",
+      "distractors": ["`this.protoype.constructor()`", "`this.protoype()`", "`base()`"],
+      "key": "`super()`",
+      "moduleId": "9c29fd10-ed20-4780-b672-b821ff47d3c1",
+      "stem": "When inheriting from another class using the class syntax, how would you call the parent class' constructor function?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "3479d41b-6b17-41ed-80fe-c569dc088f84",
+      "clipId": "f56ea6cc-b468-4bfa-bcfc-48c1357e3f71",
+      "clipTitle": "Waiting for All Promises to Resolve",
+      "distractors": ["race", "first", "allSettled"],
+      "key": "all",
+      "moduleId": "7dccf507-47fe-4617-b265-3d2bd70e53fb",
+      "stem": "What function will return when all of the promises are fulfilled, or the first one is rejected?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "ee2bf0fe-93bf-49e7-a95c-e7bd16a94d67",
+      "clipId": "7356d159-601d-4eeb-8157-30b6ebe1dff9",
+      "clipTitle": "Error Handling and Early Completion",
+      "distractors": [
+        "No, because an error would be thrown. Iterators produced by generators do not have a return method.",
+        "No, because calling `return` is a requirement.",
+        "Yes, once the generator timer completes, it will end."
+      ],
+      "key": "Yes. If there are no more values to iterate over, calling next will return a done property of `true`",
+      "moduleId": "54af82ee-f263-42c6-a050-9becf1ddbbc0",
+      "stem": "If you don't call `return` on a generator's iterator, will the iteration ever end?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "a688f649-42a1-4829-a8f9-99f8b4e92056",
+      "clipId": "f7590c76-3bd7-4712-a7f4-dd52287a9977",
+      "clipTitle": "Aggregating Modules",
+      "distractors": [
+        "import {sessionTemplate} from './template.js'export {sessiontemplate}",
+        "`export {sessionTemplate} import './template.js'`",
+        "`export sessionTemplate from './template.js'`"
+      ],
+      "key": "`export {sessionTemplate} from './template.js'`",
+      "moduleId": "868675b4-8bc4-4869-9f9c-8048e3961fc8",
+      "stem": "How would you immediately export the named export `sessionTemplate` from sessionRepository.js?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "a5766f88-5da2-4475-90e3-b606809bcf60",
+      "clipId": "6b387acf-fad0-4a26-b6ac-d128b53f6b0b",
+      "clipTitle": "Searching Strings with the RegExp.exec() Function",
+      "distractors": [
+        "This code will throw an error because there is no exec function on a regex.",
+        "The result variable will be set to false.",
+        "The result variable will be set to true."
+      ],
+      "key": "The result variable will be set to an array containing the matching text from the string.",
+      "moduleId": "d634b407-4c16-474c-9470-da02568c3115",
+      "stem": "Given this regex that matches strings containing numbers only:\r\n\r\n\r\n    let regex = /^\\d*$/;\r\n    let result = regex.exec('1234');\r\n\r\n\r\nWhich of the following is true?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "8cd4a4de-b2c9-4da0-afcf-139996263a93",
+      "clipId": "44b86bf3-fd54-4dda-96db-dccb1c287617",
+      "clipTitle": "Block-level Scope Issue with Switch Statements",
+      "distractors": [
+        "Additional curly braces around the switch statement",
+        "Nothing, they are already a block",
+        "Square brackets around each case statement"
+      ],
+      "key": "Curly braces around each case statement",
+      "moduleId": "649ec466-bdd6-488d-b0c1-05028948b1bd",
+      "stem": "What do you add to a case statement to make it a block of code?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "8e38b99c-4cfe-4a36-8d56-9292a394ce67",
+      "clipId": "3435f9c6-857e-40be-a477-4237005593b8",
+      "clipTitle": "Using a for/in Loop",
+      "distractors": [
+        "Iterates over just the properties of an object",
+        "Iterates over each element of a string",
+        "Iterates over each element of an array"
+      ],
+      "key": "Iterates over the properties and methods of an object",
+      "moduleId": "17b9f263-de50-4134-975a-ae9ca22edec7",
+      "stem": "What does the `for/in` loop do?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "bb84227b-51c5-4349-b0ba-2d84c376f220",
+      "clipId": "f5448478-0d27-407d-9d6b-c8debfe0c355",
+      "clipTitle": "Cancelable Async Flows",
+      "distractors": [
+        "To better control the flow of an async function, by adding timeouts and delays to each asynchronous response",
+        "To add the ability to cancel a normal `async function`",
+        "To compete with other libraries like Lodash."
+      ],
+      "key": "To treat generator functions like `async functions`, yet allow them to be cancelled externally",
+      "moduleId": "46e5da67-004f-49c7-9a04-e3be0a688b0b",
+      "stem": "What is the purpose of Cancelable Async Flows (CAF)?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "a4996059-88e2-4809-9af2-d0db1d0454d1",
+      "clipId": "e9474eef-7327-4569-970d-169fa7c3597f",
+      "clipTitle": "Constructing Rest Parameters",
+      "distractors": ["ReferenceError", "Month: Jan\r\n\r\nMonth: Feb", "Jan Feb"],
+      "key": "Month: Jan,Feb",
+      "moduleId": "2393e792-7498-4c18-a566-1e74bb9c982d",
+      "stem": "What is the output of the following?\r\n\r\n\r\n    greet = function(...months){\r\n        months.forEach(month => console.log('Month: ' + month));\r\n    }\r\n    greet([ 'Jan', 'Feb']);",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "c834e897-99ec-4f9e-8213-6249b8a0c881",
+      "clipId": "74655431-2d96-41b1-be6d-a5ef2241b615",
+      "clipTitle": "Using Constructor Functions to Create Objects",
+      "distractors": [
+        "They are a special type of function and must extend the `constructor` class.",
+        "Constructor functions are just another word for object literals.",
+        "They are a special type of function and must be prefixed with the `constructor` keyword."
+      ],
+      "key": "They are just like any other function, but they typically use the 'this' keyword to assign values to new objects.",
+      "moduleId": "e82ffe35-ef92-4c12-abb7-ecd684ad45d1",
+      "stem": "Which of the following best describes constructor functions?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "4c9e391c-acb3-40ba-b099-b6f8839933c0",
+      "clipId": "bdda4158-f634-4866-ac1a-f536f948c3e1",
+      "clipTitle": "Introducing Functions",
+      "distractors": ["Error", "8", "2"],
+      "key": "4",
+      "moduleId": "1ccb4b81-871b-41c7-8b59-43b745f62539",
+      "stem": "What is the output of the following code block?\r\n\r\n\r\n    function printNum() {\r\n      console.log(arguments[1]);\r\n    }\r\n    printNum(2, 4, 8);",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "c3c8b222-1217-4754-b921-34c8d7cdea7d",
+      "clipId": "53498f3e-588c-4165-84a6-cca1013d869d",
+      "clipTitle": "What Is a Prototype?",
+      "distractors": [
+        "Access the `Person.parent` proprety on the function",
+        "Access the `Person.__proto__` property on the function.",
+        "Create a new object from the constructor function and access the `prototype` property on that object."
+      ],
+      "key": "Access the `Person.prototype` property on the function.",
+      "moduleId": "4cc249ea-8463-4596-aa76-5ce54a7f8b13",
+      "stem": "Given the following code:\r\n\r\n\r\n    function Person(firstName, lastName) {\r\n      this.firstName = firstName;\r\n      this.lastName = lastName;\r\n    }\r\n\r\n\r\nWhat is the correct way to access the Person function's prototype?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "aa4e8204-11be-4ce9-b231-6f892dc5cf43",
+      "clipId": "f9a78ee2-cbb3-4c62-bf7d-43a5e3547e2e",
+      "clipTitle": "Methods for Iterating through Arrays",
+      "distractors": [
+        "forEachItem should pass in the array",
+        "The method to iterate is simply .each()",
+        "You should not have to pass in a parameter"
+      ],
+      "key": "forEachItem should be forEach",
+      "moduleId": "85b0f68b-014f-46fc-9d07-3cf656290ea8",
+      "stem": "What is wrong with the following code block when trying to iterate through an array?\r\n\r\n\r\n    arrayName.forEachItem(callFunc);",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "597dfec7-3fd4-4678-b015-0dd3a082a473",
+      "clipId": "253f350a-97d9-4064-ad3f-d8c3f6d4cffe",
+      "clipTitle": "Commenting Code",
+      "distractors": ["2", "1, 2, and 3", "1 and 2"],
+      "key": "3",
+      "moduleId": "ea8dcdfd-883c-4f51-9782-079b3bf8657d",
+      "stem": "What shows in the console?\r\n\r\n\r\n    /* console.log(1); */\r\n    // console.log(2);\r\n    console.log(3);",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "28159256-17b2-4948-a883-d435315aea1b",
+      "clipId": "e142f75b-d8f9-4f99-879e-41b118dfa4e5",
+      "clipTitle": "Copy a String to an Array Using Spread",
+      "distractors": [
+        "Adds each property of an object into elements of an array",
+        "Iterates over elements of an array and creates an object literal",
+        "Adds spaces to each side of a string variable"
+      ],
+      "key": "Expands an iterable object into an array",
+      "moduleId": "642e86cc-6a6e-4ac9-8a15-de522dcd3553",
+      "stem": "What does the spread operator do?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "9c165912-c2d4-48c8-a47f-082eda0a8323",
+      "clipId": "361eef78-ca67-49ce-86da-d261cdd3db0f",
+      "clipTitle": "Using the Enumerable Attribute",
+      "distractors": [
+        "It is used to denote properties that contain lists such as arrays.",
+        "It is used to create enum data types.",
+        "It is used to create counter properties."
+      ],
+      "key": "It determines whether a property shows up in a for...in loop.",
+      "moduleId": "616e802c-9968-4e77-b279-7bea1951311f",
+      "stem": "Which of the following is true about the enumerable attribute for properties?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "2d704766-9641-42ba-b5c0-98bf54a8c949",
+      "clipId": "bdc504e6-011b-43aa-9392-28d03cf75312",
+      "clipTitle": "Break and Continue Statements",
+      "distractors": [
+        "Exits out of the current function",
+        "Invokes the debugger in your current browser",
+        "Goes back to the top of a loop and continues with next iteration"
+      ],
+      "key": "Leaves a loop early",
+      "moduleId": "17b9f263-de50-4134-975a-ae9ca22edec7",
+      "stem": "What does the break statement do?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "f0d1d720-60d4-47f6-887a-8c5533cd7d6a",
+      "clipId": "4360042d-756c-470c-ba76-fb766dcec24d",
+      "clipTitle": "Using the Writable Attribute",
+      "distractors": ["`readonly`", "`configurable`", "`enumerable`"],
+      "key": "`writable`",
+      "moduleId": "616e802c-9968-4e77-b279-7bea1951311f",
+      "stem": "Which property attribute would you use to prevent a property's value from being changed?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "cabf3115-5b5e-4bc5-a0c7-32c4d772adcd",
+      "clipId": "fa4ab367-6bfb-4093-b795-9b2166cb6e06",
+      "clipTitle": "Manipulating Strings",
+      "distractors": ["\"num5\"", "num5", "'5'5"],
+      "key": "55",
+      "moduleId": "a9dba7e7-b431-4b8b-9e0b-5bb9b3c16eb4",
+      "stem": "What shows in the console?\r\n\r\n\r\n    let num = '5';\r\n    console.log(num + 5);",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "928c37df-4b78-4355-8d8d-aa8bdb78be79",
+      "clipId": "a6d368db-0ed7-46a0-9063-e522879ec8f2",
+      "clipTitle": "Looping with while()",
+      "distractors": ["Never", "6", "4"],
+      "key": "5",
+      "moduleId": "8ea80b7f-c05f-4982-b763-4b751df62429",
+      "stem": "How many times will this loop execute?\r\n\r\n\r\n    let count = 5;\r\n    while (count) {\r\n      console.log(count);\r\n      count--;\r\n    }",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "8a3b9305-9585-412d-8276-4e15129dec55",
+      "clipId": "3a06960f-438a-4c95-9eae-cb148003d658",
+      "clipTitle": "Using Built-in Functions",
+      "distractors": ["parseString()", "toInteger()", "toInt()"],
+      "key": "parseInt()",
+      "moduleId": "52773505-2234-46fa-a5dd-c187e6325e46",
+      "stem": "What built-in functions allows you to convert a string into an integer?",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "6b0e5d49-722d-461b-9d7e-06e85302c4d8",
+      "clipId": "faf0cb71-6c1a-4f28-9a0c-fdf52cba95ab",
+      "clipTitle": "Create an Array from a List of Arguments",
+      "distractors": [
+        "You should not pass in parameters",
+        "There is nothing wrong with the code",
+        "It should be ArrayList.from and not ArrayList.of"
+      ],
+      "key": "ArrayList should be Array",
+      "moduleId": "85b0f68b-014f-46fc-9d07-3cf656290ea8",
+      "stem": "What is wrong with the code below?\r\n\r\n\r\n    var varName = ArrayList.of(2,4,6);",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "a376e744-4822-445f-8ff4-0bcfd25f1403",
+      "clipId": "69d7f4a1-754e-484b-aab4-7468ac5ed822",
+      "clipTitle": "Named Imports",
+      "distractors": [
+        "`import 'getSessions' from './sessionRepository.js'`",
+        "`import [getSessions] from './sessionRepository.js'`",
+        "`import getSessions from './sessionRepository.js'`"
+      ],
+      "key": "import {getSessions} from './sessionRepository.js'",
+      "moduleId": "f4d7c79d-16cb-4643-a3b5-bc0b1ef73fc8",
+      "stem": "How would you import a named export of `getSessions` from sessionRepository.js?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "d7e7d446-5901-4141-83a6-042668c9ab53",
+      "clipId": "52de41b1-7c95-4244-aa82-26c4f2068775",
+      "clipTitle": "Understanding Promises",
+      "distractors": ["Satisfied", "Done", "Completed"],
+      "key": "Settled",
+      "moduleId": "ebc368bc-9e02-4e8f-b26e-f422c7b5cac9",
+      "stem": "What term means a promise has completed?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "b5805703-4d9a-4165-b9a7-fcd6117e8bf3",
+      "clipId": "933cf892-3140-4571-b70e-a861f7ed419a",
+      "clipTitle": "Introducing Maps",
+      "distractors": [
+        "Maps can process data faster",
+        "Maps can store more data",
+        "There is no difference"
+      ],
+      "key": "Maps use key and value pairs",
+      "moduleId": "c3f311ea-7f6c-49fd-9f03-a5227e936044",
+      "stem": "What makes maps different than sets?",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "4bcd5890-a28d-427d-b1fb-19497f047613",
+      "clipId": "823eadea-899e-49c6-b2fa-7c4954d7c993",
+      "clipTitle": "null and undefined",
+      "distractors": ["NaN", "0", "null"],
+      "key": "undefined",
+      "moduleId": "a9dba7e7-b431-4b8b-9e0b-5bb9b3c16eb4",
+      "stem": "What is an uninitialized variable set to?\r\n\r\n\r\n    let result;\r\n    // what is result?",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "93065cf8-f1c4-4309-a83d-1f63ed9a6eea",
+      "clipId": "f19910bf-5f1b-4b05-88d9-d3c7dc2a03ae",
+      "clipTitle": "Named Exports",
+      "distractors": [
+        "`export {getSessions to sessions};`",
+        "`export {getSessions: sessions};`",
+        "`export {getSessions} as sessions;`"
+      ],
+      "key": "`export {getSessions as sessions};`",
+      "moduleId": "868675b4-8bc4-4869-9f9c-8048e3961fc8",
+      "stem": "How would you rename `getSessions` to `sessions` on export in JavaScript Modules?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "cb136001-4354-4328-b07e-abc3a52e296b",
+      "clipId": "77583204-5d22-47f8-85bb-b901989e0681",
+      "clipTitle": "The Document Object Model (DOM)",
+      "distractors": ["document.get( id );", "document.getId( id );", "document.getElement( id );"],
+      "key": "document.getElementById( id );",
+      "moduleId": "f4250117-9996-47e8-a2c1-cc0f28d8ef74",
+      "stem": "Which DOM function returns an element based on its id attribute?",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "59a0c3f8-f94b-45ff-a245-3313e61bbba8",
+      "clipId": "643a8074-916e-4e76-befe-12da5ae37f73",
+      "clipTitle": "Using Inheritance with Javascript Classes",
+      "distractors": [
+        "Student.extend(Person);",
+        "class Student : Person {\r\n    \r\n    }",
+        "Student.prototype = Object.create(Person.prototype);"
+      ],
+      "key": "class Student extends Person {\r\n    \r\n    }",
+      "moduleId": "9c29fd10-ed20-4780-b672-b821ff47d3c1",
+      "stem": "Given these two classes, how would you make the Student class inherit from the Person class?\r\n\r\n\r\n    class Person {\r\n    }\r\n    \r\n    class Student {\r\n    \r\n    }",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "9a4c4bf5-f77c-47da-8645-2d33450eb3e4",
+      "clipId": "f7590c76-3bd7-4712-a7f4-dd52287a9977",
+      "clipTitle": "Aggregating Modules",
+      "distractors": [
+        "sessionTemplate is available to import from sessionRepository.js.",
+        "sessionTemplate is added to the named exports of sessionRepository.js.",
+        "sessionTemplate is not available inside sessionRepository.js."
+      ],
+      "key": "sessionTemplate is available inside sessionRepository.js.",
+      "moduleId": "868675b4-8bc4-4869-9f9c-8048e3961fc8",
+      "stem": "What is not true when reexporting modules template.js from sessionRepository.js?\r\n\r\n`export {sessionTemplate} from './template.js'`",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "4ee0baa5-a7c3-49b6-9d56-bf9d18c5f781",
+      "clipId": "1f2393b4-5227-401d-a116-db59f7d168f7",
+      "clipTitle": "Instance vs. Prototype Properties",
+      "distractors": ["null", "4", "undefined"],
+      "key": "29",
+      "moduleId": "4cc249ea-8463-4596-aa76-5ce54a7f8b13",
+      "stem": "Given the following code:\r\n\r\n\r\n    function Person(firstName, lastName) {\r\n     this.firstName = firstName;\r\n     this.lastName = lastName;\r\n    }\r\n    Person.prototype.age = 29;\r\n    let jim = new Person('Jim', 'Cooper');\r\n    let kris = new Person('Kris', 'Cooper');\r\n    jim.age = 25;\r\n\r\n\r\nWhat does kris.age return?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "eea391f1-75f3-43ca-b365-41a9939b7002",
+      "clipId": "c2ad62bf-044b-49b9-8647-9c7111334578",
+      "clipTitle": "Handling Errors with Promises",
+      "distractors": ["Throw an error", "Add a `then` function", "Wrap the call with `try`"],
+      "key": "Add a `catch` block",
+      "moduleId": "79038247-dfce-411d-bcf1-de51b057f4e2",
+      "stem": "What steps must be taken when an `Uncaught (in promise` error occurs in your console?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "f7201289-0fed-45ce-9db7-cb9789029e17",
+      "clipId": "eef9cda6-d2ff-4c53-b7f7-8a82276e27e0",
+      "clipTitle": "Create a Tagged Template Literal",
+      "distractors": [
+        "It returns an array of raw strings from a template literal",
+        "It returns a string value in which escape characters are processed but template literal values aren't",
+        "It returns a string value that contains template literal values, like `${ name }`"
+      ],
+      "key": "It returns a string value in which escape characters are not processed",
+      "moduleId": "0048aac8-372b-43c0-96dc-021602e26812",
+      "stem": "What does **String.raw** do?",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "b5010bd0-3b71-43af-b34c-4d76b52c9c57",
+      "clipId": "3d2342e1-f122-40e0-a503-02ef13c6a809",
+      "clipTitle": "Throw a Custom Error Object",
+      "distractors": [
+        "To inform the global window object there an error is in your code",
+        "To inform JavaScript there is an error in your code",
+        "There is no need to throw your own errors"
+      ],
+      "key": "Because the JavaScript errors do not provide you with enough information",
+      "moduleId": "35b681a9-47dd-4a77-9bea-797aa0d3ca18",
+      "stem": "Why should you throw your own custom error object?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "6afadf0f-6bd5-49da-a5bb-601e19ece921",
+      "clipId": "466c6b2b-de9a-4ba4-a224-33dc4f0dcd42",
+      "clipTitle": "Using Bracket Notation to Access JavaScript Properties",
+      "distractors": [
+        "`cat.firstName`",
+        "`cat('First Name')`",
+        "`Object.getPropertyValue(cat, 'First Name')`"
+      ],
+      "key": "`cat['First Name']`",
+      "moduleId": "616e802c-9968-4e77-b279-7bea1951311f",
+      "stem": "Which of the following is valid syntax for accessing the `First Name` property on the `person` object?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "82a830d7-3221-4a7c-9060-5e56dac4d370",
+      "clipId": "e142f75b-d8f9-4f99-879e-41b118dfa4e5",
+      "clipTitle": "Copy a String to an Array Using Spread",
+      "distractors": [
+        "`(:::)` immediately preceeding an expression",
+        "`(..)` immediately preceeding an expression",
+        "`(::)` immediately preceeding an expression"
+      ],
+      "key": "`(...)` immediately preceeding an expression",
+      "moduleId": "642e86cc-6a6e-4ac9-8a15-de522dcd3553",
+      "stem": "What is the syntax for the spread operator?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "e9a57894-12e0-40ed-b8e1-ae59be701425",
+      "clipId": "ade59ff9-1041-4d97-8c6d-12198befa88e",
+      "clipTitle": "Test Strings for Specific Content",
+      "distractors": ["undefined", "Pluralsight is undefined", "false"],
+      "key": "true",
+      "moduleId": "12b9e9e7-82db-4362-a351-a5cad51e097a",
+      "stem": "Consider te following code example. What will be the result?\r\n\r\n\r\n    let str = \"This is the best Pluralsight string\";let result = str.startsWith(\"Pluralsight\", 17);\r\n    console.log(result);",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "2c670df4-3d95-460e-8f12-ee4956006e72",
+      "clipId": "5a9c97af-8647-42d0-b3d7-cc59b0d94f30",
+      "clipTitle": "Objects and Symbols",
+      "distractors": ["Undefined", "Null", "An array"],
+      "key": "An object",
+      "moduleId": "a9dba7e7-b431-4b8b-9e0b-5bb9b3c16eb4",
+      "stem": "What type is `result`?\r\n\r\n\r\n    let result = { };",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "6b31f94d-4318-4382-988b-e978db7f3627",
+      "clipId": "42e1ee28-3ec7-4a7d-89ee-bab15e65226c",
+      "clipTitle": "Iterating a Set",
+      "distractors": [
+        "The second line of code should be `yearlyTotal = yearlyTotal + amount;`",
+        "On the second line of code, you need to remove the `yearlyTotal =`",
+        "Nothing is wrong with the code"
+      ],
+      "key": "It is not setting the yearlyTotal back to 0 before looping through updated data",
+      "moduleId": "b78b40d9-00d0-4a4a-afb4-c1cc960e5b86",
+      "stem": "Why does the code keep adding on the previous amount entered when iterating through the updated sales?\r\n\r\n\r\n    for (let amount of monthlySales){\r\n       yearlyTotal = amount + yearlyTotal;\r\n       console.log(yearlyTotal);\r\n    }",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "e775b8db-3a8c-494d-a964-16618aca4e3d",
+      "clipId": "88646714-093e-40a4-853c-6dd5743ac065",
+      "clipTitle": "Assignment Operators",
+      "distractors": ["25", "NaN", "10"],
+      "key": "15",
+      "moduleId": "41e8f319-876c-4c2a-a1eb-72b18ff697d3",
+      "stem": "What is the value of result in the following statement?\r\n\r\n\r\n    let result = 10;result += 5;",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "b97b05fa-422e-4ef8-9b2e-3f8a9292d239",
+      "clipId": "0a4db21a-a0b7-4406-9e5e-81761f157373",
+      "clipTitle": "Understanding Symbols",
+      "distractors": [
+        "A class that helps with debugging",
+        "A mechanism to create hidden properties in objects",
+        "A factory class for Guids"
+      ],
+      "key": "A globally unique, un-guessable value",
+      "moduleId": "12b9e9e7-82db-4362-a351-a5cad51e097a",
+      "stem": "What is a **Symbol **in JavaScript?",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "322b2a1b-2f81-455d-b954-c705fc31612b",
+      "clipId": "a3c1d526-6b5d-4f13-9c00-2eb7f23b0c41",
+      "clipTitle": "How the Switch Statement Works",
+      "distractors": ["A `while` statement", "A `for` statement", "`do...while` statements"],
+      "key": "Multiple `if...else` statements",
+      "moduleId": "649ec466-bdd6-488d-b0c1-05028948b1bd",
+      "stem": "What construct does the switch statement replace?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "08f83657-87e6-4ce4-9824-677582597dac",
+      "clipId": "5667e465-8dd0-45c8-8882-5d9aa4bb4e14",
+      "clipTitle": "Object Properties",
+      "distractors": ["foo(beta)", "foo{beta}", "foo->beta"],
+      "key": "foo.beta",
+      "moduleId": "f4250117-9996-47e8-a2c1-cc0f28d8ef74",
+      "stem": "How do you access the beta property value in this code?\r\n\r\n\r\n    let foo = {\r\n      alpha: 1,\r\n      beta: 2\r\n    };",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "16ba4f1f-5162-48b9-8bbb-50fc023c5903",
+      "clipId": "abf7d515-7ed4-448b-bbcb-9a8c996dccc2",
+      "clipTitle": "Iterating through a Map",
+      "distractors": [
+        "Wrap the value around `parse8Int()`",
+        "If the string contains a number, there is no need to convert it",
+        "Wrap the value around `num()`"
+      ],
+      "key": "Wrap the value around `parseInt()`",
+      "moduleId": "c3f311ea-7f6c-49fd-9f03-a5227e936044",
+      "stem": "How do you convert a string into a number?",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "a90148fa-bd28-481d-ab19-2456af687753",
+      "clipId": "69d7f4a1-754e-484b-aab4-7468ac5ed822",
+      "clipTitle": "Named Imports",
+      "distractors": [
+        "`import named as sessionRepository from './sessionRepository.js';`",
+        "`import all as sessionRepository from './sessionRepository.js';`",
+        "`import sessionRepository from './sessionRepository.js';`"
+      ],
+      "key": "`import * as sessionRepository from './sessionRepository.js';`",
+      "moduleId": "f4d7c79d-16cb-4643-a3b5-bc0b1ef73fc8",
+      "stem": "How would you import all named exports from sessionRepository.js?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "38f69e71-8641-4d72-9d75-bf0aee947467",
+      "clipId": "d34be493-e30c-467f-98f8-7389f24c6ffc",
+      "clipTitle": "Simple Switch Statement Demo",
+      "distractors": ["instead", "case", "break"],
+      "key": "default",
+      "moduleId": "649ec466-bdd6-488d-b0c1-05028948b1bd",
+      "stem": "What statement is the catch-all if no case statements match?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "b572e01a-b409-4707-8eee-11204ad79d00",
+      "clipId": "0557a6f3-6595-40f7-86cb-d9468e44a615",
+      "clipTitle": "Adding JavaScript Code to a Web Page",
+      "distractors": ["<import>", "<source>", "<src>"],
+      "key": "<script>",
+      "moduleId": "ea8dcdfd-883c-4f51-9782-079b3bf8657d",
+      "stem": "Which HTML tag is used to add JavaScript to a web page?",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "eb33b391-5677-48ee-8b5b-794b5e2100a2",
+      "clipId": "ade59ff9-1041-4d97-8c6d-12198befa88e",
+      "clipTitle": "Test Strings for Specific Content",
+      "distractors": ["Pluralsight is undefined", "undefined", "true"],
+      "key": "false",
+      "moduleId": "12b9e9e7-82db-4362-a351-a5cad51e097a",
+      "stem": "Consider te following code example. What will be the result?\r\n\r\n\r\n    let str = \"This is the best Pluralsight string\";let result = str.endsWith(\"Pluralsight\", 17);\r\n    console.log(result);",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "b8a52d4a-2c69-4d91-9b7e-8b57a5d31278",
+      "clipId": "a8966d32-c1de-4ec2-a035-4bb5e238b5af",
+      "clipTitle": "Comparison and Ternary Operators",
+      "distractors": [
+        "Compares two operands to see if they are equal in type",
+        "Converts and assigns a number as a string",
+        "Compares two operands to see if they are equal in value"
+      ],
+      "key": "Compares two operands to see if they are equal in value and type",
+      "moduleId": "41e8f319-876c-4c2a-a1eb-72b18ff697d3",
+      "stem": "What does `(===)` do?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "5eaed61c-2891-4f62-9faf-e3f3a027470f",
+      "clipId": "0c71349f-e8b7-473a-b101-18f47002a067",
+      "clipTitle": "Using the Configurable Attribute",
+      "distractors": [
+        "It is used to prevent the writable and enumerable attributes from being changed.",
+        "It is used to prevent the value of the property from being changed.",
+        "It is used to prevent the writable, enumerable, and configurable attributes from being changed."
+      ],
+      "key": "It is used to prevent the configurable and enumerable properties from being changed.",
+      "moduleId": "616e802c-9968-4e77-b279-7bea1951311f",
+      "stem": "Which of the following is true about the configurable attribute for JavaScript properties?",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "0c2d40e4-3bf2-4d1f-bd1e-4170f58c252f",
+      "clipId": "9d836f52-8715-4a3d-a1a8-0182284ae354",
+      "clipTitle": "Default Imports",
+      "distractors": [
+        "`import getSessions to sessions from './sessionRepository.js';`",
+        "`import * as sessions from './sessionRepository.js';`",
+        "`import getSessions as sessions from './sessionRepository.js';`"
+      ],
+      "key": "`import sessions from './sessionRepository.js';`",
+      "moduleId": "f4d7c79d-16cb-4643-a3b5-bc0b1ef73fc8",
+      "stem": "How would you rename a default export of `getSessions` to `sessions` on import?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "d23df9c4-dcd3-4254-b6cb-5e88137db51d",
+      "clipId": "0415f58d-0771-4169-8ea6-b165867108ef",
+      "clipTitle": "Settling All Promises",
+      "distractors": ["complete", "race", "all"],
+      "key": "allSettled",
+      "moduleId": "7dccf507-47fe-4617-b265-3d2bd70e53fb",
+      "stem": "What function will return when all of the promises are settled?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "fce1691c-166c-4b7c-93af-58de56c52edb",
+      "clipId": "bdda4158-f634-4866-ac1a-f536f948c3e1",
+      "clipTitle": "Introducing Functions",
+      "distractors": [
+        "A variable that is passed when a function is invoked",
+        "The value returned from a function",
+        "The same as an argument"
+      ],
+      "key": "A variable that we list as part of a function definition",
+      "moduleId": "1ccb4b81-871b-41c7-8b59-43b745f62539",
+      "stem": "What is a parameter?",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "9f722e02-0667-4877-856a-1215352e96cd",
+      "clipId": "1f8d65b2-7a0f-4d52-b151-56debb74e59b",
+      "clipTitle": "Use the Destructing Syntax to Get Values from Arrays and Objects",
+      "distractors": [
+        "`var\n{ Id : a, ApplicantName: b } = arr;`",
+        "`arr ={ Id, ApplicantName }j;`",
+        "`var\n( Id : a, ApplicantName: b ) = arr;`"
+      ],
+      "key": "`var [ Id, ApplicantName ] = arr;`",
+      "moduleId": "0048aac8-372b-43c0-96dc-021602e26812",
+      "stem": "What is an example of a correct **destructuring syntax** for deconstructing an **array**?",
+      "stemImageUrl": null,
+      "courseId": "d8911d9a-f56d-4e4b-9c48-083814e8f9a4"
+    },
+    {
+      "questionId": "0fbe8b85-4168-4ad9-86e6-c77ecf046171",
+      "clipId": "403a7a6f-64d1-4220-bbee-1e530d81feae",
+      "clipTitle": "What Is an Iterable?",
+      "distractors": [
+        "Iterators do not have a value property",
+        "It is actually a good idea.",
+        "Passing the value along will cause a reference error."
+      ],
+      "key": "The iteration of the iterable stops when done is true, meaning the value property is never used.",
+      "moduleId": "bad07ef3-da8b-404a-8735-a75696bffa1e",
+      "stem": "When passing `done: true` to signal the completion of an iterator, why is it a bad idea to also pass along a `value`?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "c1b0eff1-4a22-47f1-87c4-be272232e801",
+      "clipId": "bdda4158-f634-4866-ac1a-f536f948c3e1",
+      "clipTitle": "Introducing Functions",
+      "distractors": ["Mary", "John", "None"],
+      "key": "Empty",
+      "moduleId": "1ccb4b81-871b-41c7-8b59-43b745f62539",
+      "stem": "What is the console output of the following code block:\r\n\r\n\r\n    function printName() {\r\n      name = \"Mary\";\r\n      name = \"John\";\r\n      console.log(name);\r\n    }",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "a2b88928-fd03-4dbb-8a69-a7292a936fac",
+      "clipId": "99757481-602a-458d-bc31-846f449b57d2",
+      "clipTitle": "Handling Errors with Async/Await",
+      "distractors": [
+        "Add a `then` statement to the promise.",
+        "Ensure that the `await` keyword is used with a promise.",
+        "Add a `catch` statement to the promise."
+      ],
+      "key": "Ensure that the `await` keyword is used inside of an `async` function.",
+      "moduleId": "d29bcd28-9208-4681-be3b-8e11e2659be1",
+      "stem": "What steps must be taken when the `unexpected reserved word` error shows up?",
+      "stemImageUrl": null,
+      "courseId": "db31b9c5-17a2-4bbb-984f-43fe0529f1c0"
+    },
+    {
+      "questionId": "88c65fe2-e59f-44b2-acea-34967b68e14b",
+      "clipId": "8cde6c5b-3b91-4530-b57e-9b6f44d26165",
+      "clipTitle": "What Are Iterators?",
+      "distractors": [
+        "{\r\n      return() {\r\n        return { value: any, done: boolean }\r\n      }\r\n    }",
+        "{\r\n     [Symbol.Iterator]() {\r\n        return { iterator:() => void, done: boolean }\r\n      }\r\n    }",
+        "{\r\n      iterator() {\r\n        return { value: any, done: boolean }\r\n      }\r\n    }"
+      ],
+      "key": "{  next() {    return { value: any, done: boolean }  }}",
+      "moduleId": "bad07ef3-da8b-404a-8735-a75696bffa1e",
+      "stem": "What object represents the iterator protocol?",
+      "stemImageUrl": null,
+      "courseId": "f157034f-e905-46f2-ab49-ef25e730f88a"
+    },
+    {
+      "questionId": "28df5629-9bf4-4a06-b3de-46aae14d70ab",
+      "clipId": "a1f27a92-02cf-4053-8d56-0deaa84a2005",
+      "clipTitle": "Enabling Modules",
+      "distractors": [
+        "`<script src=\"js/app.js\" module></script>`",
+        "`<script src=\"js/app.js\" module=true></script>`",
+        "`<script src=\"js/app.js\" style=\"module\"></script>`"
+      ],
+      "key": "`<script src=\"js/app.js\" type=\"module\"></script>`",
+      "moduleId": "f4d7c79d-16cb-4643-a3b5-bc0b1ef73fc8",
+      "stem": "How would you enable modules in a script tag?",
+      "stemImageUrl": null,
+      "courseId": "40fae5ff-5303-4e9e-a2ff-b7afbb128425"
+    },
+    {
+      "questionId": "df4331e0-f460-43ff-a6c8-9f5a4234ec3f",
+      "clipId": "5a6c7db3-b740-4df1-9341-aa5f51660b25",
+      "clipTitle": "Understanding the Difference of Maps  and WeakMaps",
+      "distractors": [
+        "WeakMaps are not enumerable",
+        "You cannot iterate through a set",
+        "WeakMaps can be garbage collected"
+      ],
+      "key": "Keys can be any value",
+      "moduleId": "c3f311ea-7f6c-49fd-9f03-a5227e936044",
+      "stem": "What is not true about a WeakMap?",
+      "stemImageUrl": null,
+      "courseId": "1f28075e-56b7-44c2-97d3-add28948b529"
+    },
+    {
+      "questionId": "2b8cd87b-fe65-44f9-9b3c-b7d79940c585",
+      "clipId": "772b4d3e-679b-44e0-966e-2c9287cc1884",
+      "clipTitle": "Creating Getters and Setters with Classes",
+      "distractors": [
+        "person.fullName('John Doe')",
+        "person.fullName.set('John Doe')",
+        "person.setFullName('John Doe')"
+      ],
+      "key": "person.fullName = 'John Doe';",
+      "moduleId": "9c29fd10-ed20-4780-b672-b821ff47d3c1",
+      "stem": "Given the following code, what is the correct way to set the person's fullName?\r\n\r\n\r\n    public class Person {  set fullName(fullName) {\r\n        ...\r\n      }\r\n    }",
+      "stemImageUrl": null,
+      "courseId": "02301c30-40c4-4107-8e8c-c77c61eae24f"
+    },
+    {
+      "questionId": "097dad74-0fee-4715-87c1-5589ef22b388",
+      "clipId": "78e4424f-c032-4b4f-a673-f7e46913601b",
+      "clipTitle": "What Is the call Method?",
+      "distractors": ["ReferenceError", "empty object", "Window object"],
+      "key": "10",
+      "moduleId": "52773505-2234-46fa-a5dd-c187e6325e46",
+      "stem": "What is the output of the following code block?\r\n\r\n\r\n    let obj1 = {value: '10'}\r\n    let myFunc = function(){\r\n        console.log(this.value)\r\n    }\r\n    myFunc.call(obj1)",
+      "stemImageUrl": null,
+      "courseId": "b60dc7a8-75c7-45c2-bf7f-8faf38643955"
+    },
+    {
+      "questionId": "3fdf2ee0-a2ea-4fbc-9eb7-40ffed3c0d47",
+      "clipId": "b8c38a09-0575-4223-9420-c415cd8270f4",
+      "clipTitle": "Operator Precedence",
+      "distractors": ["49", "7", "24"],
+      "key": "10",
+      "moduleId": "a9dba7e7-b431-4b8b-9e0b-5bb9b3c16eb4",
+      "stem": "In JavaScript, what does the following evaluate to?\r\n\r\n`4 + 3 * 2`",
+      "stemImageUrl": null,
+      "courseId": "804837c6-ac3c-4698-aebd-bc15f629e64e"
+    },
+    {
+      "questionId": "86b7a9d9-1c0d-489e-bc6f-f3faa783c621",
+      "clipId": "23134230-3fb7-4fe0-b787-3fec84a1ac65",
+      "clipTitle": "Data Types and Detection Methods",
+      "distractors": ["Object, RegExp, Function", "Array, Error, Function", "Array, Error, Object"],
+      "key": "Date, Number, String",
+      "moduleId": "201f3bb5-3b49-4f50-9b18-c5269073658a",
+      "stem": "Which object data types should you avoid?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "2c857e4e-7963-4662-8332-569430d10e92",
+      "clipId": "e3b9efe3-5b0b-4137-b9f1-c7f2a6deb2e0",
+      "clipTitle": "Detect the Error Type",
+      "distractors": ["TypeError", "EvaluationError", "RangeError"],
+      "key": "SyntaxError",
+      "moduleId": "35b681a9-47dd-4a77-9bea-797aa0d3ca18",
+      "stem": "What error type is thrown if you have an error in the `eval()` function?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "32b3affd-7760-446c-9dbd-fa5b70221bf5",
+      "clipId": "8965459a-88c3-452f-bc8f-ddd6783a526c",
+      "clipTitle": "The Effect of 'use strict'",
+      "distractors": [
+        "Can't delete a function",
+        "Can't delete a variable",
+        "Can't use reserved words as variables"
+      ],
+      "key": "Must declare all variables",
+      "moduleId": "41e8f319-876c-4c2a-a1eb-72b18ff697d3",
+      "stem": "When using `use strict`, which of the following are true?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    },
+    {
+      "questionId": "558a0b65-6f86-4041-bae7-739605ac9d33",
+      "clipId": "1f9955ac-bc78-4d2f-b91f-914f3d606295",
+      "clipTitle": "Mathematical Operators",
+      "distractors": [
+        "The current value of the variable is used, then decremented",
+        "The variable is decremented, then the new value is used",
+        "The variable is incremented, then the new value is used"
+      ],
+      "key": "The current value of the variable is used, then incremented",
+      "moduleId": "41e8f319-876c-4c2a-a1eb-72b18ff697d3",
+      "stem": "When `++` is placed after a variable, what happens?",
+      "stemImageUrl": null,
+      "courseId": "ecbd6a56-041e-43c3-9913-94cb26d654c1"
+    }
+  ]
+}

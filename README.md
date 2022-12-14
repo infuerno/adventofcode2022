@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-![Advent of Code 2022](https://img.shields.io/badge/Advent%20of%20Code%202022-6%2F25-brightgreen)
+![Advent of Code 2022](https://img.shields.io/badge/Advent%20of%20Code%202022-7%2F25-brightgreen)
 
 [https://adventofcode.com/2022](https://adventofcode.com/2022)
 

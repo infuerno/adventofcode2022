@@ -1,0 +1,2187 @@
+{
+  "collection": [
+    {
+      "questionId": "b2ee92ce-2d3b-48d5-9821-bfeaf835d018",
+      "clipId": "ce967f1b-b7c2-416c-b0e2-7917d832a46a",
+      "clipTitle": "Taking Advantage of Garbage Collection",
+      "distractors": ["The smart pointer classes", "The developer"],
+      "key": "The garbage collector",
+      "moduleId": "3f972311-2938-48cd-a376-d550a17b080f",
+      "stem": "Who is responsible for cleaning up memory in a .NET program?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "e190da4b-b7f7-46bb-83dd-40617529e17d",
+      "clipId": "e33027c3-28a1-4333-a322-bed063933b74",
+      "clipTitle": "Defining an Iterator with Yield",
+      "distractors": [
+        "An expression is not executed until it is called using the Exec keyword.",
+        "An expression is not executed until the current method is complete."
+      ],
+      "key": "An expression is not executed until the result of the expression is iterated.",
+      "moduleId": "a0bfadb7-c901-4874-94ca-b16399d69279",
+      "stem": "What is deferred execution?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "d636cbc4-7409-4db0-a5b7-5528294f4a5c",
+      "clipId": "6f3b5957-2479-4265-af3e-28b8ea5915e9",
+      "clipTitle": "Declaring and Populating a Generic List",
+      "distractors": [
+        "`var colorOptions = new List(string);`",
+        "`var colorOptions = new List<T>();`"
+      ],
+      "key": "`var colorOptions = new List<string>();`",
+      "moduleId": "752f3fed-0dff-40ef-9cda-85a62d7da71f",
+      "stem": "Which of the following is the correct syntax for declaring and initializing a generic list?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "292e8ece-e165-4e9d-9b80-852ffc0538c0",
+      "clipId": "3c62c94d-eb49-4838-979a-de4275ae730d",
+      "clipTitle": "Inserting with List<T>.Insert()",
+      "distractors": [
+        "`Add()` throws an exception if the item being added already exists in the list; `Insert()` silently does nothing in that case.",
+        "The two methods are functionally the same; both have been provided for compatibility with the `IList<T>` interface.",
+        "`Insert()` always overwrites whatever was present at the insert location; `Add()` grows the list by adding a new item without removing any existing items."
+      ],
+      "key": "`Add()` alwasys appends to new item to the end of the list, `Insert()` can place it at any location in the list",
+      "moduleId": "f3960bdf-78ca-4d33-82a1-cc8d01f8935d",
+      "stem": "What is the main difference between the `List<T>.Add()` and the `List<T>.Insert()` methods ?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "30e634cd-220c-43fb-9369-202a28080cb9",
+      "clipId": "71e692c9-1fe3-4582-bf60-563b2cfd67b0",
+      "clipTitle": "The Factory Method Pattern",
+      "distractors": ["False"],
+      "key": "True",
+      "moduleId": "92cdbe70-7470-42d0-b0e9-095e9e7d3a72",
+      "stem": "An interface can be used as a return type for a method.",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "4b9b1442-1363-410c-8825-b20cbecffbc8",
+      "clipId": "fff281c9-550a-413a-a4a6-955853d64445",
+      "clipTitle": "Introducing Stack<T>",
+      "distractors": ["SortedList<Change>", "Dictionary<ChangeLog, Change>", "Queue<Change>"],
+      "key": "Stack<Change>",
+      "moduleId": "3095db31-bead-4542-9320-df5ea50ff369",
+      "stem": "You are writing a document processing program, for which you have been asked to implement an Undo feature.  You have written a type called `Change` to store the details of each change that the user might subsequently wish to undo.\r\n\r\nIn what collection would be most suitable to store these changes?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "7d7efd53-8575-42ef-8124-0e48fce3d917",
+      "clipId": "18928b75-45f1-4b47-ac50-1059dda349c6",
+      "clipTitle": "Demo: Making Choices at Run-time",
+      "distractors": [
+        "Update the \"switch\" statement in the repository factory",
+        "Recompile the application",
+        "Add a reference to the repository assemblies to the project"
+      ],
+      "key": "Include the repository assemblies in the executable folder and update configuration",
+      "moduleId": "5b682057-06c2-4210-af74-5483c63cc47c",
+      "stem": "When using dynamic loading for repositories, how do you add a connection to a new data source?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "f369af38-fed1-44f3-a49d-d02af4618258",
+      "clipId": "1804448a-b4b0-422b-89f0-8d5bc6dc8f7a",
+      "clipTitle": "The Role of Delegates",
+      "distractors": ["Holds property data", "Simulates a field", "Used with enumerations"],
+      "key": "Acts as a function pointer",
+      "moduleId": "72499257-245e-4052-9b60-30dfcf0a9c5b",
+      "stem": "What is the role of a delegate in the .NET framework?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "a16f401a-36d3-487f-ba51-448d21c0a6c9",
+      "clipId": "de093cd2-cf6b-44b3-81e0-58b9760f3684",
+      "clipTitle": "IEnumerable<T> and Explicit Implementation",
+      "distractors": [
+        "Implement only the members of the inherited interface",
+        "Implement only the members of the main interface"
+      ],
+      "key": "Implement all members of both interfaces",
+      "moduleId": "db7febca-6b5d-4579-ad46-34621b0fe430",
+      "stem": "When an interface inherits another interface, the implementing class must...",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "98133d7f-6a47-458a-9acf-ca1649aea7b6",
+      "clipId": "b09cbbc9-f8f1-4760-9a97-464869efe2a6",
+      "clipTitle": "The Role of Event Handlers",
+      "distractors": ["False"],
+      "key": "True",
+      "moduleId": "72499257-245e-4052-9b60-30dfcf0a9c5b",
+      "stem": "Multiple objects can subscribe to an event?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "f79d7b03-711b-4efb-a3e9-5a196cb8ae30",
+      "clipId": "d6d21f12-d295-481d-a43e-4af631a5714a",
+      "clipTitle": "Most Collections Are Reference Types",
+      "distractors": [
+        "`allReports` is a dynamic type",
+        "`allReports` is a reference type if the type, `Report`, is a reference type. Otherwise, `allReports`is a value type.",
+        "`allReports`is a value type"
+      ],
+      "key": "`allReports` is a reference type",
+      "moduleId": "e3f6c876-9399-449b-a245-513a596012b1",
+      "stem": "An array is declared as follows:\r\n\r\n\r\n    var allReports = new Report[20];\r\n\r\n\r\nYou do not know whether `Report` is a value type or a reference type.\r\n\r\nWhich statement is true?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "aaa6fe8a-cb38-4fe3-8fcc-fb43fee4b5bb",
+      "clipId": "c57a51c6-d2e8-4fa0-a316-7e3eb53b85bf",
+      "clipTitle": "Defining an Abstract Class",
+      "distractors": [
+        "No special actions are required to derive from an abstract base class.",
+        "Use an interface definition to describe the abstract members"
+      ],
+      "key": "Either implement all abstract members, or define the derived class as abstract, too",
+      "moduleId": "21d914d0-b0ef-4232-b4de-e1a0802dec94",
+      "stem": "What must you do when deriving from an abstract base class?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "1219e473-e406-40a0-8f98-247cca5a3856",
+      "clipId": "6f99f983-88b0-415c-a8c1-fde38585be2d",
+      "clipTitle": "Communicating Between Components with Events and Delegates",
+      "distractors": ["Singleton", "Observer", "Abstract Factory"],
+      "key": "Mediator",
+      "moduleId": "db3267e2-9732-4804-9bd3-4c9196bac917",
+      "stem": "Which C# design pattern can events be used with for anonymous cross-object communication?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "90ae631f-f8b1-4249-8375-2838c99a8b0b",
+      "clipId": "6d51d616-a84e-4cf8-bed8-bf471aadd020",
+      "clipTitle": "Stack Things",
+      "distractors": [
+        "First in, first out",
+        "Write duplicate values, read duplicate values",
+        "Process items in an ascending sort order"
+      ],
+      "key": "Last in, first out",
+      "moduleId": "b62ed369-aac3-436b-99f5-ce3f5f4a5a43",
+      "stem": "A `Stack<T>` allows you to use what type of processing?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "cdff51da-65e1-404c-902c-1a7b31381b99",
+      "clipId": "9bd1fc34-c9e9-46f2-a8c8-8c50e67f117b",
+      "clipTitle": "Generics and Enums",
+      "distractors": ["where T: operator +", "where T: numerical", "where T: mathematical"],
+      "key": "There is no constraint for operator +",
+      "moduleId": "d471b34d-9141-4cee-8abd-fd9d8be03060",
+      "stem": "What constraint can you use to ensure a type generic type paramter T has an implementation for operator + ?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "ffaca213-7f59-4154-ad42-e55af8fa4a39",
+      "clipId": "c7750226-388d-4bd6-b019-2526507afefa",
+      "clipTitle": "The Math Problem",
+      "distractors": ["where T: operator +", "where T: numerical", "where T: mathematical"],
+      "key": "There is no constraint for operator +",
+      "moduleId": "d471b34d-9141-4cee-8abd-fd9d8be03060",
+      "stem": "What constraint can you use to ensure a generic type parameter T has an implementation for operator + ?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "fe050caa-cc80-4572-8885-a6632ecf77d0",
+      "clipId": "15511464-4a33-461c-a5ac-241c9dac74c9",
+      "clipTitle": "Using a Generic Class",
+      "distractors": [
+        "`var opResult = new OperationResult[bool]();`",
+        "`var opResult = new OperationResult(bool)();`",
+        "`var opResult = new OperationResult(bool);`"
+      ],
+      "key": "`var opResult = new OperationResult<bool>();`",
+      "moduleId": "4bfb9ce7-938a-45c0-ab73-6070dfac1048",
+      "stem": "Which of the following creates an instance of a generic class?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "0b19636e-0edc-4d91-92bd-f22d9bd9eddf",
+      "clipId": "a80f4d02-59fb-4001-9f9f-02b0873ae0b1",
+      "clipTitle": "Introduction",
+      "distractors": [
+        "List elements can be iterated; dictionary elements cannot be iterated.",
+        "List elements must be value types; dictionary elements can be any type."
+      ],
+      "key": "List elements are accessed by positional index; dictionary elements are accessed by key.",
+      "moduleId": "65c7952f-36a4-4c77-8c83-64c92c09ca25",
+      "stem": "What is the primary difference between a generic list and a generic dictionary?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "b810df0b-26e0-4aeb-bce0-66d00f07249e",
+      "clipId": "5889b7a2-cd01-4966-b67e-d39d1c2a3224",
+      "clipTitle": "Interface Inheritance",
+      "distractors": [
+        "Wrap the new member in a virtual method call",
+        "Completely rewrite the interface",
+        "Add the member to the existing interface"
+      ],
+      "key": "Use inheritance to create a new interface with the added member",
+      "moduleId": "0365dfd7-aaae-4ebf-a49e-6bcb690da610",
+      "stem": "What is a good approach for adding a member to an existing interface?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "3e664b08-b4de-4637-ab60-61bbebc14015",
+      "clipId": "886b9135-7167-448b-a8ef-85028dab676c",
+      "clipTitle": "Saying Hello with C#",
+      "distractors": ["args[0]", "args[2]"],
+      "key": "args[1]",
+      "moduleId": "38d7675f-942c-4673-a6af-bc44f7a3d8eb",
+      "stem": "What is the correct syntax to look at the second element in an array named args?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "06944a51-88af-415a-a87b-26427b5bd63d",
+      "clipId": "a0d44461-bcb4-4c65-be0c-ba202e7abe4d",
+      "clipTitle": "Defining a Method",
+      "distractors": [
+        "class ShoppingCart{    public ShoppingCar()    {        Item Add;    } }",
+        "class ShoppingCart{    Item Add { get; set; }}"
+      ],
+      "key": "class ShoppingCart{    public void Add(Item item) { }}",
+      "moduleId": "1d2231ff-33d0-499b-8934-94df99d39d74",
+      "stem": "Which of the following class definitions includes a method named Add?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "0e10d729-16d4-4046-8a8c-cc9f9b7655b6",
+      "clipId": "63da4bc1-74fe-432d-aaa6-5e1a5dd39d97",
+      "clipTitle": "Queue Things",
+      "distractors": [
+        "Last in, first out",
+        "Write duplicate values, read duplicate values",
+        "Process items in an ascending sort order"
+      ],
+      "key": "First in, first out",
+      "moduleId": "b62ed369-aac3-436b-99f5-ce3f5f4a5a43",
+      "stem": "A `Queue<T>` allows you to use what type of processing?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "2c7bd734-0918-4234-ac0c-7643bf74593e",
+      "clipId": "195b24a6-cc30-4395-a38f-97eaae0a32b8",
+      "clipTitle": "Concurrent Collections",
+      "distractors": [
+        "An exception would be thrown as soon as employees detected it was being used from more than one thread.",
+        "The code would not compile because variables declared with var cannot be used on multiple threads.",
+        "Everything should be OK because `Dictionary<TKey, TValue>` is by design thread-safe."
+      ],
+      "key": "Employees could suffer data corruption because `Dictionary<TKey, TValue>` is not thread-safe",
+      "moduleId": "eaca60de-bf27-4573-b096-4f9c53db3a66",
+      "stem": "var employees = new Dictionary<string, string>();\r\n\r\n\r\nWhat is the likely result if you tried to use employees simultaneously on multiple threads",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "6ea1f94e-134b-40a2-afaa-de98b3cd38ef",
+      "clipId": "51d9b66a-0955-49d8-8fb5-7a88269796f6",
+      "clipTitle": "What Does O(1) Mean?",
+      "distractors": ["0.2 seconds", "0.8 seconds", "0.4 seconds"],
+      "key": "0.1 seconds",
+      "moduleId": "d5aaecf2-1aa2-498b-9449-f42ba736dc6a",
+      "stem": "A collection operation is documented as being O(1).  It takes 0.1 seconds to run against a collection of 1 million elements.\r\n\r\nHow long would you expect it to take on a similar collection of 4 million elements?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "545e3b39-1fd2-4b40-9875-49844154b7cd",
+      "clipId": "b0933c46-6864-468e-b645-22d439bf91c6",
+      "clipTitle": "Raising Events",
+      "distractors": [
+        "Access the underlying delegate and invoke it immediately",
+        "Validate the event signature",
+        "None of these"
+      ],
+      "key": "Ensure that the delegate isn't null",
+      "moduleId": "4ac9beef-d882-4e23-a0ad-78162e8ec620",
+      "stem": "What should you always do before raising an event?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "d7845f86-d0ef-4cdb-b624-a3f593e0a5df",
+      "clipId": "c595e5f2-f1fb-4b6e-acb6-babe91f00f23",
+      "clipTitle": "The Great IEnumerable<T>",
+      "distractors": ["A Enumerable method", "A Compare method", "A Next method"],
+      "key": "A GetEnumerator method",
+      "moduleId": "98b8b441-b436-4a89-9e3c-aa17d99f2c80",
+      "stem": "What method does the `IEnumerable<T>` interface require?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "17d33b8a-a059-4403-82d0-afce1bdc6542",
+      "clipId": "2992cb9c-2034-426a-94e1-569623dae028",
+      "clipTitle": "Using an Interface as a Return Type",
+      "distractors": [
+        "`var vendors = vendorsCollection.ToList(v=>v.CompanyName);`",
+        "`var vendors = vendorCollection.ToArray();`"
+      ],
+      "key": "`var vendors = vendorCollection.ToList();`",
+      "moduleId": "a0bfadb7-c901-4874-94ca-b16399d69279",
+      "stem": "What is the syntax for casting the returned value from this method to a generic `List<Vendor>`?\r\n\r\n`public ICollection<Vendor> Retrieve()`",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "aa7b94ff-3094-4a61-95be-8e623377b455",
+      "clipId": "2167a100-255b-48d3-9bd9-b4432482c60b",
+      "clipTitle": "The Importance of GetHashCode()",
+      "distractors": [
+        "`EmployeeName` is a class (a reference type); you should only use structs as diectionary keys",
+        "`EmployeeName` is a struct; you should only use classes (reference types) as dictionary keys",
+        "You forgot to override `Equals()` and `GetHashCode()` in `Employee`"
+      ],
+      "key": "You forgot to override `Equals()` and `GetHashCode()` in `EmployeeName`",
+      "moduleId": "95dfd158-3bc6-4c34-94ee-d0ef337913e8",
+      "stem": "You instantiate a `Dictionary<EmployeeName, Employee>` where `EmployeeName` and `Employee` are types you wrote. When you test it, you find looking up `Employee` instances in this dictionary always fails.\r\n\r\nWhat might have caused this problem?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "62272b0d-902a-4603-9ebe-89f4e7cf6c19",
+      "clipId": "72adfc0c-9f35-469c-af1d-90ed4c77ad01",
+      "clipTitle": "Introduction",
+      "distractors": [
+        "The class inherits from and extends the interface.",
+        "The class implements code for **at least one** of the properties or methods identified in the interface."
+      ],
+      "key": "The class implements code for **each** property and method identified in the interface.",
+      "moduleId": "a0bfadb7-c901-4874-94ca-b16399d69279",
+      "stem": "What does it mean to say that a class implements an interface?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "ada3b113-a0a7-4898-add2-c63df94dfb3b",
+      "clipId": "1643177b-cb85-4bae-9468-0bfc37c7f3d2",
+      "clipTitle": "Definitions",
+      "distractors": ["A base class", "A collection of methods", "A catalog"],
+      "key": "A contract",
+      "moduleId": "0aabc094-72c4-4b5f-9200-952d532d1ab8",
+      "stem": "What is the best way to think of an interface?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "c36e9c5e-d01a-45d7-b55a-fd17f04d4570",
+      "clipId": "025cffb9-66c7-4594-9849-927d09d2ec92",
+      "clipTitle": "Arrays Are a Fixed Size",
+      "distractors": [
+        "You need to use LINQ to query the data in the collection.",
+        "You need to look up items using `TryGetValue()` to avoid exceptions if values are missing.",
+        "You specifically need the items to be stored in a specific order in the collection."
+      ],
+      "key": "You won't know at instantiation time how many items will be in the collection.",
+      "moduleId": "f3960bdf-78ca-4d33-82a1-cc8d01f8935d",
+      "stem": "In what situation should you use a `List<T>` instead of an array of T?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "bca9dba3-3a3e-4d4e-a005-ff5725aa4807",
+      "clipId": "af5e081b-1c5f-40bd-9469-6566d492e8ae",
+      "clipTitle": "Introduction",
+      "distractors": [
+        "An expression that provides advanced techniques for formatting a string",
+        "An expression that performs a calculation a returns an infinite number of elements"
+      ],
+      "key": "An expression that can be passed as an argument to a method when that argument expects a delegate type",
+      "moduleId": "00facef1-c99f-491a-9d52-aa132a41532f",
+      "stem": "What is a Lambda expression?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "10a8d14c-9c99-4123-b6a6-a7e0e1c6653c",
+      "clipId": "f360160a-f1c4-480d-8a6a-160987a476f3",
+      "clipTitle": "Demo: Mock Repository",
+      "distractors": [
+        "The tests are more likely to pass",
+        "You can test using dynamic data",
+        "The tests run faster"
+      ],
+      "key": "You do not need a physical class in the project",
+      "moduleId": "f172bfc7-1937-4054-abb0-e3dce1c7ef89",
+      "stem": "For unit testing, why is a mock repository better than the Fake Repository class?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "d6331a82-9b10-4599-a66b-5c507a6e3678",
+      "clipId": "9c8234f3-c2e1-4a4a-8aed-4dc02617e32e",
+      "clipTitle": "Declaring and Populating a Generic Dictionary",
+      "distractors": [
+        "`var elements = new Dictionary(string, int);`",
+        "`var elements = new Dictionary(int, string);`",
+        "`var elements = new Dictionary<string, int>();`"
+      ],
+      "key": "`var elements = new Dictionary<int, string>();`",
+      "moduleId": "65c7952f-36a4-4c77-8c83-64c92c09ca25",
+      "stem": "Which of the following is the correct syntax for initializing a generic dictionary with string values and integer keys?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "d0bb1940-3bb8-4d0c-a040-73580f904a43",
+      "clipId": "c29f1077-6b49-4b42-acf6-2c68da244159",
+      "clipTitle": "Sorting Items with SortedSet<T>",
+      "distractors": ["SortedDictionary", "Queue", "LinkedList"],
+      "key": "SortedSet",
+      "moduleId": "0695cc38-5021-4846-9052-b066824acacb",
+      "stem": "You need to store a large collection of integers. The integers must be stored in increasing order, and the same integer must not be stored more than once. The collection will be modified frequently. Direct look-up is not required as the integers will be accessed by enumerating them.\r\n\r\nWhich collection would be most suitable?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "3a200d25-e3e6-4f69-9705-5e106d00faaf",
+      "clipId": "a4765ecf-8f24-45f5-8e7b-3b387ae9ddf1",
+      "clipTitle": "Using Collection Initializers",
+      "distractors": [
+        "`string[4] colorOptions = {\"Red\", \"Espresso\", \"White\", \"Navy\" };`",
+        "`var colorOptions = new string [\"Red\", \"Espresso\", \"White\", \"Navy\"];`",
+        "`var colorOptions = {\"Red\", \"Espresso\", \"White\", \"Navy\" };`"
+      ],
+      "key": "`string[] colorOptions = {\"Red\", \"Espresso\", \"White\", \"Navy\" };`",
+      "moduleId": "1b651731-3bce-4507-ab1d-e0afa28076d0",
+      "stem": "Which of the following is the correct syntax for declaring and populating an array using collection initializers?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "ddfd9853-230b-4cc2-96d3-5ae1d9d09e59",
+      "clipId": "31985d6e-fcc7-4e81-a5a2-2cab12db69a4",
+      "clipTitle": "Demo: Concrete Class, Abstract Class, and Interface",
+      "distractors": [
+        "The class will build and run successfully",
+        "The class will build but throw errors at runtime"
+      ],
+      "key": "The class will not build",
+      "moduleId": "0aabc094-72c4-4b5f-9200-952d532d1ab8",
+      "stem": "What happens if a class does **NOT** implement all members of an interface?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "0ccac0f3-b898-4903-946b-076fa8fd2c45",
+      "clipId": "37b1e6d4-af5c-42ad-b53a-a38497fbe173",
+      "clipTitle": "Collections Overview",
+      "distractors": [
+        "A list is an in-memory data structure, and a dictionary is file-based.",
+        "A list is fixed-length, and a dictionary can be any length.",
+        "A list is accessed by key, and a dictionary is accessed by index."
+      ],
+      "key": "A list is accessed by index, and a dictionary is accessed by key.",
+      "moduleId": "fa438930-9f81-4a94-b484-d989b6a13178",
+      "stem": "What is the key difference between a list and a dictionary?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "8eb5b319-9ddb-4663-b803-d3d93ad860d2",
+      "clipId": "8a331a79-3680-4b30-844b-1c50dd216814",
+      "clipTitle": "Extension Methods",
+      "distractors": ["True"],
+      "key": "False",
+      "moduleId": "3d443840-d1bd-4bd3-8462-d1e2b65d844d",
+      "stem": "A generic method must be a member of a generic type.",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "92f0f2fc-3ee3-4fe7-b40c-19cdebd997a2",
+      "clipId": "3a67526d-af7e-48f0-b896-5483e8da1200",
+      "clipTitle": "Looking for Reference Types and Value Types",
+      "distractors": ["delegate", "class"],
+      "key": "struct",
+      "moduleId": "3f972311-2938-48cd-a376-d550a17b080f",
+      "stem": "Which keyword would you use to define a new value type?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "3988510c-743a-44b4-950b-c9fa288c2caf",
+      "clipId": "b918a7cd-c3a6-41bb-8a68-13b12a18679a",
+      "clipTitle": "Overloading Methods",
+      "distractors": [
+        "The name of the method, and the names of the parameters",
+        "The name of the method, and the return type",
+        "The name of the method, the types and number of parameters, and the return type"
+      ],
+      "key": "The name of the method, and the types and number of parameters",
+      "moduleId": "8d2978e0-68e1-4e2c-b965-64efa5aad4aa",
+      "stem": "What pieces of syntax define a method signature?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "91c4617e-37bb-4934-aa32-bb0ee4f2b81c",
+      "clipId": "a63ca3b8-12ef-4e39-8f7a-7be66192e494",
+      "clipTitle": "Building a Generic Class",
+      "distractors": [
+        "`public class<T> OperationResult`",
+        "`public class[T] OperationResult`",
+        "`public class OperationResult[T]`"
+      ],
+      "key": "`public class OperationResult<T>`",
+      "moduleId": "4bfb9ce7-938a-45c0-ab73-6070dfac1048",
+      "stem": "Which of the following defines a generic class with a single generic parameter?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "f0a916ad-f966-4a62-9232-3f23e8a7240a",
+      "clipId": "26dc211c-7773-463f-8aae-c8148724397d",
+      "clipTitle": "The Role of Events",
+      "distractors": [
+        "Simulate method calls",
+        "Provide compiler switch notifications",
+        "None of these"
+      ],
+      "key": "Provide notifications to other objects",
+      "moduleId": "72499257-245e-4052-9b60-30dfcf0a9c5b",
+      "stem": "What is the role of events?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "39ccab85-3240-43ac-9a14-e8ebc1de02af",
+      "clipId": "62889348-4e3d-41a7-b3d5-79be3650c6df",
+      "clipTitle": "Using IDisposable",
+      "distractors": ["continue", "break", "catch"],
+      "key": "using",
+      "moduleId": "21d914d0-b0ef-4232-b4de-e1a0802dec94",
+      "stem": "Which of the following keywords can you use with an object implementing IDisposable to ensure the object cleans up resources as soon as possible?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "855fe2d8-40e6-42ae-9ee7-551628d07cd0",
+      "clipId": "47cbd407-9cb5-4dbd-b74e-947cc2e20d19",
+      "clipTitle": "Leveraging Generic Constraints",
+      "distractors": [
+        "A limitation on the methods that can use generics",
+        "A limitation used for generalized input validation"
+      ],
+      "key": "A limitation on a generic type parameter, limiting the types that can be used with a generic class or method",
+      "moduleId": "4bfb9ce7-938a-45c0-ab73-6070dfac1048",
+      "stem": "What is a generic constraint?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "56e29671-de47-4f5c-9efe-cf1e54bcf139",
+      "clipId": "d583a15e-d22a-428c-aa4b-6d4d8ce3d46b",
+      "clipTitle": "Using Array Methods",
+      "distractors": [
+        "An extension method from the Array class",
+        "An instance method from the Array class"
+      ],
+      "key": "A static method from the Array class",
+      "moduleId": "1b651731-3bce-4507-ab1d-e0afa28076d0",
+      "stem": "As shown in the example below, IndexOf is what type of method?\r\n\r\n`var brownIndex = Array.IndexOf(colorOptions, \"Espresso\");`",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "810cfb75-bedf-46e6-a7c2-c28cca881b83",
+      "clipId": "b0bed4f5-32cf-4e87-a476-3a4c4dffcacf",
+      "clipTitle": "Branching with if Statements",
+      "distractors": ["/=", "&&"],
+      "key": "||",
+      "moduleId": "9134adde-3788-4c0b-940e-3abbce78fddf",
+      "stem": "Which operator is the boolean \"OR\" operator in C#?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "1a48c890-1ad1-4f78-887a-f509c15dff17",
+      "clipId": "2c71d3d7-890e-438f-addb-07dc1ecc5813",
+      "clipTitle": "Arrays Are Zero-indexed",
+      "distractors": ["`employees[5]`", "`employees[8]`", "`employees[7]`"],
+      "key": "`employees[6]`",
+      "moduleId": "ebe64e45-affd-45f6-960c-651ae2516744",
+      "stem": "Which expression will return the 7th element of an array called `employees`?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "9c4e7c66-e057-4072-8efe-db5903cc147c",
+      "clipId": "b828e5b7-7aa6-4afc-b610-0dbc98a6a4c4",
+      "clipTitle": "The Object Solution",
+      "distractors": [
+        "Boxing can lose precision for floating point values.",
+        "Boxing leads to a loss of type safety.",
+        "Boxing requires administrator privledges."
+      ],
+      "key": "Boxing requires additional memory and is slow.",
+      "moduleId": "aeb5d914-cce7-4602-89e1-7c21be0a70b8",
+      "stem": "Why would we want to avoid boxing a value type?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "ae38dfaa-302e-4493-a89e-d1dea1c0fc0f",
+      "clipId": "6f3b5957-2479-4265-af3e-28b8ea5915e9",
+      "clipTitle": "Declaring and Populating a Generic List",
+      "distractors": [
+        "Removes **all **occurrances of the element \"White\" from the list and **shifts **up the elements below them",
+        "Removes **all **occurrances of the element \"White\" from the list and leaves **null **elements",
+        "Removes the **first **occurrance of the element \"White\" from the list and leaves a **null **element"
+      ],
+      "key": "Removes the **first **occurrance of the element \"White\" from the list and **shifts **up the elements below it",
+      "moduleId": "752f3fed-0dff-40ef-9cda-85a62d7da71f",
+      "stem": "What does this line of code do?\r\n\r\n`colorOptions.Remove(\"White\");`",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "ce26c1fa-e486-4957-ae12-3619b72b30ff",
+      "clipId": "55e30563-2adf-48b1-ae62-23d66cb43d3d",
+      "clipTitle": "SortedList vs. SortedDictionary",
+      "distractors": [
+        "`SortedList` is slower, but thread-safe; `SortedDictionary` is not thread-safe",
+        "`SortedList` requires value types as keys; `SortedDictionary` requires reference types as keys",
+        "`SortedDictionary` requires lookup by key, `SortedList` requires lookup by index"
+      ],
+      "key": "`SortedList` and `SortedDictionary` have different performance characteristics",
+      "moduleId": "95dfd158-3bc6-4c34-94ee-d0ef337913e8",
+      "stem": "What is the main difference between the `SortedDictionary` and `SortedList` types?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "af4a1b88-3dda-49cd-bffd-26112c361126",
+      "clipId": "6f3b5957-2479-4265-af3e-28b8ea5915e9",
+      "clipTitle": "Declaring and Populating a Generic List",
+      "distractors": [
+        "Add adds to the end, Insert replaces an existing element.",
+        "Add adds at a specific index; Insert inserts at the end."
+      ],
+      "key": "Add adds to the end; Insert inserts at a specific index.",
+      "moduleId": "752f3fed-0dff-40ef-9cda-85a62d7da71f",
+      "stem": "What is the difference between the generic list methods Insert and Add?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "d903c615-5169-4fda-a3ed-6375db9d9a2a",
+      "clipId": "4e7eb476-1b9f-4f81-8eee-f81365bc0c13",
+      "clipTitle": "Defining a Field",
+      "distractors": [
+        "class Employee{    string FirstName { get; }}",
+        "class Employee{    string FirstName() {}}"
+      ],
+      "key": "class Employee{    string FirstName;}",
+      "moduleId": "1d2231ff-33d0-499b-8934-94df99d39d74",
+      "stem": "Which of the following classes defines a field of type string with the name of FirstName?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "ac9ab9a2-fc93-4d4e-ab69-d794b6460324",
+      "clipId": "7a806ee2-e61a-4187-b655-7f624399b59d",
+      "clipTitle": "Declaring and Populating an Array",
+      "distractors": [
+        "An array containing four elements, each of which is an empty string",
+        "An array containing no elements, but with room for four elements"
+      ],
+      "key": "An array containing four elements, each of which is null",
+      "moduleId": "1b651731-3bce-4507-ab1d-e0afa28076d0",
+      "stem": "When creating an instance of an array using this code:\r\n\r\n`var colorOptions = new string[4];`\r\n\r\nWhat is colorOptions?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "57fb9b9b-6036-476e-a7bc-0e26e79ba6f4",
+      "clipId": "7a806ee2-e61a-4187-b655-7f624399b59d",
+      "clipTitle": "Declaring and Populating an Array",
+      "distractors": [
+        "Adds a new element to the array with the text \"Red\" at position 1",
+        "Replaces the first element of the array with the text \"Red\""
+      ],
+      "key": "Replaces the second element of the array with the text \"Red\"",
+      "moduleId": "1b651731-3bce-4507-ab1d-e0afa28076d0",
+      "stem": "What does the second line of code here do?\r\n\r\n\r\n    var colorOptions = new string[4];\r\n    colorOptions[1] = \"Red\";",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "e561e634-6750-4caa-955a-d497e1c5b56a",
+      "clipId": "fc11145f-65b8-40cc-96dc-d7e1048bc27e",
+      "clipTitle": "Events and Generics",
+      "distractors": [
+        "Because there is no need to write a new event handler",
+        "Because there is no need to write a custom class derived from EventArgs",
+        "Because there is no need to check an event to see if it is null."
+      ],
+      "key": "Because there is no need to create a custom delegate when defining a custom event",
+      "moduleId": "3d443840-d1bd-4bd3-8462-d1e2b65d844d",
+      "stem": "Why is `EventHandler<T>` a useful generic type?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "57efd0ac-ae6d-4808-a219-14d35f2cf3ce",
+      "clipId": "9876d520-7dfa-4896-ae84-ec357177f0ef",
+      "clipTitle": "Introduction",
+      "distractors": [
+        "A generic list is accessed by key; an array is accessed by index.",
+        "A generic list is strongly typed; an array is not."
+      ],
+      "key": "A generic list allows adding and removing elements; an array is fixed size.",
+      "moduleId": "752f3fed-0dff-40ef-9cda-85a62d7da71f",
+      "stem": "Which of the following is a key difference between an array and a generic list?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "368a8f25-cb1e-43fd-8aab-0f6e8ca3bae4",
+      "clipId": "5bf1c696-f021-42bd-9817-40a240b780dc",
+      "clipTitle": "Covariance",
+      "distractors": [
+        "Make the paramter contravariant",
+        "Make the parameter invariant",
+        "Make the paramter pass by reference"
+      ],
+      "key": "Make the parameter covariant",
+      "moduleId": "d329f78f-b621-459f-a9f7-d8ae0a4cea2f",
+      "stem": "What does the out modifier to do a generic type parameter?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "0ffc5cf0-64d9-415a-995f-165015d0d205",
+      "clipId": "d4e8855f-c052-4601-b503-725a9d252d61",
+      "clipTitle": "Removing from a Linked List with Remove()",
+      "distractors": [
+        "It will resize the linked list to contain six elements, and set the sixth element to the value 4",
+        "It will NOT compile because linked lists are not modifiable after they have been instantiated",
+        "It will throw an exception because x does not contain any elements at the point of trying to set the sixth element"
+      ],
+      "key": "It will NOT compile because linked lists do not support indexed lookup",
+      "moduleId": "0e357294-fd28-4b38-b3a5-0ecff1916235",
+      "stem": "Given the code:\r\n\r\n\r\n    var x = new LinkedList<int>\r\n    x[5] = 4;\r\n\r\n\r\nWhat will the line, `x[5] = 4;` do?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "a6c02d3d-877f-4b41-9a45-e814d43260cc",
+      "clipId": "5e8a6171-e6b7-456c-a4d2-beb3d902fbe6",
+      "clipTitle": "Enumerating Backwards",
+      "distractors": [
+        "To enable filtering the items using LINQ.",
+        "To enumerate from multiple threads.",
+        "To enumerate just the keys (not the values) in a dictionary."
+      ],
+      "key": "To control the order that the items are enumerated in.",
+      "moduleId": "eb2b11f3-5102-4ce2-9671-e0f509fe7b29",
+      "stem": "Enumerating items in a collection is often done with a foreach loop. Why might you choose to use a for loop instead?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "0649a13e-16cf-41a1-beda-e8550a06dc9f",
+      "clipId": "6830b111-dd64-4879-b98d-15f21bef5b84",
+      "clipTitle": "Built-in Generic Collection Interfaces",
+      "distractors": [
+        "The basic collection operations such as adding and removing elements",
+        "The ability to enumerate a collection using `foreach`",
+        "The ability to work with a collection by key"
+      ],
+      "key": "The ability to work with a collection by index",
+      "moduleId": "a0bfadb7-c901-4874-94ca-b16399d69279",
+      "stem": "What functionality does the `IList<T>` interface provide?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "91442d3d-857e-4c45-8460-fd47495d217f",
+      "clipId": "9ec66d1d-7a56-4761-99e9-188046e9a078",
+      "clipTitle": "Lambdas and Delegates",
+      "distractors": ["True"],
+      "key": "False",
+      "moduleId": "89e4a67c-418d-40e3-a92d-a8047f13a1b8",
+      "stem": "Lambdas are identical to anonymous methods.",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "ab53246b-1937-43bd-83ae-2938d1b0e163",
+      "clipId": "f7f5de27-558e-48df-b3a2-88c185e1cc35",
+      "clipTitle": "Delegate Inference",
+      "distractors": [
+        "C# doesn't support delegate inference",
+        "The compiler will \"infer\" which event to raise",
+        "The compiler will \"infer\" which method to call when an event is raised"
+      ],
+      "key": "The compiler will \"infer\" the delegate to use and write the code to instantiate it",
+      "moduleId": "d806ea80-f0d3-40a3-a14d-28d72fac31e5",
+      "stem": "What is \"Delegate Inference\"?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "91cf5de8-655c-4ce4-ac0d-d40be22ce512",
+      "clipId": "73598c4c-9f06-465f-a6f8-05529e5331c9",
+      "clipTitle": "Collection Interfaces",
+      "distractors": [
+        "Instantiate an array of integers, which is accessed using the IList<T> interface to refer to it",
+        "Cause a compile-time error because arrays do not implement `IList<T>`"
+      ],
+      "key": "Cause a compile-time error because arrays must be initialized with a size",
+      "moduleId": "eaca60de-bf27-4573-b096-4f9c53db3a66",
+      "stem": "What would the following declaration do?\r\n\r\n\r\n    IList<int> values = new int[];",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "843bd1c9-f178-4234-88c2-e22fa2514cf3",
+      "clipId": "ce190805-b291-4f09-84fe-18512abc919e",
+      "clipTitle": "Enumerating Dictionary Items",
+      "distractors": ["`Order`", "`IList<Order>`", "`string`"],
+      "key": "`KeyValuePair<string, Order>`",
+      "moduleId": "76a02cef-8901-47e1-9c4e-b7c8f765b9dd",
+      "stem": "foreach (var x in orders)\r\n    {\r\n\r\n\r\n\r\n\r\nIf orders is of type `Dictionary<string, Order>`, what type would you expect x to be?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "0a8e289a-5024-40d8-a0d2-3c11b1bd27ba",
+      "clipId": "af5e081b-1c5f-40bd-9469-6566d492e8ae",
+      "clipTitle": "Introduction",
+      "distractors": [
+        "A method that overloads an existing method",
+        "A method that overrides an existing method"
+      ],
+      "key": "A method added to an existing type without modifying the original type",
+      "moduleId": "00facef1-c99f-491a-9d52-aa132a41532f",
+      "stem": "What is an extension method?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "6f205c7a-ff47-4323-b896-1be6a3afa3e6",
+      "clipId": "1fe5074f-57b0-43d6-8951-e2620e0d986c",
+      "clipTitle": "Undoing and Stack<T>.Pop()",
+      "distractors": ["Taking", "Dequeuing", "Removing"],
+      "key": "Popping",
+      "moduleId": "3095db31-bead-4542-9320-df5ea50ff369",
+      "stem": "What is the correct term for removing an item from a stack?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "a212e70d-2cc5-4fb3-91bf-3cedb805d071",
+      "clipId": "f5e7f9b6-91ed-4b58-b062-abe06bf4ff0f",
+      "clipTitle": "The Array: A Fixed Size Ordered Collection",
+      "distractors": ["List of strings", "String", "Dictionary of strings"],
+      "key": "Array of strings",
+      "moduleId": "ebe64e45-affd-45f6-960c-651ae2516744",
+      "stem": "The following C# statement declares a variable of what data type:\r\n\r\n\r\n    string[] prices;",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "d5f5d5cc-66d4-48e3-9d7e-32d45cee57f9",
+      "clipId": "c5be9427-7586-4cc9-8f83-dc4aa4206352",
+      "clipTitle": "Computing and Formatting the Result",
+      "distractors": ["average += 3;", "average -= 3;", "average *= 3;"],
+      "key": "average /= 3;",
+      "moduleId": "6ca45ca9-e54b-4ed0-83d7-ae27f1c6078d",
+      "stem": "Which statement divides the value of a variable named average by 3, and then assigns the calculation result into the average variable?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "f72c3118-7e4f-474f-abbb-6fb16ffc0f09",
+      "clipId": "7c620285-cee7-43d9-88fc-9f80c0f8cb0f",
+      "clipTitle": "Defining Generic Methods",
+      "distractors": ["In the method signature only", "In the class signature only"],
+      "key": "In the class signature or the method signature",
+      "moduleId": "4bfb9ce7-938a-45c0-ab73-6070dfac1048",
+      "stem": "When building a method that uses generics, where is the generic type parameter defined?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "c2656908-3cbd-4abc-a8ec-6a22d72ca028",
+      "clipId": "8a3eb312-f955-44a0-9368-35f33a48f1bb",
+      "clipTitle": "Retrieving an Element from a Generic List",
+      "distractors": ["`vendors[2]`", "`vendors<1>`", "`vendors<2>`", "`vendors[8]`"],
+      "key": "`vendors[1]`",
+      "moduleId": "752f3fed-0dff-40ef-9cda-85a62d7da71f",
+      "stem": "What is the correct syntax for retrieving the \"XYZ, Inc\" element from the following generic list called **`vendors`**?",
+      "stemImageUrl": "https://s2.pluralsight.com/assessments/image-questions/originals/417b4205c4b46e8d6ebfab36c519d514.png",
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "dfb23680-4cc9-48cc-b3ae-f468a7e29703",
+      "clipId": "1feddee0-38d4-4a52-a8e0-6f03f447972b",
+      "clipTitle": "The Special Case of Strings in .NET",
+      "distractors": ["String is a delegate type", "String is a value type"],
+      "key": "String is a reference type",
+      "moduleId": "3f972311-2938-48cd-a376-d550a17b080f",
+      "stem": "Which of the following best describes the String type in .NET?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "8ff23bb7-d47a-4fc0-af60-d06d76871b2d",
+      "clipId": "65239828-c8bd-4743-a524-16c41126b1ec",
+      "clipTitle": "Concurrency",
+      "distractors": ["HashSet", "ReadOnlyDictionary", "SortedDictionary"],
+      "key": "ImmutableDictionary",
+      "moduleId": "764084e0-9e44-4ff2-9337-8bae95aa1023",
+      "stem": "Which collection is safe to use simultaneously from multiple threads?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "912e773b-ef2a-4484-9f1d-6f81b78890c8",
+      "clipId": "482048a9-05ef-493f-a052-5cfaf3c466ab",
+      "clipTitle": "Catching Exceptions",
+      "distractors": [
+        "To provide the terminating condition for a looping statement",
+        "To execute a block of code when a value matches no case in a switch statement"
+      ],
+      "key": "To ensure a block of code always executes, with or without exceptions from a previous code block",
+      "moduleId": "9134adde-3788-4c0b-940e-3abbce78fddf",
+      "stem": "What's the purpose of the \"finally\" keyword in C#?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "e12d584e-06e7-4f16-8bf0-7a3429527c70",
+      "clipId": "8a1cbdff-622f-4d2c-85f4-e2d7bcb2d602",
+      "clipTitle": "Instantiating Generic Types",
+      "distractors": [
+        "make `type List<>` from `List<int>`.",
+        "make `type int`from `List<int>`.",
+        "make `type List<int>` from `List<double>`."
+      ],
+      "key": "make `type List<int>`from `List<>`.",
+      "moduleId": "17a5748b-92aa-4e56-b7b7-0e2522426f6b",
+      "stem": "`MakeGenericType` can be used to:",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "947f2616-019f-4a36-8454-3f082844da2f",
+      "clipId": "b676ff61-c798-43ea-a0c6-76942792f2f4",
+      "clipTitle": "Iterating Through a Generic Dictionary",
+      "distractors": [
+        "foreach (var vendor in vendors.Values)\r\n    {\r\n        Console.WriteLine(vendor);\r\n    }",
+        "foreach (var element in vendors)\r\n    {\r\n       Console.WriteLine(element.Value);\r\n    }",
+        "foreach (var companyName in vendors.Keys)\r\n    {\r\n        Console.WriteLine(vendors[companyName]);\r\n    }"
+      ],
+      "key": "All of these",
+      "moduleId": "65c7952f-36a4-4c77-8c83-64c92c09ca25",
+      "stem": "Which of the following will iterate all of the values of a generic dictionary called `vendors`?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "51330b30-8404-4105-a682-8a98cb6087cb",
+      "clipId": "8ab79cab-d851-4652-8a37-648071c2b1a9",
+      "clipTitle": "Set Things",
+      "distractors": [
+        "A `HashSet<T>`can automatically expand to store more items",
+        "A `HashSet<T>` will allow you to iterate through the items in the set",
+        "A `HashSet<T>` can work with multiple object types"
+      ],
+      "key": "A `HashSet<T>` only stores unique items",
+      "moduleId": "b62ed369-aac3-436b-99f5-ce3f5f4a5a43",
+      "stem": "How does a `HashSet<T>` differ from a `List<T>`?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "18f62427-4886-41b0-a57a-a2665e4dce83",
+      "clipId": "44c63753-2f09-4b37-a646-521e978dc25b",
+      "clipTitle": "Everyday Delegates",
+      "distractors": ["int", "double", "void"],
+      "key": "DateTime",
+      "moduleId": "3d443840-d1bd-4bd3-8462-d1e2b65d844d",
+      "stem": "What is the return type for a `Func<double, int, DateTime>`?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "89cd5489-1c5f-43d6-b44c-c147ac27ec8a",
+      "clipId": "f68834f1-f6fe-4fab-8e7c-e2d652bed6fb",
+      "clipTitle": "Chaining Constructors",
+      "distractors": ["public Invoice : Object() { }", "public Invoice : this() { }"],
+      "key": "public Invoice() : base() { }",
+      "moduleId": "21d914d0-b0ef-4232-b4de-e1a0802dec94",
+      "stem": "Which of the following will chain a constructor call for a class named Invoice, to a base class constructor, where the base class is System.Object",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "90743ca3-0f41-48b5-9779-2c0658a13db0",
+      "clipId": "a1641503-758d-42ff-bbbb-7ad0e49fea5c",
+      "clipTitle": "List Things",
+      "distractors": [
+        "A `List<T>` will allow you to index into the list with []",
+        "A `List<T>` can be strongly typed",
+        "A `List<T>` allows you to write a foreach statement to enumerate the list"
+      ],
+      "key": "A `List<T>` can automatically expand to hold more items",
+      "moduleId": "b62ed369-aac3-436b-99f5-ce3f5f4a5a43",
+      "stem": "What is the most significant difference between an array and a `List<T>`?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "5b7bb3fa-ae19-4528-9e23-2280bce366ac",
+      "clipId": "94e47ac6-874f-4e55-bed9-4f5c9a3dbaaf",
+      "clipTitle": "Demo: Creating a Custom Delegate",
+      "distractors": ["BaseDelegate", "Delegate", "MultiDelegate"],
+      "key": "MulticastDelegate",
+      "moduleId": "4ac9beef-d882-4e23-a0ad-78162e8ec620",
+      "stem": "Delegates inherit directly from which base class?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "bc9250e4-8fa2-49fe-abb6-657497adbe1f",
+      "clipId": "428476f7-0c85-489f-838c-7361c464bce4",
+      "clipTitle": "Looping with for, foreach, do, and while",
+      "distractors": [
+        "for(i < scores.Length; i++; int i = 0)",
+        "for(i++; i < scores.Length; int i = 0)",
+        "for(i < scores.Length; int i = 0; i++)"
+      ],
+      "key": "for(int i = 0; i < scores.Length; i++)",
+      "moduleId": "9134adde-3788-4c0b-940e-3abbce78fddf",
+      "stem": "What for statement syntax will loop over an array of integer named scores?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "0ab9fd0d-13c2-4441-b87b-ef7cfc4c1801",
+      "clipId": "fc31298a-523e-47be-baf5-5d8556d63603",
+      "clipTitle": "Checking for Values with Any()",
+      "distractors": [
+        "bool isEmpty = !seq.TryGetValue(out Control value);",
+        "bool isEmpty = seq.IsEmpty();",
+        "bool isEmpty = (seq.Count == 0);"
+      ],
+      "key": "bool isEmpty =!seq.Any();",
+      "moduleId": "3b2976eb-6e5b-4a56-8ee1-f570ea9777d3",
+      "stem": "If the variable `seq`is of declared type,`IEnumerable<Control>`, how could you check whether seq is empty?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "a4491cc1-358e-4d89-8859-a195bc12f407",
+      "clipId": "d4574998-1021-4230-85b3-76f542febe12",
+      "clipTitle": "Constraints On Parade",
+      "distractors": [
+        "To force a type to be abstract",
+        "To force a type to be a value type",
+        "To force a type to be a reference type"
+      ],
+      "key": "To force a type to implement a specific interface",
+      "moduleId": "d329f78f-b621-459f-a9f7-d8ae0a4cea2f",
+      "stem": "What is the purpose of an interface constraint on a type parameter?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "43922ae7-8b17-41fd-a014-64e9815cbfbd",
+      "clipId": "3f534f69-cc59-4d1c-8041-b66e7f068dd9",
+      "clipTitle": "Demo: Using Anonymous Methods",
+      "distractors": [
+        "They don't support multiple lines of code in the method body",
+        "They don't have valid names",
+        "They're not supported by all C# compilers"
+      ],
+      "key": "They can't be shared across multiple events",
+      "moduleId": "d806ea80-f0d3-40a3-a14d-28d72fac31e5",
+      "stem": "What is a negative aspect of anonymous methods?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "fbcb853b-3d9b-4451-b461-4d89f4991466",
+      "clipId": "b42500e1-5101-42e7-b95c-0809f60b93d8",
+      "clipTitle": "Asynchronous Delegates - Good",
+      "distractors": ["False"],
+      "key": "True",
+      "moduleId": "db3267e2-9732-4804-9bd3-4c9196bac917",
+      "stem": "Delegates can be used to start background processes.",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "86a7be5b-afde-4efb-8403-fec155823c4e",
+      "clipId": "685eef9f-a386-4a2e-b130-24535500911f",
+      "clipTitle": "Programming to an Abstraction",
+      "distractors": ["Use a 3rd party library", "Use a custom object", "Use a specific class"],
+      "key": "Use an interface",
+      "moduleId": "0aabc094-72c4-4b5f-9200-952d532d1ab8",
+      "stem": "The advice \"Program to an abstraction\" means you should do which of the following?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "19871fb8-3a06-43fe-b4c3-496aac04cbc0",
+      "clipId": "3a06d63b-ad4e-40b9-9e80-55b06007f208",
+      "clipTitle": "The Repository Pattern",
+      "distractors": ["Authorization code", "Presentation logic code", "Logging code"],
+      "key": "Data access cde",
+      "moduleId": "92cdbe70-7470-42d0-b0e9-095e9e7d3a72",
+      "stem": "The Repository Pattern keeps the application code spearate from what?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "d934ecfc-2d2f-49e7-8f13-e6c56cae5212",
+      "clipId": "9d8df8e3-a66b-4f74-9b06-f6f5667c1d2c",
+      "clipTitle": "Generic Terminology",
+      "distractors": ["generic type parameter.", "generic classifier.", "generic constraint."],
+      "key": "generic type argument.",
+      "moduleId": "aeb5d914-cce7-4602-89e1-7c21be0a70b8",
+      "stem": "In the code `CircularBuffer<int>`, the \"int\" is known as a:",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "749aed9d-b726-40df-81b9-7c19b51dbbfa",
+      "clipId": "31985d6e-fcc7-4e81-a5a2-2cab12db69a4",
+      "clipTitle": "Demo: Concrete Class, Abstract Class, and Interface",
+      "distractors": ["Protected", "Internal", "Private", "Public"],
+      "key": "None - they are automatically public",
+      "moduleId": "0aabc094-72c4-4b5f-9200-952d532d1ab8",
+      "stem": "Which access modifier can be used with interface members?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "7179d12f-032f-4e0a-98ef-facc73bbd976",
+      "clipId": "6830b111-dd64-4879-b98d-15f21bef5b84",
+      "clipTitle": "Built-in Generic Collection Interfaces",
+      "distractors": [
+        "Properties and methods for basic collection operations such as adding and removing elements",
+        "Properties and methods for working with collections by key",
+        "Properties and methods for working with lists by index"
+      ],
+      "key": "The ability to enumerate a collection using `foreach`",
+      "moduleId": "a0bfadb7-c901-4874-94ca-b16399d69279",
+      "stem": "What functionality does the `IEnumerable<T>` interface provide?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "3154d016-e9ef-4b2b-ab5a-48fcd37057b5",
+      "clipId": "81a808ad-1bd2-4fd4-8734-a3144a4db717",
+      "clipTitle": "Map Things",
+      "distractors": ["string", "Dictionary", "Object"],
+      "key": "int",
+      "moduleId": "b62ed369-aac3-436b-99f5-ce3f5f4a5a43",
+      "stem": "What is the key type in a `Dictionary<int, string>`?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "2f6ab0e5-7c0b-40dd-83b4-4ec5a664a965",
+      "clipId": "2d2bad6c-e38b-4a0a-a396-acfc810524b6",
+      "clipTitle": "Using an Interface as a Parameter",
+      "distractors": [
+        "Any generic collection type`<Vendor>`",
+        "Only `List<Vendor>`",
+        "Only`Vendor[]` and `List<Vendor>`"
+      ],
+      "key": "Any type that implements the `IList<Vendor>` interface",
+      "moduleId": "a0bfadb7-c901-4874-94ca-b16399d69279",
+      "stem": "What types can be passed into the following method?\r\n\r\n`public string SendEmail(IList<Vendor> vendors)`",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "7f8b53db-93f0-4878-8112-866ac317becc",
+      "clipId": "c1f15db1-31f9-4cff-a7a2-61e47ed67d2c",
+      "clipTitle": "Demo: Events, Delegates and EventHandlers in Action",
+      "distractors": [
+        "An event handler is added",
+        "A delegate instance is created and attached to the Click event",
+        "Only one of these"
+      ],
+      "key": "All of these",
+      "moduleId": "72499257-245e-4052-9b60-30dfcf0a9c5b",
+      "stem": "What happens when you double-click on a button in the Windows Forms designer?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "f480f137-7f98-4619-a178-916c7782f4f7",
+      "clipId": "a324f6ef-1020-4ce7-a9e8-01f14879916a",
+      "clipTitle": "Returning IEnumerable T",
+      "distractors": [
+        "The returned collection cannot be cast to any other collection type.",
+        "The returned collection is mutable."
+      ],
+      "key": "The returned collection is immutable.",
+      "moduleId": "a0bfadb7-c901-4874-94ca-b16399d69279",
+      "stem": "Which of the following is a benefit of returning an `IEnumerable<T>` from a method as shown below?\r\n\r\n`public IEnumerable<Vendor> Retrieve()`",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "10d7f50c-81e4-4a05-849c-41c3731be842",
+      "clipId": "711576e9-feb4-4244-b87d-ded314afbc51",
+      "clipTitle": "Collection Scaling Review",
+      "distractors": [
+        "An exception would be thrown on execution, just before executing the loop",
+        "An exception would be thrown inside the loop, after the loop has iterated n times",
+        "The loop would always execute slowly, no matter the collection size"
+      ],
+      "key": "The loop would execute extremely slowly for large collections, but would be fast for small collections",
+      "moduleId": "d5aaecf2-1aa2-498b-9449-f42ba736dc6a",
+      "stem": "What would you expect to happen if you put an O(n) collection method call inside a tight loop that iterates over all elements of that collection?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "a0a075fa-33b4-47d4-80fd-538d3b1227c0",
+      "clipId": "5488c271-ae1e-4684-b9d9-a762a6cf8468",
+      "clipTitle": "Using Anonymous Methods",
+      "distractors": [
+        "A method with no name",
+        "A nested method",
+        "A method that can be attached directly to an event",
+        "None of these"
+      ],
+      "key": "All of these",
+      "moduleId": "d806ea80-f0d3-40a3-a14d-28d72fac31e5",
+      "stem": "What is an anonymous method?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "6283e60c-8bcc-4243-9a16-c0bf679c20ec",
+      "clipId": "893b69a0-e3a1-4807-a1fb-0d966614fcd1",
+      "clipTitle": "Creating a Class",
+      "distractors": ["new Employee();", "var Employee;"],
+      "key": "class Employee {}",
+      "moduleId": "1d2231ff-33d0-499b-8934-94df99d39d74",
+      "stem": "What statement will define a new type named Employee in C#?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "b1429f14-4f61-4d82-bf16-66f5a9901bb6",
+      "clipId": "801404f6-f3ef-4b18-8d07-09e1a49f35ed",
+      "clipTitle": "The Pillars of OOP",
+      "distractors": ["internal", "private"],
+      "key": "public",
+      "moduleId": "21d914d0-b0ef-4232-b4de-e1a0802dec94",
+      "stem": "What access modifier allows code outside the current project to access a class member?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "878ad398-4201-4392-b24b-f95b7da13c98",
+      "clipId": "89915289-96f9-4a0b-a8fa-67ebbb21eb23",
+      "clipTitle": "Using BackgroundWorker Events",
+      "distractors": ["BackgroundProcessor", "BackgroundInitiator", "ComponentBackgroundProcess"],
+      "key": "BackgroundWorker",
+      "moduleId": "db3267e2-9732-4804-9bd3-4c9196bac917",
+      "stem": "Which component can be used to simplify the process of working with background processes?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "7082e6be-151a-4115-8d38-2c6e6090c844",
+      "clipId": "6267c02d-e277-4808-8e93-e7508563c5c3",
+      "clipTitle": "Circling Back",
+      "distractors": ["No"],
+      "key": "Yes",
+      "moduleId": "98b8b441-b436-4a89-9e3c-aa17d99f2c80",
+      "stem": "Is it possible to inherit from a generic type?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "1c500449-293b-47ed-88f9-d848637df925",
+      "clipId": "39a83687-4160-48f8-a724-863e95950901",
+      "clipTitle": "Creating a Delegate",
+      "distractors": [
+        "Public event void MyHandler(int x);",
+        "Delegate public void MyHandler(int x);",
+        "Public delegate MyHandler(int x);"
+      ],
+      "key": "Public delegate void MyHandler(int x);",
+      "moduleId": "4ac9beef-d882-4e23-a0ad-78162e8ec620",
+      "stem": "What is the proper syntax for defining a delegate in C#?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "f84b7cad-d5f4-4322-85e6-5f81691e1919",
+      "clipId": "496bbfa8-8d4b-4f6f-be71-9d0e9810ddde",
+      "clipTitle": "Demo: Future-proofing Code",
+      "distractors": [
+        "The code runs faster",
+        "The code is more brittle",
+        "The code is harder to debug"
+      ],
+      "key": "The code is more resilient to change",
+      "moduleId": "0aabc094-72c4-4b5f-9200-952d532d1ab8",
+      "stem": "Why would you want to \"Program to an abstraction\"?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "a460f7f2-ad62-4b10-b0fb-11bc7cb11949",
+      "clipId": "13049d54-e9d8-45e0-8c94-b1d139b4966e",
+      "clipTitle": "Keys Are Unique!",
+      "distractors": [
+        "Cause a compilation error because you must specify a size when instantiating the dictionary",
+        "Add one element to the dictionary `myDict`(the second `Add`will do nothing because the element already exists in the dictionary)",
+        "Add two identical elements to the dictionary `myDict`"
+      ],
+      "key": "Throw an exception because you can't store the same key more than once in a dictionary",
+      "moduleId": "76a02cef-8901-47e1-9c4e-b7c8f765b9dd",
+      "stem": "What will the following code do?\r\n\r\n\r\n    var myDict = new Dictionary<int, string>();\r\n    myDict.Add(10, \"Ten\");\r\n    myDict.Add(10, \"Ten\");",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "6ca440ee-3405-410b-a90b-e42d1184e0b5",
+      "clipId": "a9124305-20fb-43f2-98eb-5bfc4b56a42c",
+      "clipTitle": "Defining an Event",
+      "distractors": [
+        "use get and set accessors in the event definition.",
+        "derive from ControlDelegate.",
+        "All of these"
+      ],
+      "key": "use the add and remove accessors in the event definition.",
+      "moduleId": "4ac9beef-d882-4e23-a0ad-78162e8ec620",
+      "stem": "If you want more control over objects added into an event's invocation list:",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "852148fa-dc18-451c-bab6-4023f0e4e813",
+      "clipId": "6b4284a1-c3c1-4b38-9ccc-bf7cd1ca30c1",
+      "clipTitle": "You Can't Enumerate Null",
+      "distractors": [
+        "Throw an exception at point C because you cannot invoke a property of a `null`string",
+        "Display nothing because names contains no items, so the foreach loop will never execute",
+        "Throw an exception at point A because arrays must be initialized"
+      ],
+      "key": "Throw an exception at point B because you cannot enumerate `null`",
+      "moduleId": "5a9003f1-6ce5-46ac-877e-3d5a76001f5a",
+      "stem": "What will the following code do?\r\n\r\n\r\n    string[] names = null;                 // point A\r\n    foreach (string name in names)         // point B\r\n        Console.WriteLine(name.Length);    // point C",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "1ccb78fb-cead-46a3-b548-dc717b5cda1a",
+      "clipId": "a45a85a5-2f55-4bbe-8d40-546df8c6c7a1",
+      "clipTitle": "Unit Testing",
+      "distractors": [
+        "It is easier to use reflection",
+        "The tests are more complex",
+        "It is a best practice"
+      ],
+      "key": "The code is easier to isolate",
+      "moduleId": "5b682057-06c2-4210-af74-5483c63cc47c",
+      "stem": "How do interfaces help with unit testing?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "1c40edce-0037-4910-9bb5-a058b845caa4",
+      "clipId": "e82564b4-903f-43e5-84ee-580004df47e5",
+      "clipTitle": "Summary",
+      "distractors": [
+        "You cannot enumerate stacks or queues because they are designed to supply only one item at a time",
+        "You must set the maximum size of the stack or queue when you instantiate it",
+        "Looking up an item requires that you know the index of the item"
+      ],
+      "key": "The stack or queue always decides which item it will give you next",
+      "moduleId": "d32d6d95-8290-4f8b-910c-c00350264002",
+      "stem": "Which sentence correctly describes stacks and queues?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "9f9173f1-7cfb-40ba-b850-19b7196bd850",
+      "clipId": "0a27cc97-17c9-4325-b42e-fe6bce1ab594",
+      "clipTitle": "Jagged Arrays",
+      "distractors": ["jagged float arr;", "float[,] arr;", "jagged float[] arr;"],
+      "key": "float[][] arr;",
+      "moduleId": "19d23d1f-c35e-4ece-a5ec-16534ce229e2",
+      "stem": "How would you declare a variable called `arr` that will store a jagged array of floats?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "a1cb1b81-00e6-48d7-9b20-f310d565667c",
+      "clipId": "0c3d6f7c-fdad-4c82-a653-95a866614766",
+      "clipTitle": "Generic Type Parameters",
+      "distractors": [
+        "To use more angle brackets in C# code",
+        "To avoid boxing penalties",
+        "To make performance optimizations"
+      ],
+      "key": "To reuse code while being type safe",
+      "moduleId": "aeb5d914-cce7-4602-89e1-7c21be0a70b8",
+      "stem": "Which is the primary goal for generics?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "b79f7dea-f029-4f18-9699-16adfe9872df",
+      "clipId": "1e92c59c-6b96-461c-b215-a2dcf15274dd",
+      "clipTitle": "Dictionary Initializers",
+      "distractors": [
+        "The key and the value must be of different types.",
+        "Dictionaries are always created empty, so you can't use collection initializers with them.",
+        "You can't use var to declare collection types."
+      ],
+      "key": "The dictionary initialiser doesn't specify the keys.",
+      "moduleId": "76a02cef-8901-47e1-9c4e-b7c8f765b9dd",
+      "stem": "This code is incorrect. Why?\r\n\r\n`var months = new Dictionary<string, string>() { \"January\", \"February\"};`",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "681f476c-54d5-43e7-944f-83b2716cf9c1",
+      "clipId": "3155eaab-33b6-4fb5-8e00-a4464d334850",
+      "clipTitle": "Fast Changes but Slow Lookup",
+      "distractors": [
+        "You need to sort the items in a list",
+        "You need to link multiple lists together so that you can look up any list using its key",
+        "You need an ordered collection of items, and you need to directly reference certain items in the middle of the collection"
+      ],
+      "key": "You need an ordered collection of elements, and you need to make frequent changes near the ends of the collection",
+      "moduleId": "0e357294-fd28-4b38-b3a5-0ecff1916235",
+      "stem": "Under what situation would a linked list be most useful?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "cf817a49-3a2b-43d4-a26d-2394417ee57a",
+      "clipId": "26646f6c-a4c3-4af9-b107-587ab1b8e837",
+      "clipTitle": "Retrieving an Element from a Generic Dictionary",
+      "distractors": ["`vendors[2]`", "`vendors[1]`", "`vendors[8]`"],
+      "key": "`vendors[\"XYZ Inc\"]`",
+      "moduleId": "65c7952f-36a4-4c77-8c83-64c92c09ca25",
+      "stem": "What is the correct syntax for retrieving the second element from the generic dictionary called `vendors` shown below?",
+      "stemImageUrl": "https://s2.pluralsight.com/assessments/image-questions/originals/0681064236824c1a1c6d7e386dbe1e3e.png",
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "ac3cd01c-730b-401b-bfe6-200b52c4a716",
+      "clipId": "b42500e1-5101-42e7-b95c-0809f60b93d8",
+      "clipTitle": "Asynchronous Delegates - Good",
+      "distractors": [
+        "It's not possible in Windows Forms",
+        "By using an event",
+        "Call AsyncInvoke() on the form and pass an event instance and args"
+      ],
+      "key": "Call BeginInvoke() on the form and pass a delegate instance and data",
+      "moduleId": "db3267e2-9732-4804-9bd3-4c9196bac917",
+      "stem": "How do you route data between threads in a Windows Forms application?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "5f803059-4114-4f34-828b-e0c5a394167e",
+      "clipId": "5c8817fc-3165-4211-8081-14862f3119f8",
+      "clipTitle": "A Buffer Interface",
+      "distractors": [
+        "An interface that works with only object references",
+        "Any interface implemented by a generic type",
+        "A interface that obeys the interface segregation principle"
+      ],
+      "key": "An interface that takes a generic type parameter",
+      "moduleId": "98b8b441-b436-4a89-9e3c-aa17d99f2c80",
+      "stem": "What is a generic interface?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "e052a065-d519-46df-a25d-9435416da0f7",
+      "clipId": "a103cae3-84ad-4d36-8670-2b85ac887d13",
+      "clipTitle": "A Generic Circular Buffer",
+      "distractors": ["0", "2", "More than 2"],
+      "key": "1",
+      "moduleId": "aeb5d914-cce7-4602-89e1-7c21be0a70b8",
+      "stem": "How many generic type parameters are required to instantiate a `CircularBuffer<T>` class?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "15fa2ab0-c406-420a-af89-19a964589af8",
+      "clipId": "7c08fb9b-d31b-4757-9d94-a9315c9efc8e",
+      "clipTitle": "Adding Numbers and Creating Arrays",
+      "distractors": ["float value = 3.10;", "var result = false;", "int x = 3;"],
+      "key": "var name = \"Scott\";",
+      "moduleId": "6ca45ca9-e54b-4ed0-83d7-ae27f1c6078d",
+      "stem": "Which of the following statements will define a variable of type string?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "7630525e-3f90-40d8-b7f0-56303825701f",
+      "clipId": "c982cb1e-eecf-4153-b58c-8b42a4b56f53",
+      "clipTitle": "Passing Parameters by Value",
+      "distractors": ["By using a pointer", "By reference"],
+      "key": "By value",
+      "moduleId": "3f972311-2938-48cd-a376-d550a17b080f",
+      "stem": "How does C# pass parameters by default?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "6e8d1bd4-a579-4ff7-88cb-6a55ce922305",
+      "clipId": "af5e081b-1c5f-40bd-9469-6566d492e8ae",
+      "clipTitle": "Introduction",
+      "distractors": [
+        "A way to write stored procedures",
+        "A way to build extension methods for your application"
+      ],
+      "key": "A way to express queries against a data source from a .NET language such as C#",
+      "moduleId": "00facef1-c99f-491a-9d52-aa132a41532f",
+      "stem": "What is LINQ?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "919dc6d3-b772-4c05-add4-c1287f71cc85",
+      "clipId": "86bafded-ce2f-470a-9d38-9ee89c32acf8",
+      "clipTitle": "Interface Segregation Principle",
+      "distractors": [
+        "Include as much functionality as possible",
+        "Be split up if they have more than 2 members",
+        "Be classified into different groups"
+      ],
+      "key": "Contain only the members that the calling code needs",
+      "moduleId": "0365dfd7-aaae-4ebf-a49e-6bcb690da610",
+      "stem": "According to the Interface Segregation Principle, interfaces should...",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "e72641b0-4467-40a2-9db9-a3f771b61e06",
+      "clipId": "5cdfef6b-e963-4246-8396-489a5dffeb81",
+      "clipTitle": "Defining an Interface",
+      "distractors": [
+        "A class is only allowed to implement a single interface",
+        "A class can have inherit from multiple base classes"
+      ],
+      "key": "A class can only inherit from one base clas",
+      "moduleId": "21d914d0-b0ef-4232-b4de-e1a0802dec94",
+      "stem": "Which of the following is true?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "9e23626b-f484-4bfe-ae80-273c2b6010a2",
+      "clipId": "7fe05210-7dfb-46d0-898f-690c8669aa78",
+      "clipTitle": "Defining Property Getters and Setters",
+      "distractors": [
+        "A property whose name is the same as a field of the same type",
+        "A property with no get accessor",
+        "A property with no set accessor"
+      ],
+      "key": "A property with an automatic backing field",
+      "moduleId": "8d2978e0-68e1-4e2c-b965-64efa5aad4aa",
+      "stem": "What is an auto-implemented property in C#?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "e8a57e48-6bca-46e8-83b5-dbf253fd6231",
+      "clipId": "2330bbe7-ecfa-4cff-9419-0940e6acf867",
+      "clipTitle": "Dequeueing from a Concurrent Queue with TryDequeue()",
+      "distractors": [
+        "Because `ConcurrentQueue` must be wrapped in a standard `Queue` before items can be removed",
+        "Because `ConcurrentQueue` is read-only",
+        "Because the method that dequeues items is called `Pop()` to standardize terminology between `ConcurrentQueue` and `ConcurrentStack`"
+      ],
+      "key": "Because dequeuing cannot be guaranteed to succeed in a multi-threaded environment",
+      "moduleId": "e7aa7bb4-8313-4f69-b98f-548641e519b8",
+      "stem": "Why does `ConcurrentQueue` **NOT** support a `Dequeue()` method?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "9c6839eb-617c-43fa-a5e3-11a1272d3066",
+      "clipId": "8cf8d61a-4086-47a6-abb4-937c6336f0a8",
+      "clipTitle": "Using Func<T,TResult>",
+      "distractors": [
+        "A built-in delegate type that returns no value",
+        "A built-in event type that returns no value",
+        "A built-in event type that accepts multiple input types and returns a value"
+      ],
+      "key": "A built-in delegate type that accepts multiple input types and returns a value",
+      "moduleId": "89e4a67c-418d-40e3-a92d-a8047f13a1b8",
+      "stem": "What is Func<t,tresult>?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "7dbc08a3-74bc-479e-88f9-e6720904e1fb",
+      "clipId": "cfe368a2-a797-4783-8b03-a626547b5845",
+      "clipTitle": "Comparing Employees",
+      "distractors": ["A `List<T>`", "A `Dictionary<TKey, TValue>`", "A `Queue<T>`"],
+      "key": "A `HashSet<T>`",
+      "moduleId": "98b8b441-b436-4a89-9e3c-aa17d99f2c80",
+      "stem": "What collection would use an `IEqualityComparer<T>` to enforce uniqueness?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "edd6fb62-8367-418a-b991-452294c2614f",
+      "clipId": "13461d51-f9df-422d-95a9-98da47b1c741",
+      "clipTitle": "Writing and Running a Test",
+      "distractors": ["(Fact)", "{Fact}", "<Fact>"],
+      "key": "[Fact]",
+      "moduleId": "1611b295-37f9-4471-8f7d-a50b9fdfc1de",
+      "stem": "Which of the following statements contains a C# attribute?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "7632ff88-e845-4cfc-9b39-f1f313b6b3f0",
+      "clipId": "72adfc0c-9f35-469c-af1d-90ed4c77ad01",
+      "clipTitle": "Introduction",
+      "distractors": [
+        "A unit-testing technique for properties and methods",
+        "A class that implements a standard set of properties and methods"
+      ],
+      "key": "A specification identifying a related set of properties and methods",
+      "moduleId": "a0bfadb7-c901-4874-94ca-b16399d69279",
+      "stem": "What is an interface?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "deb3b385-fd29-4547-9517-5b46fdbf98dd",
+      "clipId": "691fafdd-8c70-48a4-b5af-cf58e083fdc8",
+      "clipTitle": "Interfaces vs. Abstract Classes",
+      "distractors": ["Concrete base class", "Abstract base class"],
+      "key": "Interface",
+      "moduleId": "0365dfd7-aaae-4ebf-a49e-6bcb690da610",
+      "stem": "Since the various repositories cotained no shared code, which abstraction should we consider first?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "98beea48-1a41-4424-9e15-1ffd8e1ada0b",
+      "clipId": "14bf9a2b-63b9-4873-a1c0-4c507e9790be",
+      "clipTitle": "Running and Building Your Project",
+      "distractors": ["`dotnet new`", "`dotnet restore`", "`dotnet clean`"],
+      "key": "`dotnet build`",
+      "moduleId": "38d7675f-942c-4673-a6af-bc44f7a3d8eb",
+      "stem": "Which command will transform source code into an assembly?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "40983ff9-cbe4-4ff7-91a3-01d54a251b4c",
+      "clipId": "8a1cbdff-622f-4d2c-85f4-e2d7bcb2d602",
+      "clipTitle": "Instantiating Generic Types",
+      "distractors": ["unbound generic type.", "primitive generic type.", "complex generic type."],
+      "key": "closed constructed generic type.",
+      "moduleId": "17a5748b-92aa-4e56-b7b7-0e2522426f6b",
+      "stem": "`List<int>` is a/an:",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "d76d1c4b-8d78-4a43-b2d9-cee002adc218",
+      "clipId": "fb4284ba-35fa-431d-bb9a-acce4e882491",
+      "clipTitle": "LINQ vs. For Loop vs. Collection Methods",
+      "distractors": ["A `do... while` loop", "Concurrent collections", "a `for`loop"],
+      "key": "LINQ",
+      "moduleId": "bdd3896e-12e3-4244-89ea-6796862dbcfe",
+      "stem": "You need to display the first five elements stored in a dictionary. Which technology would you expect to be most useful to achieve this.",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "cee81abb-590a-46f2-bf50-24c3e8cbaea3",
+      "clipId": "31ea270c-b610-46ae-a5f0-28a731027444",
+      "clipTitle": "Equality for Collections",
+      "distractors": ["x.Equals(y)", "x.GetHashCode() == y.GetHashCode()", "x == y"],
+      "key": "x.SequenceEqual(y)",
+      "moduleId": "e3f6c876-9399-449b-a245-513a596012b1",
+      "stem": "Which expression will test whether two arrays, x and y, contain the same values?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "3b04ed6d-696b-437f-9f92-4c19ae560860",
+      "clipId": "d78e5539-9aa4-465d-b786-02d33511b0bd",
+      "clipTitle": "Interfaces and Dependency Injection",
+      "distractors": [
+        "Run-time binding / late binding",
+        "Fewer bugs in the code",
+        "Better performance"
+      ],
+      "key": "Loosely coupled code",
+      "moduleId": "f172bfc7-1937-4054-abb0-e3dce1c7ef89",
+      "stem": "What is the primary goal of dependency injection?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "15b2ec47-48ac-4d18-b1d5-3e4e406de581",
+      "clipId": "a96054ab-76de-4a61-869f-89d38afcc278",
+      "clipTitle": "Adding a Constructor",
+      "distractors": [
+        "class Invoice {    public NewInvoice() { }}",
+        "class Invoice {    public New() { }}"
+      ],
+      "key": "class Invoice{    public Invoice() { }}",
+      "moduleId": "1d2231ff-33d0-499b-8934-94df99d39d74",
+      "stem": "Which of the following classes has a construtor with no parameters?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "141b481d-754a-4b75-8d35-522071bb3234",
+      "clipId": "94042356-d635-47fa-a74c-52008c819801",
+      "clipTitle": "Modifying Interfaces",
+      "distractors": [
+        "It breaks the interface declaration",
+        "It breaks classes that implement the interface"
+      ],
+      "key": "It breaks the calling code",
+      "moduleId": "0365dfd7-aaae-4ebf-a49e-6bcb690da610",
+      "stem": "What is the danger of removing a member from an existing interface?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "8479cc9a-76d6-4079-b542-b73df4b1d7e3",
+      "clipId": "ec6e2788-0d74-460a-a5d1-25056103c0a1",
+      "clipTitle": "Overview",
+      "distractors": ["`i <= names.Count`", "`i < names.Count`", "`i <= names.Length`"],
+      "key": "`i < names.Length`",
+      "moduleId": "5a9003f1-6ce5-46ac-877e-3d5a76001f5a",
+      "stem": "// names is of type string[]\r\n    for (int i = 0; ***** ; i++)      Console.WriteLine(names[i]);\r\n\r\n\r\nIn this code, what should you replace \\*\\*\\*\\*\\* with to correctly enumerate all items in the array?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "ad99df45-7b81-4651-920b-ed3a2532f5f6",
+      "clipId": "83f514dd-e6e8-441e-a9e7-19243615ddbd",
+      "clipTitle": "Jumping with break and continue",
+      "distractors": ["switch", "continue"],
+      "key": "break",
+      "moduleId": "9134adde-3788-4c0b-940e-3abbce78fddf",
+      "stem": "Which statement will exit the current loop body and continue with the statement after the loop?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "803ea239-b57c-43af-b466-1295fdb9276b",
+      "clipId": "d42df454-ce29-4e23-bdb2-895acaab5b0a",
+      "clipTitle": "Generic Delegates",
+      "distractors": [
+        "`delegate<T> T SomeDelegate(T param);`",
+        "`delegate T SomeDelegate(T param);`",
+        "`delegate T SomeDelegate(T param)<T>;`"
+      ],
+      "key": "`delegate T SomeDelegate<T>(T param);`",
+      "moduleId": "3d443840-d1bd-4bd3-8462-d1e2b65d844d",
+      "stem": "What is the proper syntax for a delegate for a method that takes one parameter and returns a result, both of the same type, where the type is determined by a generic type argument?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "09834f3d-a529-4625-b639-d453dd7ac96f",
+      "clipId": "f5e7f9b6-91ed-4b58-b062-abe06bf4ff0f",
+      "clipTitle": "The Array: A Fixed Size Ordered Collection",
+      "distractors": [
+        "The elements are unordered and can be accessed using a key.",
+        "It can grow in size, and its elements are unordered.",
+        "It can grow in size, and its elements are always ordered."
+      ],
+      "key": "It has a fixed size and its elements are ordered.",
+      "moduleId": "ebe64e45-affd-45f6-960c-651ae2516744",
+      "stem": "Which of the following correctly describes an ARRAY?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "a687e24b-6f38-4cb5-af15-d0d62f9696e8",
+      "clipId": "d5986000-1c50-4b49-96bc-19cbc793e26d",
+      "clipTitle": "Introducing Dictionary<TKey, TValue>",
+      "distractors": ["A list", "An array", "A hash set"],
+      "key": "A dictionary",
+      "moduleId": "76a02cef-8901-47e1-9c4e-b7c8f765b9dd",
+      "stem": "You need to create a collection of instances of a type called Person. The collection will mainly be used to look up individual people using their social security numbers. You know that the collection will always contain exactly 200 people. Which collection would be most appropriate for this?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "483bca6d-df76-48b7-8cbe-d4be498fba9e",
+      "clipId": "428476f7-0c85-489f-838c-7361c464bce4",
+      "clipTitle": "Looping with for, foreach, do, and while",
+      "distractors": [
+        "Both the `do`and `while`loops can execute zero or more times.",
+        "A `while` loop will always execute at least once, a `do` loop will execute zero or more times"
+      ],
+      "key": "A `do`loop will always execute at least once, a `while`loop will execute zero or more times",
+      "moduleId": "9134adde-3788-4c0b-940e-3abbce78fddf",
+      "stem": "Which of the following is a true statement about `do`and `while` loops?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "df484920-84e2-4722-95a1-9a5ae613d347",
+      "clipId": "517d0bfe-ed9c-443a-b2e7-8f971c0ebe5a",
+      "clipTitle": "Comparing Immutable and Read-only Collections",
+      "distractors": [
+        "Read-only collections are more scalable for large collection sizes",
+        "Immutable collections can only be used from unmanaged code",
+        "There is no difference; read-only and immutable are different names for the same collections"
+      ],
+      "key": "Read-only collections can be modified if you have a reference to the underlying collection. Immutable collections can never be modified with normal C# code.",
+      "moduleId": "764084e0-9e44-4ff2-9337-8bae95aa1023",
+      "stem": "What is an important difference between read-only and immutable collections?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "0081fcac-807f-460e-a57b-ff2b5e6a5106",
+      "clipId": "3d4d567f-7c7f-4c81-8529-1f6a7ba5cba3",
+      "clipTitle": "Set Intersection and IntersectWith()",
+      "distractors": ["6", "7", "4"],
+      "key": "1",
+      "moduleId": "0695cc38-5021-4846-9052-b066824acacb",
+      "stem": "How many elements will x contain after running this code?\r\n\r\n\r\n    var x = new SortedSet<string> { \"Apple\", \"Raspberry\", \"Orange\", \"Pear\"};\r\n    var y = new SortedSet<string> { \"Orange\", \"Grapefruit\", \"Mango\" };\r\n    x.IntersectWith(y);",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "eace4686-e72b-4f12-89fb-0530ee6a7961",
+      "clipId": "8f7bd165-7f14-434e-97ee-9b13a14701c5",
+      "clipTitle": "Instantiating an Array: Review",
+      "distractors": [
+        "int ints[] = new int[](10);",
+        "int ints[] = new int[10];",
+        "int[10] ints = new int[]();"
+      ],
+      "key": "int[] ints = new int[10];",
+      "moduleId": "5a9003f1-6ce5-46ac-877e-3d5a76001f5a",
+      "stem": "Which of the following statements willl correctly instantiate an array that contain 10 ints?",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "52812b66-9c5c-4283-ab68-c7a7e10317be",
+      "clipId": "b74e23fd-97a0-4ce4-b86e-edb2d45fc58a",
+      "clipTitle": "Removing Elements with Removeall()",
+      "distractors": [
+        "`List<string>.RemoveAll(names, item == nulll);`",
+        "`names.RemoveAll(name == null);`",
+        "`names.RemoveAll(names[i] == null);`"
+      ],
+      "key": "`names.RemoveAll(name => name == null);`",
+      "moduleId": "eb2b11f3-5102-4ce2-9671-e0f509fe7b29",
+      "stem": "If names is of type `List<string>`, which line of code shows a correct way to remove all null strings from names",
+      "stemImageUrl": null,
+      "courseId": "8941eb96-5595-4e48-8b69-c155db1c72e0"
+    },
+    {
+      "questionId": "84a696ba-3b68-4096-8494-a72f385a7228",
+      "clipId": "456a9bff-7af6-4c81-a174-3f647bebebbb",
+      "clipTitle": "Linear Searching with List.Find()",
+      "distractors": [
+        "You have to write an equality comparer before you can use `List.Find()`",
+        "`List.Find()` will throw an exception if the item you are looking for occurs multiple times in the list",
+        "`List.Find()` will throw an exception if the item you are looking for is not in the list"
+      ],
+      "key": "`List.Find()` could run slowly if the list contains many elements",
+      "moduleId": "d5aaecf2-1aa2-498b-9449-f42ba736dc6a",
+      "stem": "What is a disadvantage of using `List.Find()` to locate an element in a list?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "ad8015aa-cad3-423a-a99f-4150f89e0a84",
+      "clipId": "2dfff216-dc41-4d34-87e5-8e2d3d783b3a",
+      "clipTitle": "Referencing Projects and Packages",
+      "distractors": [
+        "Instantiate a class from project A",
+        "Add a using statement for a namespace in project A"
+      ],
+      "key": "Establish a project reference to A",
+      "moduleId": "1611b295-37f9-4471-8f7d-a50b9fdfc1de",
+      "stem": "Which of the following is required to use a type in project A from a file in project B?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "590e7942-65f6-45cd-a09e-3c954e60a1dd",
+      "clipId": "cfe368a2-a797-4783-8b03-a626547b5845",
+      "clipTitle": "Comparing Employees",
+      "distractors": ["A `HashSet<T>`", "A `Stack<T>`", "A `Queue<T>`"],
+      "key": "A `SortedList<TKey, TValue>`",
+      "moduleId": "98b8b441-b436-4a89-9e3c-aa17d99f2c80",
+      "stem": "What collection would use an `IComparer<T>` to sort objects?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "ea78b4f8-19d6-48ae-a087-31940088bc86",
+      "clipId": "3b8df66f-fd24-45c5-86b3-208b16106710",
+      "clipTitle": "Using a List",
+      "distractors": ["`include System;`", "`import System;`", "`namespace System;`"],
+      "key": "`using System;`",
+      "moduleId": "6ca45ca9-e54b-4ed0-83d7-ae27f1c6078d",
+      "stem": "Which statement would you place at the top of a C# file to tell the compiler to look for types in the System namespace?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "831553ec-26e4-4c1f-8c09-7f5e4751fd4c",
+      "clipId": "d41d4802-0c67-4dc3-a37d-d86a74399c1a",
+      "clipTitle": "Iterating Through an Array",
+      "distractors": [
+        "Displays each of the colors to the console as they were defined",
+        "Displays each of the colors to the console in lowercase"
+      ],
+      "key": "Generates a syntax error because the foreach iteration variable cannot be changed within the foreach",
+      "moduleId": "1b651731-3bce-4507-ab1d-e0afa28076d0",
+      "stem": "What does this code do?\r\n\r\n\r\n    string[] colorOptions = {\"Red\", \"Espresso\", \"White\", \"Navy\" };\r\n    foreach (var color in colorOptions)\r\n    {\r\n       color = color.ToLower();\r\n       Console.WriteLine(color);\r\n    }",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "7847d9b1-681d-4cba-9b06-b329f2b11ec5",
+      "clipId": "af5e081b-1c5f-40bd-9469-6566d492e8ae",
+      "clipTitle": "Introduction",
+      "distractors": [
+        "A technique for defining a relationship between two classes",
+        "A technique for reusability using subclassing"
+      ],
+      "key": "A data type that represents a reference to a method with a specific parameter list and return type",
+      "moduleId": "00facef1-c99f-491a-9d52-aa132a41532f",
+      "stem": "What is a delegate?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "ccce77a9-cb00-40a6-a146-5e139e941956",
+      "clipId": "9d8df8e3-a66b-4f74-9b06-f6f5667c1d2c",
+      "clipTitle": "Generic Terminology",
+      "distractors": ["False"],
+      "key": "True",
+      "moduleId": "aeb5d914-cce7-4602-89e1-7c21be0a70b8",
+      "stem": "`CircularBuffer<int>` and `CircularBuffer<string>` are two different types.",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "01a59a65-3290-4bb3-b6c6-8ac5424202ef",
+      "clipId": "07ec3cdc-569a-434c-8bb6-923f7f7aa9f1",
+      "clipTitle": "Explicit Implementation",
+      "distractors": [
+        "With a pointer to an interface",
+        "With an indirect method call",
+        "With a concrete type variable"
+      ],
+      "key": "With an interface variable or casting a type to an interface",
+      "moduleId": "db7febca-6b5d-4579-ad46-34621b0fe430",
+      "stem": "When an interface member is implemented explicitly, how is it called?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "48f2b4f0-a530-4ced-9de7-7503b7476774",
+      "clipId": "a63ca3b8-12ef-4e39-8f7a-7be66192e494",
+      "clipTitle": "Building a Generic Class",
+      "distractors": [
+        "A technique for defining interfaces",
+        "A technique for returning multiple values from a method"
+      ],
+      "key": "A technique for defining a data type using a variable",
+      "moduleId": "4bfb9ce7-938a-45c0-ab73-6070dfac1048",
+      "stem": "What are generics?",
+      "stemImageUrl": null,
+      "courseId": "6ea97dcb-f0d3-454e-b1c5-3e7e9433fc90"
+    },
+    {
+      "questionId": "c318185c-d4fb-4809-9ae1-267aae3116ca",
+      "clipId": "9c83e349-e0c6-412e-a766-d5785fea760f",
+      "clipTitle": "Defining an Event",
+      "distractors": ["Click -= OnClick", "Click += OnClick"],
+      "key": "Click = new ButtonClick(OnClick);",
+      "moduleId": "8d2978e0-68e1-4e2c-b965-64efa5aad4aa",
+      "stem": "What line of code is illegal to use against a public event named Click?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "dac36f7c-2b1d-4693-91f0-e1e19c6380fa",
+      "clipId": "7fe05210-7dfb-46d0-898f-690c8669aa78",
+      "clipTitle": "Defining Property Getters and Setters",
+      "distractors": ["set", "args", "this"],
+      "key": "value",
+      "moduleId": "8d2978e0-68e1-4e2c-b965-64efa5aad4aa",
+      "stem": "What implicit variable in a set accessor holds the value a client wants to assign to the property?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "11364ed5-a572-4295-88ac-bdc075d88e48",
+      "clipId": "d4574998-1021-4230-85b3-76f542febe12",
+      "clipTitle": "Constraints On Parade",
+      "distractors": [
+        "To force a type to be a reference type",
+        "To force a type to be a value type",
+        "To force a type to be abstract"
+      ],
+      "key": "To force a type to have a default constructor",
+      "moduleId": "d329f78f-b621-459f-a9f7-d8ae0a4cea2f",
+      "stem": "What is the purpose of the `new()` constraint on a type parameter?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "75789c3b-aa1d-4f33-9efd-4f764f8e973d",
+      "clipId": "d8377fb8-bba3-49f2-9f85-b2ddd237791d",
+      "clipTitle": "Throwing Exceptions",
+      "distractors": [
+        "To stop the current iteration of a loop and jump to the code following the loop",
+        "To broadcast an event to all subscribers",
+        "To stop the current iteration of a loop and start the next iteration"
+      ],
+      "key": "To raise an exception",
+      "moduleId": "9134adde-3788-4c0b-940e-3abbce78fddf",
+      "stem": "What is the purpose of the throw keyword?",
+      "stemImageUrl": null,
+      "courseId": "0096b00d-2398-435a-82f7-3f5401408ab1"
+    },
+    {
+      "questionId": "58f249d6-b619-44e6-bf32-855bcf502476",
+      "clipId": "3597f3b2-b06f-40a6-b317-1667e425f8ad",
+      "clipTitle": "An Interface Constraint",
+      "distractors": [
+        "To force a type to be a value type",
+        "To force a type to have a default constructor",
+        "To force a type to be abstract"
+      ],
+      "key": "To force a type to be a reference type",
+      "moduleId": "d329f78f-b621-459f-a9f7-d8ae0a4cea2f",
+      "stem": "What is the purpose of the class constraint on a type parameter?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    },
+    {
+      "questionId": "c5e6423b-7be7-4dc4-9eeb-fb50a12188c6",
+      "clipId": "39a83687-4160-48f8-a724-863e95950901",
+      "clipTitle": "Creating a Delegate",
+      "distractors": [
+        "Holding a list of target methods",
+        "Passing data from point A to point B",
+        "Acting as a pipeline",
+        "None of these"
+      ],
+      "key": "All of these",
+      "moduleId": "4ac9beef-d882-4e23-a0ad-78162e8ec620",
+      "stem": "What is a delegate responsible for?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "c6fa5a00-d644-4f84-be43-908d0a1422d9",
+      "clipId": "8f3286b5-173a-4c96-96c4-7cfbc13dbfd0",
+      "clipTitle": "Using Action<T>",
+      "distractors": [
+        "It's a built-in event that can provide notifications",
+        "It's a special type of extension method",
+        "It's a built-in delegate that can return a value"
+      ],
+      "key": "It's a built-in delegate that has no return type",
+      "moduleId": "89e4a67c-418d-40e3-a92d-a8047f13a1b8",
+      "stem": "What is Action<t> used for in an application?",
+      "stemImageUrl": null,
+      "courseId": "4fc08dbf-8a3f-4254-9468-bf0382dfab70"
+    },
+    {
+      "questionId": "dbb2e5d2-09b6-4d26-8b61-97703700c128",
+      "clipId": "97619f0d-5618-4a53-8dc8-08fa981883fc",
+      "clipTitle": "Demo: Other Repositories",
+      "distractors": [
+        "Enforce compile-time references",
+        "Run parallel processes",
+        "Improve performance"
+      ],
+      "key": "Consolidate duplicate code",
+      "moduleId": "92cdbe70-7470-42d0-b0e9-095e9e7d3a72",
+      "stem": "Interfaces can make it easier to do which of the following?",
+      "stemImageUrl": null,
+      "courseId": "62b936c7-8bfe-4f6b-9294-be158f223ee4"
+    },
+    {
+      "questionId": "d7f8c63d-151a-47ac-977b-292aa49d4227",
+      "clipId": "ea375c6b-77e3-4c3a-b075-6fad0750deed",
+      "clipTitle": "Enumerating with IEnumerable<T>",
+      "distractors": [
+        "All collections except concurrent collections",
+        "All collections except hashsets and sorted sets",
+        "Only arrays, lists, and linked lists"
+      ],
+      "key": "Almost all collections",
+      "moduleId": "3b2976eb-6e5b-4a56-8ee1-f570ea9777d3",
+      "stem": "Which collections implement the interface `IEnumerable<T>`?",
+      "stemImageUrl": null,
+      "courseId": "a19b0dc8-63a5-40c9-a60e-6674bd27f6ce"
+    },
+    {
+      "questionId": "608755d6-daa4-4ad6-8b51-f65df83ae086",
+      "clipId": "c595e5f2-f1fb-4b6e-acb6-babe91f00f23",
+      "clipTitle": "The Great IEnumerable<T>",
+      "distractors": ["An `IEnumerable<T>`", "An array", "Any object"],
+      "key": "An `IEnumerator<T>`",
+      "moduleId": "98b8b441-b436-4a89-9e3c-aa17d99f2c80",
+      "stem": "A yield return statement in C# is useful when a method need to return what?",
+      "stemImageUrl": null,
+      "courseId": "edc4dba6-efb1-48c2-969b-8230bf3bb365"
+    }
+  ]
+}
