@@ -2,7 +2,7 @@
 let utils = require("./utils");
 
 function solvePartOne(data) {
-  data = data.split("\n");
+  data = data.trim().split("\n");
   console.log(data);
 }
 
